@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1643147815886" ID="ID_487882039" MODIFIED="1643147846386" TEXT="Desenvolvimento Backend">
-<node CREATED="1643147852105" ID="ID_896049246" MODIFIED="1643147856835" POSITION="right" TEXT="Introdu&#xe7;&#xe3;o T&#xe9;cnica">
+<node CREATED="1643147852105" FOLDED="true" ID="ID_896049246" MODIFIED="1643233943957" POSITION="right" TEXT="Introdu&#xe7;&#xe3;o T&#xe9;cnica">
 <node CREATED="1643147859544" ID="ID_539950581" MODIFIED="1643147864528" TEXT="Programa&#xe7;&#xe3;o">
 <node CREATED="1643147872691" ID="ID_75968042" MODIFIED="1643148617593" TEXT="Resolver problemas"/>
 <node CREATED="1643147872692" ID="ID_646195731" MODIFIED="1643148641297" TEXT="Sequ&#xea;ncia de instru&#xe7;&#xf5;es - algoritmo"/>
@@ -222,6 +222,73 @@
 <node CREATED="1643154874814" ID="ID_404195960" MODIFIED="1643154894965" TEXT="L&#xf3;gica para exibir, animar coisas na tela e organizar dados"/>
 <node CREATED="1643154897019" ID="ID_1180409762" MODIFIED="1643154904416" TEXT="HTML, CSS, JS"/>
 </node>
+</node>
+</node>
+<node CREATED="1643233004545" ID="ID_1151261656" MODIFIED="1643233946873" POSITION="right" TEXT="Setup de ferramentas">
+<node CREATED="1643233011257" ID="ID_1140801722" MODIFIED="1643233013448" TEXT="VS Code">
+<node CREATED="1643233185061" ID="ID_1197486021" MODIFIED="1643233190428" TEXT="Visual Studio Code"/>
+<node CREATED="1643233223736" ID="ID_1110441989" MODIFIED="1643233224389" TEXT="IDE">
+<node CREATED="1643233225731" ID="ID_397053895" MODIFIED="1643233232696" TEXT="Integrated Development Environment"/>
+<node CREATED="1643233236284" ID="ID_1202679596" MODIFIED="1643233238195" TEXT="Microsoft"/>
+</node>
+<node CREATED="1643233240567" ID="ID_1557854086" MODIFIED="1643233244408" TEXT="Muito difundido no mercado"/>
+<node CREATED="1643233247237" ID="ID_1196944277" MODIFIED="1643233249983" TEXT="Muitos plugins"/>
+<node CREATED="1643233252192" ID="ID_191560337" MODIFIED="1643233256644" TEXT="Configur&#xe1;vel e customiz&#xe1;vel"/>
+<node CREATED="1643236012857" ID="ID_1711789173" MODIFIED="1643236013387" TEXT="https://code.visualstudio.com/download"/>
+</node>
+<node CREATED="1643233013711" ID="ID_1772047504" MODIFIED="1643233015490" TEXT="Node JS">
+<node CREATED="1643233340610" ID="ID_554112018" MODIFIED="1643233343827" TEXT="Interpretador de JS"/>
+<node CREATED="1643233349535" ID="ID_1586901708" MODIFIED="1643233369003" TEXT="&#xc9; quem l&#xea; arquivos .js">
+<node CREATED="1643233358198" ID="ID_158100226" MODIFIED="1643233367005" TEXT="Assim como Word l&#xea; .doc"/>
+</node>
+<node CREATED="1643233375728" ID="ID_1370676170" MODIFIED="1643233381047" TEXT="Uma das op&#xe7;&#xf5;es de interpretadores"/>
+<node CREATED="1643233384396" ID="ID_1549890027" MODIFIED="1643233388138" TEXT="Mto utilizado no backend"/>
+<node CREATED="1643236677696" ID="ID_418657620" MODIFIED="1643236678071" TEXT="https://nodejs.org/en/download/"/>
+</node>
+<node CREATED="1643233016875" ID="ID_381865043" MODIFIED="1643233471492" TEXT="Terminal">
+<node CREATED="1643233471906" ID="ID_1734753190" MODIFIED="1643233475774" TEXT="Antigamente n&#xe3;o existia mouse"/>
+<node CREATED="1643233478495" ID="ID_1022239671" MODIFIED="1643233481103" TEXT="Nem janelas"/>
+<node CREATED="1643233485316" ID="ID_26314729" MODIFIED="1643233495077" TEXT="Se interagia com o computador s&#xf3; com linhas de comando"/>
+<node CREATED="1643233498521" ID="ID_1310357254" MODIFIED="1643233514943" TEXT="Ainda &#xe9; poss&#xed;vel controlar o computador por linha de comando"/>
+<node CREATED="1643236842851" ID="ID_1952873394" MODIFIED="1643236857482" TEXT="cli = command line interface = terminal"/>
+<node CREATED="1643236858061" ID="ID_1334566132" MODIFIED="1643236861362" TEXT="cmd no Windows"/>
+</node>
+<node CREATED="1643233018616" ID="ID_73046513" MODIFIED="1643233019240" TEXT="Git">
+<node CREATED="1643233560662" ID="ID_301778868" MODIFIED="1643233566372" TEXT="Ferramenta de versionamento"/>
+<node CREATED="1643233573384" ID="ID_1590825394" MODIFIED="1643233595937" TEXT="&#xc9; dif&#xed;cil controlar vers&#xf5;es em um &#xfa;nico arquivo"/>
+<node CREATED="1643233580726" ID="ID_1687310207" MODIFIED="1643233607685" TEXT="Imagina v&#xe1;rias vers&#xf5;es de milhares de arquivos de um sistema complexo"/>
+<node CREATED="1643233615691" ID="ID_361344700" MODIFIED="1643233619664" TEXT="Com v&#xe1;rias pessoas mexendo em tudo"/>
+<node CREATED="1643233622014" ID="ID_409020146" MODIFIED="1643233627747" TEXT="Git &#xe9; fundamental em engenharia de software"/>
+<node CREATED="1643238011534" ID="ID_1648395535" MODIFIED="1643238011896" TEXT="https://git-scm.com/downloads"/>
+<node CREATED="1643233950673" ID="ID_792872905" MODIFIED="1643233965847" TEXT="Principais comandos">
+<node CREATED="1643233974653" ID="ID_666553848" MODIFIED="1643233979385" TEXT="git add &lt;nome_arquivo&gt;">
+<node CREATED="1643234006344" ID="ID_1003436783" MODIFIED="1643234016961" TEXT="adiciona arquivos que vc quer salvar em uma vers&#xe3;o"/>
+</node>
+<node CREATED="1643233985658" ID="ID_63048992" MODIFIED="1643233998744" TEXT="git commit -m &lt;msg_de_commit&gt;">
+<node CREATED="1643234019759" ID="ID_654812373" MODIFIED="1643234042902" TEXT="cria uma nova vers&#xe3;o do seu projeto, atribuindo uma mensagem a ela"/>
+</node>
+<node CREATED="1643234001501" ID="ID_207792411" MODIFIED="1643234002825" TEXT="git push">
+<node CREATED="1643234036157" ID="ID_812100165" MODIFIED="1643234058464" TEXT="salva essa nova vers&#xe3;o na cloud, ou seja, GitHub ou GitLab"/>
+</node>
+<node CREATED="1643234158796" ID="ID_1622579723" MODIFIED="1643234160385" TEXT="git clone"/>
+<node CREATED="1643234161678" ID="ID_1373399578" MODIFIED="1643234162815" TEXT="git log"/>
+<node CREATED="1643234164114" ID="ID_1619836205" MODIFIED="1643234165781" TEXT="git status"/>
+<node CREATED="1643234166952" ID="ID_1057189701" MODIFIED="1643234168414" TEXT="git pull"/>
+<node CREATED="1643235027136" ID="ID_412627557" MODIFIED="1643235028813" TEXT="git branch"/>
+<node CREATED="1643235030376" ID="ID_529620613" MODIFIED="1643235039712" TEXT="git checkout &lt;nome_da_branch&gt;"/>
+<node CREATED="1643235043909" ID="ID_607474030" MODIFIED="1643235045660" TEXT="git checkout -b &lt;nome_da_nova_branch&gt;"/>
+</node>
+<node CREATED="1643239708835" ID="ID_700650084" MODIFIED="1643239721194" TEXT="Gerar chave SSH e associar &#xe0; conta">
+<node CREATED="1643239724855" ID="ID_106000227" MODIFIED="1643239725663" TEXT="https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent"/>
+<node CREATED="1643239728488" ID="ID_1098449426" MODIFIED="1643239728917" TEXT="https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account"/>
+</node>
+</node>
+<node CREATED="1643233020328" ID="ID_1452701784" MODIFIED="1643233024893" TEXT="GitHub e GitLab">
+<node CREATED="1643233782376" ID="ID_1431266922" MODIFIED="1643233785098" TEXT="Como clouds para c&#xf3;digo"/>
+<node CREATED="1643233789435" ID="ID_839417405" MODIFIED="1643233808181" TEXT="Todo hist&#xf3;rico e vers&#xf5;es que git guarda pode ser salvo no GitHub"/>
+<node CREATED="1643233814755" ID="ID_904458210" MODIFIED="1643233823785" TEXT="Tamb&#xe9;m serve de portf&#xf3;lio para devs"/>
+<node CREATED="1643233826735" ID="ID_217984413" MODIFIED="1643233830039" TEXT="Deixar sempre lindo"/>
+<node CREATED="1643238210123" ID="ID_146123875" MODIFIED="1643238210402" TEXT="https://github.com/Louiz-Ferraz"/>
 </node>
 </node>
 </node>

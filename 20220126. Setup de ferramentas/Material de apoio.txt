@@ -1,0 +1,8 @@
+Git Command Explorer:
+https://gitexplorer.com/
+
+Cheatsheet de shorcuts e extensões do VS Code:
+https://hackmd.io/@CubosAcademy/cheatsheet-vscode
+
+Cheatsheet de comandos do git:
+https://hackmd.io/@CubosAcademy/cheatsheet-comandos-git

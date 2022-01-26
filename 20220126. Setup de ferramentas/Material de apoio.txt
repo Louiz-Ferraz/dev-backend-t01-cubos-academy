@@ -6,3 +6,6 @@ https://hackmd.io/@CubosAcademy/cheatsheet-vscode
 
 Cheatsheet de comandos do git:
 https://hackmd.io/@CubosAcademy/cheatsheet-comandos-git
+
+Exercício:
+https://hackmd.io/@CubosAcademy/r1QLUZOvY

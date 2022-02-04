@@ -1,2 +1,5 @@
 Documentação MDN:
 https://developer.mozilla.org/pt-BR/
+
+Resolução exercícios:
+https://github.com/cubos-academy/resolucoes-exercicios-backend-variaveis

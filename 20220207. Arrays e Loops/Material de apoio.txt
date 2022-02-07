@@ -1,0 +1,8 @@
+For:
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for
+
+For...of:
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for...of
+
+While:
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while

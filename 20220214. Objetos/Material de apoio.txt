@@ -1,0 +1,11 @@
+Mais sobre Objetos:
+https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/Basics
+
+Desestruturação:
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+
+Spread operator:
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+
+Código aula:
+https://github.com/cubos-academy/codigo-aula-backend-objetos

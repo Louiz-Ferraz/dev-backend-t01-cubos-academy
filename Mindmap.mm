@@ -634,5 +634,50 @@
 </node>
 </node>
 </node>
+<node CREATED="1644874750576" FOLDED="true" ID="ID_461619978" MODIFIED="1644881503731" POSITION="right" TEXT="Objetos">
+<node CREATED="1644876903581" ID="ID_1731046202" MODIFIED="1644876910794" TEXT="Conjunto de dados ou funcionalidades relacionadas"/>
+<node CREATED="1644876958513" ID="ID_905313696" MODIFIED="1644876960410" TEXT="Ex.:">
+<node CREATED="1644876960413" ID="ID_1207379336" MODIFIED="1644876964501" TEXT="objeto pessoa">
+<node CREATED="1644876964502" ID="ID_944215060" MODIFIED="1644877382064" TEXT="membros ou propriedades">
+<node CREATED="1644876974993" ID="ID_853057432" MODIFIED="1644876975736" TEXT="peso"/>
+<node CREATED="1644876976341" ID="ID_1986970372" MODIFIED="1644876977026" TEXT="idade"/>
+<node CREATED="1644876977506" ID="ID_1990506802" MODIFIED="1644876978723" TEXT="altura"/>
+</node>
+</node>
+</node>
+<node CREATED="1644877127109" ID="ID_251560286" MODIFIED="1644877128719" TEXT="Nota&#xe7;&#xe3;o">
+<node CREATED="1644877128720" ID="ID_633819139" MODIFIED="1644877412597" TEXT="objeto = (nome_da_propriedade: &quot;valor_da_propriedade&quot;)"/>
+<node CREATED="1644877217919" ID="ID_196486266" MODIFIED="1644877403540" TEXT="objeto.propriedade">
+<node CREATED="1644877225106" ID="ID_537041921" MODIFIED="1644877231876" TEXT="acessa o par&#xe2;metro individualmente"/>
+<node CREATED="1644877477094" ID="ID_1627328706" MODIFIED="1644877512572" TEXT="objeto[&quot;propriedade&quot;]">
+<node CREATED="1644877482450" ID="ID_1446309290" MODIFIED="1644877486043" TEXT="&#xe9; equivalente"/>
+</node>
+</node>
+</node>
+<node CREATED="1644878714767" ID="ID_129935644" MODIFIED="1644878731751" TEXT="&#xe9; poss&#xed;vel que objetos sejam propriedades de outros objetos"/>
+<node CREATED="1644878648936" ID="ID_1707057308" MODIFIED="1644878650374" TEXT="Shorthand">
+<node CREATED="1644878982897" ID="ID_569053342" MODIFIED="1644879013298" TEXT="quando o nome da propriedade e a vari&#xe1;vel que guarda o valor t&#xea;m o mesmo nome"/>
+<node CREATED="1644879016684" ID="ID_1877532966" MODIFIED="1644879034824" TEXT="n&#xe3;o preciso codar &quot;propridade_x: vari&#xe1;vel_x&quot;">
+<node CREATED="1644879035285" ID="ID_773614069" MODIFIED="1644879042682" TEXT="basta &quot;propriedade_x&quot;"/>
+</node>
+</node>
+<node CREATED="1644880606265" ID="ID_74947420" MODIFIED="1644880609698" TEXT="Desestrutura&#xe7;&#xe3;o de objetos">
+<node CREATED="1644880844383" ID="ID_502188662" MODIFIED="1644880853888" TEXT="modo de pegar valores das propriedades de um objeto"/>
+<node CREATED="1644880859064" ID="ID_225707063" MODIFIED="1644880860641" TEXT="Nota&#xe7;&#xe3;o">
+<node CREATED="1644880860642" ID="ID_663013846" MODIFIED="1644880896309" TEXT="const/let { nome_da_variavel } = nome_do_objeto_cuja_propriedade_est&#xe1;_sendo_copiada"/>
+<node CREATED="1644880898472" ID="ID_599709270" MODIFIED="1644880909559" TEXT="nome da vari&#xe1;vel precisa ser igual ao nome da propriedade"/>
+</node>
+<node CREATED="1644881492355" ID="ID_59066782" MODIFIED="1644881500997" TEXT="Tamb&#xe9;m existe desestrutura&#xe7;&#xe3;o de arrays, mesma ideia"/>
+</node>
+<node CREATED="1644881020805" ID="ID_439007166" MODIFIED="1644881024020" TEXT="Spread operator">
+<node CREATED="1644880952457" ID="ID_1501195353" MODIFIED="1644881202374" TEXT="se eu inserir na declara&#xe7;&#xe3;o de desestrutura&#xe7;&#xe3;o &quot;...qualquer_nome&quot;">
+<node CREATED="1644880973214" ID="ID_39180728" MODIFIED="1644880992977" TEXT="o c&#xf3;digo cria um objeto com nome qualquer_nome"/>
+<node CREATED="1644880994160" ID="ID_685556306" MODIFIED="1644881004714" TEXT="atribui todas as propriedades n&#xe3;o atribuidas antes a este novo objeto"/>
+</node>
+<node CREATED="1644881204028" ID="ID_1820067540" MODIFIED="1644881210738" TEXT="tamb&#xe9;m posso usar pra juntar objetos">
+<node CREATED="1644881213224" ID="ID_223299978" MODIFIED="1644881228195" TEXT="const novo_objeto = { ,,,objeto1, ...objeto2 }"/>
+</node>
+</node>
+</node>
 </node>
 </map>

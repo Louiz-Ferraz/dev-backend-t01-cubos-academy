@@ -1,0 +1,5 @@
+Documentação Funções:
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Functions
+
+Código de aula:
+https://github.com/cubos-academy/codigo-aula-backend-funcao

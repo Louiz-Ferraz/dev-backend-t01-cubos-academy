@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1643147815886" ID="ID_487882039" MODIFIED="1643147846386" TEXT="Desenvolvimento Backend">
+<node CREATED="1643147815886" ID="ID_487882039" MODIFIED="1645047081522" TEXT="Desenvolvimento Backend">
 <node CREATED="1643147852105" FOLDED="true" ID="ID_896049246" MODIFIED="1644013220788" POSITION="right" TEXT="Introdu&#xe7;&#xe3;o T&#xe9;cnica">
 <node CREATED="1643147859544" ID="ID_539950581" MODIFIED="1643147864528" TEXT="Programa&#xe7;&#xe3;o">
 <node CREATED="1643147872691" ID="ID_75968042" MODIFIED="1643148617593" TEXT="Resolver problemas"/>
@@ -634,7 +634,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1644874750576" FOLDED="true" ID="ID_461619978" MODIFIED="1644881503731" POSITION="right" TEXT="Objetos">
+<node CREATED="1644874750576" FOLDED="true" ID="ID_461619978" MODIFIED="1645048099134" POSITION="right" TEXT="Objetos">
 <node CREATED="1644876903581" ID="ID_1731046202" MODIFIED="1644876910794" TEXT="Conjunto de dados ou funcionalidades relacionadas"/>
 <node CREATED="1644876958513" ID="ID_905313696" MODIFIED="1644876960410" TEXT="Ex.:">
 <node CREATED="1644876960413" ID="ID_1207379336" MODIFIED="1644876964501" TEXT="objeto pessoa">
@@ -677,6 +677,35 @@
 <node CREATED="1644881204028" ID="ID_1820067540" MODIFIED="1644881210738" TEXT="tamb&#xe9;m posso usar pra juntar objetos">
 <node CREATED="1644881213224" ID="ID_223299978" MODIFIED="1644881228195" TEXT="const novo_objeto = { ,,,objeto1, ...objeto2 }"/>
 </node>
+</node>
+</node>
+<node CREATED="1645047085225" FOLDED="true" ID="ID_173073785" MODIFIED="1645053263289" POSITION="right" TEXT="Fun&#xe7;&#xf5;es">
+<node CREATED="1645048921454" ID="ID_1426668995" MODIFIED="1645048929457" TEXT="Bloco de c&#xf3;digo que executa uma fun&#xe7;&#xe3;o espec&#xed;fica"/>
+<node CREATED="1645048930791" ID="ID_90418872" MODIFIED="1645048934252" TEXT="pode retornar ou n&#xe3;o algo">
+<node CREATED="1645048937757" ID="ID_748683208" MODIFIED="1645048938841" TEXT="return"/>
+</node>
+<node CREATED="1645048954381" ID="ID_234541141" MODIFIED="1645048955568" TEXT="Sintaxe">
+<node CREATED="1645048956812" ID="ID_599521244" MODIFIED="1645048978163" TEXT="function nomeDaFunc (params) { //c&#xf3;digo }"/>
+</node>
+<node CREATED="1645052101661" ID="ID_1631768779" MODIFIED="1645052103839" TEXT="Arrow function">
+<node CREATED="1645052145062" ID="ID_513500151" MODIFIED="1645052155794" TEXT="outro tipo de declara&#xe7;&#xe3;o de fun&#xe7;&#xe3;o"/>
+<node CREATED="1645052156150" ID="ID_546748596" MODIFIED="1645052168648" TEXT="declara&#xe7;&#xe3;o de uma vari&#xe1;vel a qual &#xe9; atribu&#xed;da uma fun&#xe7;&#xe3;o"/>
+<node CREATED="1645052190550" ID="ID_1079425310" MODIFIED="1645052191827" TEXT="Sintaxe">
+<node CREATED="1645052195677" ID="ID_1942745306" MODIFIED="1645052351403" TEXT="let/const nomeDaVariavel = (params) =&gt; { //c&#xf3;digo }"/>
+<node CREATED="1645052342885" ID="ID_330491854" MODIFIED="1645052359478" TEXT="Existem varia&#xe7;&#xf5;es nessa sintaxe que deixa o c&#xf3;digo mais enxuto"/>
+</node>
+<node CREATED="1645052424528" ID="ID_337097766" MODIFIED="1645052447101" TEXT="A arrow function s&#xf3; pode ser chamada depois de declarada no c&#xf3;digo, n&#xe3;o pode ser chamada antes da declara&#xe7;&#xe3;o como fun&#xe7;&#xf5;es tradicionais"/>
+</node>
+<node CREATED="1645052493112" ID="ID_1475934288" MODIFIED="1645052495516" TEXT="Conceito DRY">
+<node CREATED="1645052495853" ID="ID_87914539" MODIFIED="1645052502608" TEXT="DON&apos;T REPEAT YOURSELF"/>
+<node CREATED="1645052504321" ID="ID_1944450409" MODIFIED="1645052506952" TEXT="Seja enxuto"/>
+</node>
+<node CREATED="1645052520330" ID="ID_981670006" MODIFIED="1645052521897" TEXT="M&#xe9;todos">
+<node CREATED="1645052621416" ID="ID_614049213" MODIFIED="1645052633934" TEXT="&#xe9; uma fun&#xe7;&#xe3;o atribu&#xed;da dentro de um objeto">
+<node CREATED="1645052642217" ID="ID_1714824649" MODIFIED="1645052648645" TEXT="propriedades est&#xe3;o para vari&#xe1;vels"/>
+<node CREATED="1645052651336" ID="ID_741217903" MODIFIED="1645052658684" TEXT="assim como m&#xe9;todos est&#xe3;o para fun&#xe7;&#xf5;es"/>
+</node>
+<node CREATED="1645053123174" ID="ID_351965123" MODIFIED="1645053131100" TEXT="o log de console.log() &#xe9; um m&#xe9;todo"/>
 </node>
 </node>
 </node>

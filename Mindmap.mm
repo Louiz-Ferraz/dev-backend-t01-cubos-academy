@@ -1,7 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1643147815886" ID="ID_487882039" MODIFIED="1645047081522" TEXT="Desenvolvimento Backend">
-<node CREATED="1643147852105" FOLDED="true" ID="ID_896049246" MODIFIED="1644013220788" POSITION="right" TEXT="Introdu&#xe7;&#xe3;o T&#xe9;cnica">
+<node CREATED="1645481770314" ID="ID_577324341" MODIFIED="1645481865943" POSITION="right" TEXT="Unidade 1">
+<node CREATED="1643147852105" FOLDED="true" ID="ID_896049246" MODIFIED="1644013220788" TEXT="Introdu&#xe7;&#xe3;o T&#xe9;cnica">
 <node CREATED="1643147859544" ID="ID_539950581" MODIFIED="1643147864528" TEXT="Programa&#xe7;&#xe3;o">
 <node CREATED="1643147872691" ID="ID_75968042" MODIFIED="1643148617593" TEXT="Resolver problemas"/>
 <node CREATED="1643147872692" ID="ID_646195731" MODIFIED="1643148641297" TEXT="Sequ&#xea;ncia de instru&#xe7;&#xf5;es - algoritmo"/>
@@ -224,7 +225,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1643233004545" FOLDED="true" ID="ID_1151261656" MODIFIED="1644013224827" POSITION="right" TEXT="Setup de ferramentas">
+<node CREATED="1643233004545" FOLDED="true" ID="ID_1151261656" MODIFIED="1644013224827" TEXT="Setup de ferramentas">
 <node CREATED="1643233011257" ID="ID_1140801722" MODIFIED="1643233013448" TEXT="VS Code">
 <node CREATED="1643233185061" ID="ID_1197486021" MODIFIED="1643233190428" TEXT="Visual Studio Code"/>
 <node CREATED="1643233223736" ID="ID_1110441989" MODIFIED="1643233224389" TEXT="IDE">
@@ -291,7 +292,7 @@
 <node CREATED="1643238210123" ID="ID_146123875" MODIFIED="1643238210402" TEXT="https://github.com/Louiz-Ferraz"/>
 </node>
 </node>
-<node CREATED="1643665472307" FOLDED="true" ID="ID_986553865" MODIFIED="1643671358416" POSITION="right" TEXT="Vari&#xe1;veis">
+<node CREATED="1643665472307" FOLDED="true" ID="ID_986553865" MODIFIED="1643671358416" TEXT="Vari&#xe1;veis">
 <node CREATED="1643665666802" ID="ID_71391065" MODIFIED="1643665672266" TEXT="Guardar informa&#xe7;&#xf5;es/dados">
 <node CREATED="1643665674496" ID="ID_844572855" MODIFIED="1643665675269" TEXT="Nome"/>
 <node CREATED="1643665676366" ID="ID_783986225" MODIFIED="1643665678031" TEXT="Idade"/>
@@ -427,7 +428,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1643839005117" FOLDED="true" ID="ID_660322500" MODIFIED="1644013185283" POSITION="right" TEXT="Condicionais">
+<node CREATED="1643839005117" FOLDED="true" ID="ID_660322500" MODIFIED="1644013185283" TEXT="Condicionais">
 <node CREATED="1643841601149" ID="ID_1844081272" MODIFIED="1643841606882" TEXT="Operadores de compara&#xe7;&#xe3;o">
 <node CREATED="1643841609385" ID="ID_996581560" MODIFIED="1643841610175" TEXT="&gt;"/>
 <node CREATED="1643841610490" ID="ID_1475201502" MODIFIED="1643841611019" TEXT="&lt;"/>
@@ -497,7 +498,7 @@
 <node CREATED="1643846047273" ID="ID_700880192" MODIFIED="1643846097061" TEXT="M&#xe9;todo para determinar casas decimais"/>
 </node>
 </node>
-<node CREATED="1644013180924" FOLDED="true" ID="ID_349908957" MODIFIED="1644270069904" POSITION="right" TEXT="Git">
+<node CREATED="1644013180924" FOLDED="true" ID="ID_349908957" MODIFIED="1644270069904" TEXT="Git">
 <node CREATED="1644013226049" ID="ID_1283948452" MODIFIED="1644013227908" TEXT="Versionamento">
 <node CREATED="1644013234572" ID="ID_1407713024" MODIFIED="1644013250880" TEXT="Facilitam contribui&#xe7;&#xe3;o simult&#xe2;nea"/>
 </node>
@@ -568,7 +569,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1644270055446" FOLDED="true" ID="ID_374141882" MODIFIED="1644276307767" POSITION="right" TEXT="Arrays e Loops">
+<node CREATED="1644270055446" FOLDED="true" ID="ID_374141882" MODIFIED="1644276307767" TEXT="Arrays e Loops">
 <node CREATED="1644270799318" ID="ID_292791515" MODIFIED="1644270800828" TEXT="Arrays">
 <node CREATED="1644270800842" ID="ID_487441255" MODIFIED="1644270803736" TEXT="Vetores ou listas"/>
 <node CREATED="1644270818122" ID="ID_350674551" MODIFIED="1644270832741" TEXT="Guardar conjunto de dados ordenados numa mesma vari&#xe1;vel"/>
@@ -634,7 +635,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1644874750576" FOLDED="true" ID="ID_461619978" MODIFIED="1645048099134" POSITION="right" TEXT="Objetos">
+<node CREATED="1644874750576" FOLDED="true" ID="ID_461619978" MODIFIED="1645048099134" TEXT="Objetos">
 <node CREATED="1644876903581" ID="ID_1731046202" MODIFIED="1644876910794" TEXT="Conjunto de dados ou funcionalidades relacionadas"/>
 <node CREATED="1644876958513" ID="ID_905313696" MODIFIED="1644876960410" TEXT="Ex.:">
 <node CREATED="1644876960413" ID="ID_1207379336" MODIFIED="1644876964501" TEXT="objeto pessoa">
@@ -679,7 +680,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1645047085225" FOLDED="true" ID="ID_173073785" MODIFIED="1645053263289" POSITION="right" TEXT="Fun&#xe7;&#xf5;es">
+<node CREATED="1645047085225" FOLDED="true" ID="ID_173073785" MODIFIED="1645481785698" TEXT="Fun&#xe7;&#xf5;es">
 <node CREATED="1645048921454" ID="ID_1426668995" MODIFIED="1645048929457" TEXT="Bloco de c&#xf3;digo que executa uma fun&#xe7;&#xe3;o espec&#xed;fica"/>
 <node CREATED="1645048930791" ID="ID_90418872" MODIFIED="1645048934252" TEXT="pode retornar ou n&#xe3;o algo">
 <node CREATED="1645048937757" ID="ID_748683208" MODIFIED="1645048938841" TEXT="return"/>
@@ -706,6 +707,97 @@
 <node CREATED="1645052651336" ID="ID_741217903" MODIFIED="1645052658684" TEXT="assim como m&#xe9;todos est&#xe3;o para fun&#xe7;&#xf5;es"/>
 </node>
 <node CREATED="1645053123174" ID="ID_351965123" MODIFIED="1645053131100" TEXT="o log de console.log() &#xe9; um m&#xe9;todo"/>
+</node>
+</node>
+<node CREATED="1645478851102" FOLDED="true" ID="ID_129613161" MODIFIED="1645489719398" TEXT="M&#xe9;todos de Strings">
+<node CREATED="1645481707570" ID="ID_1519435254" MODIFIED="1645481740182" TEXT="string &#xe9; um tipo primitivo">
+<node CREATED="1645481718544" ID="ID_198000607" MODIFIED="1645481728776" TEXT="um tipo de dado"/>
+<node CREATED="1645481729006" ID="ID_913008847" MODIFIED="1645481730825" TEXT="n&#xe3;o &#xe9; um objeto"/>
+</node>
+<node CREATED="1645481789949" ID="ID_478047364" MODIFIED="1645481801294" TEXT="String com letra mai&#xfa;scula &#xe9; um objeto em JS">
+<node CREATED="1645481840715" ID="ID_377560981" MODIFIED="1645481873502" TEXT="o JS converte o tipo string em objeto para utiliza&#xe7;&#xe3;o de m&#xe9;todos e propriedades"/>
+</node>
+<node CREATED="1645481925775" ID="ID_1979052376" MODIFIED="1645481926212" TEXT="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Useful_string_methods"/>
+<node CREATED="1645482063086" ID="ID_1817946679" MODIFIED="1645482065526" TEXT="includes()">
+<node CREATED="1645482091008" ID="ID_1581631394" MODIFIED="1645482091877" TEXT="achar um texto dentro de outro texto"/>
+<node CREATED="1645482384364" ID="ID_3871297" MODIFIED="1645482397215" TEXT="pode ser passado par&#xe2;metro de posi&#xe7;&#xe3;o inicial da busca"/>
+<node CREATED="1645482425973" ID="ID_718122263" MODIFIED="1645482430293" TEXT="retorna boolean"/>
+</node>
+<node CREATED="1645482358806" ID="ID_1084978251" MODIFIED="1645482361230" TEXT="indexOf()">
+<node CREATED="1645482374333" ID="ID_200361054" MODIFIED="1645482382244" TEXT="saber onde est&#xe1; determinado texto dentro de outro texto"/>
+<node CREATED="1645482489715" ID="ID_1195941053" MODIFIED="1645482497492" TEXT="pode ser passado par&#xe2;metro de posi&#xe7;&#xe3;o inicial da busca"/>
+<node CREATED="1645482418973" ID="ID_1199594368" MODIFIED="1645483454769" TEXT="retorna o &#xed;ndice da primeira ocorr&#xea;ncia">
+<node CREATED="1645482544269" ID="ID_212828282" MODIFIED="1645482548490" TEXT="se n&#xe3;o encontra, retorna -1"/>
+</node>
+</node>
+<node CREATED="1645483456273" ID="ID_321873750" MODIFIED="1645483460801" TEXT="lastIndexOf()">
+<node CREATED="1645483460801" ID="ID_422805161" MODIFIED="1645483472070" TEXT="funciona como o indexOf, mas retorna &#xfa;ltima ocorr&#xea;ncia"/>
+<node CREATED="1645483479211" ID="ID_1466818693" MODIFIED="1645483486326" TEXT="pesquisa &#xe9; feita de tr&#xe1;s pra frente">
+<node CREATED="1645483549564" ID="ID_834380851" MODIFIED="1645483559359" TEXT="o &#xed;ndice &#xe9; em ordem esquerda pra direita, normal"/>
+<node CREATED="1645483564589" ID="ID_317663890" MODIFIED="1645483572770" TEXT="mesmo que a pesquisa seja de tr&#xe1;s pra frente, os &#xed;ndices n&#xe3;o mudam"/>
+</node>
+<node CREATED="1645483611278" ID="ID_1121752700" MODIFIED="1645483619717" TEXT="pode ser passado par&#xe2;metro de posi&#xe7;&#xe3;o de corte para busca">
+<node CREATED="1645483620007" ID="ID_921604588" MODIFIED="1645483621407" TEXT="ex:">
+<node CREATED="1645483621768" ID="ID_1413703741" MODIFIED="1645483636126" TEXT="&apos;ricardo&apos;.lastIndexOf(&apos;a&apos;, 3)">
+<node CREATED="1645483636763" ID="ID_854789264" MODIFIED="1645483645105" TEXT="corta a string em &apos;rica&apos;"/>
+<node CREATED="1645483645712" ID="ID_814534517" MODIFIED="1645483655053" TEXT="acha o a na &#xfa;ltima posi&#xe7;&#xe3;o (primeira da pesquisa)"/>
+</node>
+<node CREATED="1645483655805" ID="ID_1723785132" MODIFIED="1645483668887" TEXT="&apos;ricardo&apos;.lastindexOf(&apos;a&apos;, 0)">
+<node CREATED="1645483669209" ID="ID_1747157150" MODIFIED="1645483673411" TEXT="corta a string em &apos;r&apos;"/>
+<node CREATED="1645483673829" ID="ID_834643994" MODIFIED="1645483678571" TEXT="n&#xe3;o acha &apos;a&apos;"/>
+<node CREATED="1645483679797" ID="ID_297579450" MODIFIED="1645483681099" TEXT="retorna -1"/>
+</node>
+</node>
+<node CREATED="1645483701721" ID="ID_1210205955" MODIFIED="1645483720033" TEXT="se passo n&#xfa;mero negativo, ele entende que &#xe9; 0"/>
+</node>
+<node CREATED="1645483777146" ID="ID_1233355629" MODIFIED="1645483790035" TEXT="se busco nada &quot;&quot;, ele retorna o &#xfa;ltimo &#xed;ndice da pesquisa">
+<node CREATED="1645483790539" ID="ID_746011188" MODIFIED="1645483791691" TEXT="ex:">
+<node CREATED="1645483791691" ID="ID_1214766935" MODIFIED="1645483806836" TEXT="&apos;ricardo&apos;.lastIndexOf(&apos;&apos;)">
+<node CREATED="1645483810097" ID="ID_762508846" MODIFIED="1645483813182" TEXT="retorna 7"/>
+</node>
+<node CREATED="1645483820124" ID="ID_291174816" MODIFIED="1645483829822" TEXT="&apos;ricardo&apos;.lastIndexOf(&apos;&apos;, 2)">
+<node CREATED="1645483830209" ID="ID_1900445782" MODIFIED="1645483831882" TEXT="retorna 2"/>
+</node>
+</node>
+</node>
+<node CREATED="1645483489497" ID="ID_1006347803" MODIFIED="1645483495298" TEXT="retorna o &#xed;ndice da &#xfa;ltima ocorr&#xea;ncia">
+<node CREATED="1645483495299" ID="ID_1579143696" MODIFIED="1645483498709" TEXT="se n&#xe3;o encontra, -1"/>
+</node>
+</node>
+<node CREATED="1645486460724" ID="ID_414695839" MODIFIED="1645486462511" TEXT="slice()">
+<node CREATED="1645486480020" ID="ID_645972315" MODIFIED="1645486485367" TEXT="extrai uma parte de uma string"/>
+<node CREATED="1645486489892" ID="ID_13608438" MODIFIED="1645486492724" TEXT="retorna nova string">
+<node CREATED="1645486493099" ID="ID_118551712" MODIFIED="1645486499584" TEXT="n&#xe3;o modifica string original"/>
+</node>
+</node>
+<node CREATED="1645486974159" ID="ID_1531375035" MODIFIED="1645487001218" TEXT="replace(text, newText)">
+<node CREATED="1645487003054" ID="ID_1255602626" MODIFIED="1645487019595" TEXT="substitui text por newText em uma string"/>
+<node CREATED="1645487024261" ID="ID_1676109631" MODIFIED="1645487033851" TEXT="substitui a primeira ocorr&#xea;ncia quando encontra"/>
+<node CREATED="1645487068348" ID="ID_660466541" MODIFIED="1645487075553" TEXT="n&#xe3;o modifica string original">
+<node CREATED="1645487075968" ID="ID_1554302925" MODIFIED="1645487078715" TEXT="retorna nova string"/>
+</node>
+</node>
+<node CREATED="1645487885216" ID="ID_1821640439" MODIFIED="1645487895043" TEXT="toUpperCase() ou toLowerCase()">
+<node CREATED="1645487905251" ID="ID_347620047" MODIFIED="1645487921441" TEXT="coloca tudo em letra mai&#xfa;scula ou min&#xfa;scula, respectivamente"/>
+<node CREATED="1645486489892" ID="ID_652969980" MODIFIED="1645486492724" TEXT="retorna nova string">
+<node CREATED="1645486493099" ID="ID_612253944" MODIFIED="1645486499584" TEXT="n&#xe3;o modifica string original"/>
+</node>
+</node>
+<node CREATED="1645487982829" ID="ID_135735628" MODIFIED="1645488178123" TEXT="trim()">
+<node CREATED="1645487984390" ID="ID_1906200384" MODIFIED="1645487993285" TEXT="remove espa&#xe7;os em branco no in&#xed;cio e fim da string"/>
+</node>
+<node CREATED="1645488164792" ID="ID_928676179" MODIFIED="1645488207948" TEXT="padStart(length, text)">
+<node CREATED="1645488170498" ID="ID_412380037" MODIFIED="1645488223491" TEXT="preenche string colocando text no in&#xed;cio dela"/>
+<node CREATED="1645488223882" ID="ID_1581613270" MODIFIED="1645488238012" TEXT="insere o text quantas vezes for necess&#xe1;rio para atingir o length"/>
+<node CREATED="1645486489892" ID="ID_459932970" MODIFIED="1645486492724" TEXT="retorna nova string">
+<node CREATED="1645486493099" ID="ID_278270986" MODIFIED="1645486499584" TEXT="n&#xe3;o modifica string original"/>
+</node>
+</node>
+<node CREATED="1645488843470" ID="ID_1908902511" MODIFIED="1645488848286" TEXT="split(text)">
+<node CREATED="1645488850908" ID="ID_1895717042" MODIFIED="1645488856630" TEXT="transforma string em array de strings menores"/>
+<node CREATED="1645488860776" ID="ID_607323749" MODIFIED="1645488871973" TEXT="separa em todos os lugares que encontra o argumento text"/>
+<node CREATED="1645488902987" ID="ID_372062409" MODIFIED="1645488934939" TEXT="text deixa de existir na array retornada"/>
+</node>
 </node>
 </node>
 </node>

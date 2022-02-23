@@ -569,7 +569,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1644270055446" FOLDED="true" ID="ID_374141882" MODIFIED="1644276307767" TEXT="Arrays e Loops">
+<node CREATED="1644270055446" FOLDED="true" ID="ID_374141882" MODIFIED="1645657337728" TEXT="Arrays e Loops">
 <node CREATED="1644270799318" ID="ID_292791515" MODIFIED="1644270800828" TEXT="Arrays">
 <node CREATED="1644270800842" ID="ID_487441255" MODIFIED="1644270803736" TEXT="Vetores ou listas"/>
 <node CREATED="1644270818122" ID="ID_350674551" MODIFIED="1644270832741" TEXT="Guardar conjunto de dados ordenados numa mesma vari&#xe1;vel"/>
@@ -680,7 +680,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1645047085225" FOLDED="true" ID="ID_173073785" MODIFIED="1645481785698" TEXT="Fun&#xe7;&#xf5;es">
+<node CREATED="1645047085225" FOLDED="true" ID="ID_173073785" MODIFIED="1645657287588" TEXT="Fun&#xe7;&#xf5;es">
 <node CREATED="1645048921454" ID="ID_1426668995" MODIFIED="1645048929457" TEXT="Bloco de c&#xf3;digo que executa uma fun&#xe7;&#xe3;o espec&#xed;fica"/>
 <node CREATED="1645048930791" ID="ID_90418872" MODIFIED="1645048934252" TEXT="pode retornar ou n&#xe3;o algo">
 <node CREATED="1645048937757" ID="ID_748683208" MODIFIED="1645048938841" TEXT="return"/>
@@ -709,7 +709,7 @@
 <node CREATED="1645053123174" ID="ID_351965123" MODIFIED="1645053131100" TEXT="o log de console.log() &#xe9; um m&#xe9;todo"/>
 </node>
 </node>
-<node CREATED="1645478851102" FOLDED="true" ID="ID_129613161" MODIFIED="1645489719398" TEXT="M&#xe9;todos de Strings">
+<node CREATED="1645478851102" FOLDED="true" ID="ID_129613161" MODIFIED="1645657291143" TEXT="M&#xe9;todos de Strings">
 <node CREATED="1645481707570" ID="ID_1519435254" MODIFIED="1645481740182" TEXT="string &#xe9; um tipo primitivo">
 <node CREATED="1645481718544" ID="ID_198000607" MODIFIED="1645481728776" TEXT="um tipo de dado"/>
 <node CREATED="1645481729006" ID="ID_913008847" MODIFIED="1645481730825" TEXT="n&#xe3;o &#xe9; um objeto"/>
@@ -797,6 +797,79 @@
 <node CREATED="1645488850908" ID="ID_1895717042" MODIFIED="1645488856630" TEXT="transforma string em array de strings menores"/>
 <node CREATED="1645488860776" ID="ID_607323749" MODIFIED="1645488871973" TEXT="separa em todos os lugares que encontra o argumento text"/>
 <node CREATED="1645488902987" ID="ID_372062409" MODIFIED="1645488934939" TEXT="text deixa de existir na array retornada"/>
+</node>
+</node>
+<node CREATED="1645652329352" FOLDED="true" ID="ID_240596152" MODIFIED="1645658517420" TEXT="M&#xe9;todos de Arrays">
+<node CREATED="1645654153040" ID="ID_30860297" MODIFIED="1645654184710" TEXT="indexOf(&quot;item&quot;)">
+<node CREATED="1645654170021" ID="ID_502140538" MODIFIED="1645654188454" TEXT="encontra item dentro da array"/>
+<node CREATED="1645654194273" ID="ID_1108026927" MODIFIED="1645654201131" TEXT="retorna o &#xed;ndice da primeira ocorr&#xea;ncia"/>
+<node CREATED="1645654236018" ID="ID_644485263" MODIFIED="1645654240234" TEXT="retorna -1 quando n&#xe3;o encontra item"/>
+</node>
+<node CREATED="1645654244748" ID="ID_1856373455" MODIFIED="1645654248162" TEXT="includes(&quot;item&quot;)">
+<node CREATED="1645654251983" ID="ID_1053096439" MODIFIED="1645654262603" TEXT="verifica se item existe na array"/>
+<node CREATED="1645654263029" ID="ID_1390576596" MODIFIED="1645654266024" TEXT="retorna boolean"/>
+</node>
+<node CREATED="1645654299140" ID="ID_1370297691" MODIFIED="1645654301165" TEXT="reverse()">
+<node CREATED="1645654301505" ID="ID_683439799" MODIFIED="1645654306764" TEXT="inverte a ordem dos itens da array"/>
+<node CREATED="1645654329701" ID="ID_933712150" MODIFIED="1645654335645" TEXT="modifica o original"/>
+<node CREATED="1645654336086" ID="ID_377043343" MODIFIED="1645654439601" TEXT="retorna refer&#xea;ncia para o mesmo array invertido"/>
+</node>
+<node CREATED="1645655252537" ID="ID_770276702" MODIFIED="1645655299481" TEXT="join(&quot;separador&quot;)">
+<node CREATED="1645655269042" ID="ID_1914461503" MODIFIED="1645655278765" TEXT="junta os elementos da array em uma string"/>
+<node CREATED="1645655300202" ID="ID_400165839" MODIFIED="1645655314771" TEXT="o argumento separador define o que ser&#xe1; inserido entre os elementos"/>
+<node CREATED="1645655315138" ID="ID_498096657" MODIFIED="1645655351717" TEXT="se n&#xe3;o for passado nada, ele separa itens por v&#xed;rgula"/>
+<node CREATED="1645655464847" ID="ID_347628426" MODIFIED="1645655473182" TEXT="n&#xe3;o altera a array original"/>
+</node>
+<node CREATED="1645655525522" ID="ID_717917820" MODIFIED="1645655622057" TEXT="concat(&quot;arrays&quot;)">
+<node CREATED="1645655541645" ID="ID_1542660658" MODIFIED="1645655572110" TEXT="retorna um novo &#xfa;nico array que &#xe9; a concatena&#xe7;&#xe3;o de todos os arrays passados como argumento"/>
+<node CREATED="1645655573320" ID="ID_842750856" MODIFIED="1645655583447" TEXT="ex:">
+<node CREATED="1645655583756" ID="ID_883078940" MODIFIED="1645655587286" TEXT="a.concat(b, c)">
+<node CREATED="1645655589090" ID="ID_993124420" MODIFIED="1645655597288" TEXT="vai concatenar a + b + c"/>
+</node>
+</node>
+</node>
+<node CREATED="1645655627037" ID="ID_1882156020" MODIFIED="1645655628048" TEXT="slice()">
+<node CREATED="1645655653248" ID="ID_108529713" MODIFIED="1645655667360" TEXT="faz c&#xf3;pia de parte da array e a retorna"/>
+<node CREATED="1645655657739" ID="ID_944892978" MODIFIED="1645655661549" TEXT="n&#xe3;o modifica original"/>
+<node CREATED="1645655674145" ID="ID_1161504287" MODIFIED="1645655730849" TEXT="argumentos s&#xe3;o os &#xed;ndices da array onde come&#xe7;a (incluso) e termina (excluso) o corte"/>
+<node CREATED="1645655760633" ID="ID_1083588931" MODIFIED="1645655765739" TEXT="segundo argumento &#xe9; opcional">
+<node CREATED="1645655766002" ID="ID_1607604154" MODIFIED="1645655772013" TEXT="se n&#xe3;o passar, vai at&#xe9; o fim da array"/>
+</node>
+</node>
+<node CREATED="1645656559790" ID="ID_24534598" MODIFIED="1645656872362" TEXT="splice(&quot;&#xec;ndice&quot;, &quot;deleteCount&quot;, &quot;lista de elementos a inserir no local de exclus&#xe3;o&quot;)">
+<node CREATED="1645656592730" ID="ID_188335240" MODIFIED="1645656910195" TEXT="altera conte&#xfa;do de uma lista, removendo 0 ou mais itens (deleteCount) de um array do ind&#xed;ce determinado como argumento"/>
+<node CREATED="1645656619253" ID="ID_1683236578" MODIFIED="1645656640902" TEXT="opcionalmente, pode-se inserir um ou mais itens no local onde outros foram deletados">
+<node CREATED="1645656922146" ID="ID_2897544" MODIFIED="1645656928598" TEXT="lista passada como argumento"/>
+</node>
+<node CREATED="1645656642978" ID="ID_1854597877" MODIFIED="1645656649147" TEXT="altera array original"/>
+<node CREATED="1645656649899" ID="ID_787821901" MODIFIED="1645656791853" TEXT="retorna lista contendo elementos removidos"/>
+<node CREATED="1645657342124" ID="ID_808542626" MODIFIED="1645657350976" TEXT="da pra recriar pop, push, shift e unshift s&#xf3; com splice"/>
+</node>
+<node CREATED="1645658284716" ID="ID_1221680808" MODIFIED="1645658289898" TEXT="diferen&#xe7;a entre valor e refer&#xea;ncia">
+<node CREATED="1645658290259" ID="ID_1823444628" MODIFIED="1645658293980" TEXT="tipos primitivos">
+<node CREATED="1645658294426" ID="ID_584614522" MODIFIED="1645658380836" TEXT="number"/>
+<node CREATED="1645658368446" ID="ID_1102991597" MODIFIED="1645658369351" TEXT="string"/>
+<node CREATED="1645658369624" ID="ID_463048089" MODIFIED="1645658370976" TEXT="boolean"/>
+<node CREATED="1645658371236" ID="ID_1411409198" MODIFIED="1645658373598" TEXT="undefined"/>
+<node CREATED="1645658373917" ID="ID_765776536" MODIFIED="1645658375118" TEXT="null"/>
+<node CREATED="1645658375413" ID="ID_351374971" MODIFIED="1645658376565" TEXT="symbol"/>
+<node CREATED="1645658325068" ID="ID_1046654904" MODIFIED="1645658337048" TEXT="quando eu igualo uma vair&#xe1;vel a uma vari&#xe1;vel de tipo primitivo">
+<node CREATED="1645658337518" ID="ID_1696691193" MODIFIED="1645658348625" TEXT="ela salva uma c&#xf3;pia do valor da primeira vari&#xe1;vel"/>
+<node CREATED="1645658423402" ID="ID_286667282" MODIFIED="1645658429543" TEXT="mudar uma das vari&#xe1;veis n&#xe3;o altera a outra"/>
+</node>
+</node>
+<node CREATED="1645658349561" ID="ID_147733176" MODIFIED="1645658352202" TEXT="objetos">
+<node CREATED="1645658352550" ID="ID_1043360520" MODIFIED="1645658360366" TEXT="tudo que n&#xe3;o &#xe9; tipo primitivo">
+<node CREATED="1645658360669" ID="ID_1316128478" MODIFIED="1645658384157" TEXT="objetos"/>
+<node CREATED="1645658384595" ID="ID_1918084326" MODIFIED="1645658385771" TEXT="arrays"/>
+<node CREATED="1645658386177" ID="ID_176755857" MODIFIED="1645658387260" TEXT="Math"/>
+<node CREATED="1645658387490" ID="ID_28511820" MODIFIED="1645658388269" TEXT="outros"/>
+</node>
+<node CREATED="1645658390601" ID="ID_1432237296" MODIFIED="1645658397862" TEXT="quando eu igualo uma vari&#xe1;vel a uma vari&#xe1;vel objeto">
+<node CREATED="1645658398137" ID="ID_1193544310" MODIFIED="1645658407538" TEXT="ela salva a refer&#xea;ncia ao primeiro objeto"/>
+<node CREATED="1645658407802" ID="ID_1519053092" MODIFIED="1645658421097" TEXT="mudar qualquer uma das duas vari&#xe1;veis, muda tudo"/>
+</node>
+</node>
 </node>
 </node>
 </node>

@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1643147815886" ID="ID_487882039" MODIFIED="1645047081522" TEXT="Desenvolvimento Backend">
-<node CREATED="1645481770314" ID="ID_577324341" MODIFIED="1645481865943" POSITION="right" TEXT="Unidade 1">
-<node CREATED="1643147852105" FOLDED="true" ID="ID_896049246" MODIFIED="1644013220788" TEXT="Introdu&#xe7;&#xe3;o T&#xe9;cnica">
+<node CREATED="1645481770314" ID="ID_577324341" MODIFIED="1645481865943" POSITION="left" TEXT="Unidade 1">
+<node CREATED="1643147852105" FOLDED="true" ID="ID_896049246" MODIFIED="1647386752870" TEXT="Introdu&#xe7;&#xe3;o T&#xe9;cnica">
 <node CREATED="1643147859544" ID="ID_539950581" MODIFIED="1643147864528" TEXT="Programa&#xe7;&#xe3;o">
 <node CREATED="1643147872691" ID="ID_75968042" MODIFIED="1643148617593" TEXT="Resolver problemas"/>
 <node CREATED="1643147872692" ID="ID_646195731" MODIFIED="1643148641297" TEXT="Sequ&#xea;ncia de instru&#xe7;&#xf5;es - algoritmo"/>
@@ -799,7 +799,7 @@
 <node CREATED="1645488902987" ID="ID_372062409" MODIFIED="1645488934939" TEXT="text deixa de existir na array retornada"/>
 </node>
 </node>
-<node CREATED="1645652329352" FOLDED="true" ID="ID_240596152" MODIFIED="1645658517420" TEXT="M&#xe9;todos de Arrays">
+<node CREATED="1645652329352" FOLDED="true" ID="ID_240596152" MODIFIED="1647385833321" TEXT="M&#xe9;todos de Arrays">
 <node CREATED="1645654153040" ID="ID_30860297" MODIFIED="1645654184710" TEXT="indexOf(&quot;item&quot;)">
 <node CREATED="1645654170021" ID="ID_502140538" MODIFIED="1645654188454" TEXT="encontra item dentro da array"/>
 <node CREATED="1645654194273" ID="ID_1108026927" MODIFIED="1645654201131" TEXT="retorna o &#xed;ndice da primeira ocorr&#xea;ncia"/>
@@ -868,6 +868,43 @@
 <node CREATED="1645658390601" ID="ID_1432237296" MODIFIED="1645658397862" TEXT="quando eu igualo uma vari&#xe1;vel a uma vari&#xe1;vel objeto">
 <node CREATED="1645658398137" ID="ID_1193544310" MODIFIED="1645658407538" TEXT="ela salva a refer&#xea;ncia ao primeiro objeto"/>
 <node CREATED="1645658407802" ID="ID_1519053092" MODIFIED="1645658421097" TEXT="mudar qualquer uma das duas vari&#xe1;veis, muda tudo"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1647379761122" ID="ID_706352201" MODIFIED="1647379763356" POSITION="left" TEXT="Unidade 2">
+<node CREATED="1647379763640" FOLDED="true" ID="ID_124000674" MODIFIED="1647388641729" TEXT="Callbacks">
+<node CREATED="1647381097742" ID="ID_1908292913" MODIFIED="1647381115256" TEXT="Fun&#xe7;&#xe3;o passada como argumento dentro de outra fun&#xe7;&#xe3;o">
+<node CREATED="1647381115621" ID="ID_520613892" MODIFIED="1647381129626" TEXT="&#xc9; invocada dentro da fun&#xe7;&#xe3;o externa pra executar algo"/>
+</node>
+<node CREATED="1647384602021" ID="ID_1488840487" MODIFIED="1647384610151" TEXT="Pode ser utilizada com outros par&#xe2;metros">
+<node CREATED="1647384620929" ID="ID_1962153563" MODIFIED="1647384628884" TEXT="Outros par&#xe2;metros podem ser de todos os tipos"/>
+</node>
+<node CREATED="1647385590617" ID="ID_510780244" MODIFIED="1647385593674" TEXT="setTimeout">
+<node CREATED="1647385596219" ID="ID_1122162563" MODIFIED="1647385599838" TEXT="m&#xe9;todo global do JS"/>
+<node CREATED="1647385603179" ID="ID_1785908462" MODIFIED="1647385614531" TEXT="executa fun&#xe7;&#xe3;o callback ap&#xf3;s determinado tempo"/>
+<node CREATED="1647385785304" ID="ID_1784401092" MODIFIED="1647386953570" TEXT="setTimeout(fun&#xe7;&#xe3;o callback, tempo em ms, argumentos da fun&#xe7;&#xe3;o callback)">
+<node CREATED="1647385812152" ID="ID_1611954086" MODIFIED="1647385817864" TEXT="tempo &#xe9; opcional">
+<node CREATED="1647385820699" ID="ID_606792438" MODIFIED="1647385823964" TEXT="caso n&#xe3;o seja passado, &#xe9; 0"/>
+</node>
+<node CREATED="1647386955509" ID="ID_1662546106" MODIFIED="1647386967072" TEXT="se a fun&#xe7;&#xe3;o callback tiver argumentos a serem passados">
+<node CREATED="1647386969681" ID="ID_237778732" MODIFIED="1647387065554" TEXT="eles devem ser informados como par&#xe2;metros ap&#xf3;s tempo"/>
+</node>
+</node>
+<node CREATED="1647386358822" ID="ID_1451848522" MODIFIED="1647386368071" TEXT="ordem de execu&#xe7;&#xe3;o">
+<node CREATED="1647386695505" ID="ID_534870981" MODIFIED="1647386704637" TEXT="o JS l&#xea; o setTimeout na ordem do c&#xf3;digo"/>
+<node CREATED="1647386705214" ID="ID_1884837555" MODIFIED="1647386722628" TEXT="mas ele s&#xf3; executa o callback passado no timeout dps do tempo agendado"/>
+<node CREATED="1647386723117" ID="ID_851521007" MODIFIED="1647386732827" TEXT="tudo que n&#xe3;o tiver timeout vai ser executado antes"/>
+</node>
+</node>
+<node CREATED="1647387097996" ID="ID_249658005" MODIFIED="1647387100609" TEXT="setInterval">
+<node CREATED="1647387122618" ID="ID_661779182" MODIFIED="1647387124697" TEXT="m&#xe9;todo do JS"/>
+<node CREATED="1647387126627" ID="ID_1353422413" MODIFIED="1647387147609" TEXT="executa fun&#xe7;&#xe3;o callback de tempo em tempo at&#xe9; que seja interrompido"/>
+<node CREATED="1647387367314" ID="ID_1758704977" MODIFIED="1647387370548" TEXT="clearInterval">
+<node CREATED="1647387374057" ID="ID_643038167" MODIFIED="1647387598568" TEXT="interrompe o setInterval"/>
+<node CREATED="1647387603296" ID="ID_1981370321" MODIFIED="1647387611678" TEXT="precisa ser passado o id do setInterval">
+<node CREATED="1647387612534" ID="ID_911733197" MODIFIED="1647387633662" TEXT="atribuir const id = setInterval(callback, time)"/>
 </node>
 </node>
 </node>

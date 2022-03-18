@@ -709,7 +709,7 @@
 <node CREATED="1645053123174" ID="ID_351965123" MODIFIED="1645053131100" TEXT="o log de console.log() &#xe9; um m&#xe9;todo"/>
 </node>
 </node>
-<node CREATED="1645478851102" FOLDED="true" ID="ID_129613161" MODIFIED="1645657291143" TEXT="M&#xe9;todos de Strings">
+<node CREATED="1645478851102" FOLDED="true" ID="ID_129613161" MODIFIED="1647560882241" TEXT="M&#xe9;todos de Strings">
 <node CREATED="1645481707570" ID="ID_1519435254" MODIFIED="1645481740182" TEXT="string &#xe9; um tipo primitivo">
 <node CREATED="1645481718544" ID="ID_198000607" MODIFIED="1645481728776" TEXT="um tipo de dado"/>
 <node CREATED="1645481729006" ID="ID_913008847" MODIFIED="1645481730825" TEXT="n&#xe3;o &#xe9; um objeto"/>
@@ -874,7 +874,7 @@
 </node>
 </node>
 <node CREATED="1647379761122" ID="ID_706352201" MODIFIED="1647379763356" POSITION="left" TEXT="Unidade 2">
-<node CREATED="1647379763640" FOLDED="true" ID="ID_124000674" MODIFIED="1647388641729" TEXT="Callbacks">
+<node CREATED="1647379763640" FOLDED="true" ID="ID_124000674" MODIFIED="1647558964878" TEXT="Callbacks">
 <node CREATED="1647381097742" ID="ID_1908292913" MODIFIED="1647381115256" TEXT="Fun&#xe7;&#xe3;o passada como argumento dentro de outra fun&#xe7;&#xe3;o">
 <node CREATED="1647381115621" ID="ID_520613892" MODIFIED="1647381129626" TEXT="&#xc9; invocada dentro da fun&#xe7;&#xe3;o externa pra executar algo"/>
 </node>
@@ -905,6 +905,187 @@
 <node CREATED="1647387374057" ID="ID_643038167" MODIFIED="1647387598568" TEXT="interrompe o setInterval"/>
 <node CREATED="1647387603296" ID="ID_1981370321" MODIFIED="1647387611678" TEXT="precisa ser passado o id do setInterval">
 <node CREATED="1647387612534" ID="ID_911733197" MODIFIED="1647387633662" TEXT="atribuir const id = setInterval(callback, time)"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1647558965343" FOLDED="true" ID="ID_1136906619" MODIFIED="1647564669924" TEXT="M&#xe9;todos de Arrays II">
+<node CREATED="1647558974442" ID="ID_1348331998" MODIFIED="1647559058556" TEXT="every(callback)">
+<node CREATED="1647558979927" ID="ID_175800572" MODIFIED="1647559001411" TEXT="testa todos os elementos do array"/>
+<node CREATED="1647559003659" ID="ID_1983968960" MODIFIED="1647559014398" TEXT="se passam pelo teste implementado na fun&#xe7;&#xe3;o callback"/>
+<node CREATED="1647559020997" ID="ID_1820862017" MODIFIED="1647559025653" TEXT="callback &#xe9; passada como argumento"/>
+<node CREATED="1647559028242" ID="ID_1012919079" MODIFIED="1647559094924" TEXT="retorna true ou false"/>
+<node CREATED="1647560410135" ID="ID_82993576" MODIFIED="1647560420099" TEXT="ex.:">
+<node CREATED="1647560434839" ID="ID_1312021203" MODIFIED="1647560434839">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; white-space: pre; font-size: 12px; line-height: 16px">
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">fruits.</span></font><font color="#ffd84f"><b><span style="font-weight: bold; color: #ffd84f">every</span></b></font><font color="#ffffff"><span style="color: #ffffff">((</span></font><font color="#ffd84f"><i><span style="color: #ffd84f; font-style: italic">currentFruit</span></i></font><font color="#ffffff"><span style="color: #ffffff">) </span></font><font color="#ff2499"><i><span style="color: #ff2499; font-style: italic">=&gt;</span></i></font><font color="#ffffff"><span style="color: #ffffff"> {</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; </span></font><font color="#66d9ef"><span style="color: #66d9ef">return</span></font><font color="#ffffff"><span style="color: #ffffff"> currentFruit </span></font><font color="#66d9ef"><span style="color: #66d9ef">!==</span></font><font color="#ffffff"><span style="color: #ffffff"> </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">&quot;banana&quot;</span></font><font color="#ffffff"><span style="color: #ffffff">;</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">})</span></font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1647560216343" ID="ID_1667725729" MODIFIED="1647560223726" TEXT="some(callback)">
+<node CREATED="1647560226078" ID="ID_525872399" MODIFIED="1647560236380" TEXT="testa se pelo menos um dos elementos do array"/>
+<node CREATED="1647560237531" ID="ID_562527400" MODIFIED="1647560246084" TEXT="se passa pelo teste da fun&#xe7;&#xe3;o callback"/>
+<node CREATED="1647560249310" ID="ID_597019499" MODIFIED="1647560255768" TEXT="callback &#xe9; passada como argumento"/>
+<node CREATED="1647560257398" ID="ID_1095210573" MODIFIED="1647560260225" TEXT="retorna true ou false"/>
+<node CREATED="1647560415092" ID="ID_984270772" MODIFIED="1647560416532" TEXT="ex.:">
+<node CREATED="1647560423943" MODIFIED="1647560423943">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; white-space: pre; font-size: 12px; line-height: 16px">
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">names.</span></font><font color="#ffd84f"><b><span style="font-weight: bold; color: #ffd84f">some</span></b></font><font color="#ffffff"><span style="color: #ffffff">((</span></font><font color="#ffd84f"><i><span style="color: #ffd84f; font-style: italic">name</span></i></font><font color="#ffffff"><span style="color: #ffffff">) </span></font><font color="#ff2499"><i><span style="color: #ff2499; font-style: italic">=&gt;</span></i></font><font color="#ffffff"><span style="color: #ffffff"> {</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; </span></font><font color="#66d9ef"><span style="color: #66d9ef">return</span></font><font color="#ffffff"><span style="color: #ffffff"> name </span></font><font color="#66d9ef"><span style="color: #66d9ef">===</span></font><font color="#ffffff"><span style="color: #ffffff"> </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">&quot;Luiz&quot;</span></font><font color="#ffffff"><span style="color: #ffffff">;</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">})</span></font>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1647561911543" ID="ID_720381647" MODIFIED="1647562035702" TEXT="find(callback)">
+<node CREATED="1647562010867" ID="ID_313914237" MODIFIED="1647562032471" TEXT="retorna o primeiro elemento do array que corresponde &#xe0; condi&#xe7;&#xe3;o da fun&#xe7;&#xe3;o callback"/>
+<node CREATED="1647562039216" ID="ID_198592737" MODIFIED="1647562045300" TEXT="caso n&#xe3;o encontre, retorna undefined"/>
+<node CREATED="1647562181564" ID="ID_927198432" MODIFIED="1647562193582" TEXT="se o array for de objetos, ele retorna o primeiro objeto completo encontrado"/>
+<node CREATED="1647562198561" ID="ID_1928593094" MODIFIED="1647562200131" TEXT="ex.:">
+<node CREATED="1647562200742" ID="ID_1620306750" MODIFIED="1647562209361">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; white-space: pre; font-size: 12px; line-height: 16px">
+      <div>
+        <font color="#ffffff">users.</font><b><font color="#ffd84f">find</font></b><font color="#ffffff">((</font><font color="#ffd84f"><i>user</i></font><font color="#ffffff">) </font><font color="#ff2499"><i>=&gt;</i></font><font color="#ffffff">&#160;{</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160; </font><font color="#66d9ef">return</font><font color="#ffffff">&#160;user.name </font><font color="#66d9ef">===</font><font color="#ffffff">&#160;</font><font color="#ffb6dd">&quot;Al&quot;</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">})</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1647562913730" ID="ID_202222955" MODIFIED="1647562918736" TEXT="findIndex(callback)">
+<node CREATED="1647562930942" ID="ID_616660547" MODIFIED="1647562937446" TEXT="retorna o &#xed;ndice do pirmeiro elemento do array"/>
+<node CREATED="1647562939472" ID="ID_1262259830" MODIFIED="1647562951424" TEXT="que corresponda &#xe0; condi&#xe7;&#xe3;o da fun&#xe7;&#xe3;o callback"/>
+<node CREATED="1647562954244" ID="ID_1384304499" MODIFIED="1647562960185" TEXT="caso contr&#xe1;rio, retorna -1"/>
+<node CREATED="1647563137484" ID="ID_848374156" MODIFIED="1647563138984" TEXT="ex.:">
+<node CREATED="1647563139703" MODIFIED="1647563139703">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; white-space: pre; font-size: 12px; line-height: 16px">
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">cars.</span></font><font color="#ffd84f"><b><span style="font-weight: bold; color: #ffd84f">findIndex</span></b></font><font color="#ffffff"><span style="color: #ffffff">((</span></font><font color="#ffd84f"><i><span style="color: #ffd84f; font-style: italic">car</span></i></font><font color="#ffffff"><span style="color: #ffffff">) </span></font><font color="#ff2499"><i><span style="color: #ff2499; font-style: italic">=&gt;</span></i></font><font color="#ffffff"><span style="color: #ffffff"> {</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; </span></font><font color="#66d9ef"><span style="color: #66d9ef">return</span></font><font color="#ffffff"><span style="color: #ffffff"> car.name </span></font><font color="#66d9ef"><span style="color: #66d9ef">===</span></font><font color="#ffffff"><span style="color: #ffffff"> </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">&quot;Mustang&quot;</span></font><font color="#ffffff"><span style="color: #ffffff">;</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">})</span></font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1647563262093" ID="ID_1611798700" MODIFIED="1647563266956" TEXT="filter(callback)">
+<node CREATED="1647563270746" ID="ID_1783489620" MODIFIED="1647563302464" TEXT="cria um novo array com todos os elementos"/>
+<node CREATED="1647563302827" ID="ID_1032134279" MODIFIED="1647563305464" TEXT="elementos que correspondem &#xe0; condi&#xe7;&#xe3;o do callback"/>
+<node CREATED="1647563356990" ID="ID_515945362" MODIFIED="1647563364289" TEXT="n&#xe3;o altera array original"/>
+<node CREATED="1647563499116" ID="ID_951628540" MODIFIED="1647563505674" TEXT="caso n&#xe3;o encontre, retorna array vazio"/>
+<node CREATED="1647563514433" ID="ID_666486894" MODIFIED="1647563515843" TEXT="ex.:">
+<node CREATED="1647563516122" ID="ID_688739503" MODIFIED="1647563529154">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; white-space: pre; font-size: 12px; line-height: 16px">
+      <div>
+        <font color="#ffffff">numbers.</font><b><font color="#ffd84f">filter</font></b><font color="#ffffff">((</font><font color="#ffd84f"><i>number</i></font><font color="#ffffff">) </font><font color="#ff2499"><i>=&gt;</i></font><font color="#ffffff">&#160; {</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160; </font><font color="#66d9ef">return</font><font color="#ffffff">&#160;number </font><font color="#66d9ef">===</font><font color="#ffffff">&#160;</font><font color="#ffd84f">4</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">}</font>)
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1647564033459" ID="ID_1905415343" MODIFIED="1647564036600" TEXT="map(callback)">
+<node CREATED="1647564038809" ID="ID_1186647661" MODIFIED="1647564045152" TEXT="executa fun&#xe7;&#xe3;o callback para cada elemento do array"/>
+<node CREATED="1647564048270" ID="ID_1844978569" MODIFIED="1647564056839" TEXT="retorna novo array como resultado"/>
+<node CREATED="1647564101741" ID="ID_1568311010" MODIFIED="1647564107990" TEXT="n&#xe3;o altera array original"/>
+<node CREATED="1647564661853" ID="ID_849704546" MODIFIED="1647564663640" TEXT="ex.:">
+<node CREATED="1647564664096" MODIFIED="1647564664096">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; white-space: pre; font-size: 12px; line-height: 16px">
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">users.</span></font><font color="#ffd84f"><b><span style="font-weight: bold; color: #ffd84f">map</span></b></font><font color="#ffffff"><span style="color: #ffffff">((</span></font><font color="#ffd84f"><i><span style="color: #ffd84f; font-style: italic">user</span></i></font><font color="#ffffff"><span style="color: #ffffff">) </span></font><font color="#ff2499"><i><span style="color: #ff2499; font-style: italic">=&gt;</span></i></font><font color="#ffffff"><span style="color: #ffffff"> {</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; </span></font><font color="#66d9ef"><span style="color: #66d9ef">return</span></font><font color="#ffffff"><span style="color: #ffffff"> {</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; completeName: user.name </span></font><font color="#66d9ef"><span style="color: #66d9ef">+</span></font><font color="#ffffff"><span style="color: #ffffff"> </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">&quot; &quot;</span></font><font color="#ffffff"><span style="color: #ffffff"> </span></font><font color="#66d9ef"><span style="color: #66d9ef">+</span></font><font color="#ffffff"><span style="color: #ffffff"> user.surname,</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; age: user.age</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; }</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">})</span></font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>

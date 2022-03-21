@@ -909,7 +909,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1647558965343" FOLDED="true" ID="ID_1136906619" MODIFIED="1647564669924" TEXT="M&#xe9;todos de Arrays II">
+<node CREATED="1647558965343" FOLDED="true" ID="ID_1136906619" MODIFIED="1647898767750" TEXT="M&#xe9;todos de Arrays II">
 <node CREATED="1647558974442" ID="ID_1348331998" MODIFIED="1647559058556" TEXT="every(callback)">
 <node CREATED="1647558979927" ID="ID_175800572" MODIFIED="1647559001411" TEXT="testa todos os elementos do array"/>
 <node CREATED="1647559003659" ID="ID_1983968960" MODIFIED="1647559014398" TEXT="se passam pelo teste implementado na fun&#xe7;&#xe3;o callback"/>
@@ -934,8 +934,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -990,8 +989,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1018,8 +1016,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1047,8 +1044,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1084,9 +1080,175 @@
       </div>
     </div>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1647898572513" FOLDED="true" ID="ID_1481382269" MODIFIED="1647903834235" TEXT="M&#xe9;todos de Arrays III">
+<node CREATED="1647898762888" ID="ID_780440298" MODIFIED="1647898764294" TEXT="sort()">
+<node CREATED="1647898784154" ID="ID_976785727" MODIFIED="1647898788777" TEXT="ordena os elementos do pr&#xf3;prio array"/>
+<node CREATED="1647898792260" ID="ID_3252887" MODIFIED="1647898800586" TEXT="por padr&#xe3;o, segue ordem da tabela unicode">
+<node CREATED="1647898892540" ID="ID_1347423403" MODIFIED="1647898899169" TEXT="na unicode, n&#xfa;meros v&#xea;m antes de letras"/>
+<node CREATED="1647900890348" ID="ID_1814332324" MODIFIED="1647900898010" TEXT="letra mai&#xfa;scula vem antes de min&#xfa;scula"/>
+</node>
+<node CREATED="1647898841340" ID="ID_1754881619" MODIFIED="1647898846505" TEXT="opcionalmente, recebe fun&#xe7;&#xe3;o callback">
+<node CREATED="1647898849550" ID="ID_563231583" MODIFIED="1647898856162" TEXT="callback possui 2 par&#xe2;metros">
+<node CREATED="1647898860393" ID="ID_1362603600" MODIFIED="1647898867334" TEXT="primeiro e segundo elemento a serem comparados"/>
+</node>
+<node CREATED="1647899380551" ID="ID_465907581" MODIFIED="1647900003655" TEXT="quando utilizada, o que determina a ordena&#xe7;&#xe3;o &#xe9; o retorno">
+<node CREATED="1647899425710" ID="ID_1168127556" MODIFIED="1647899429931" TEXT="se retorno &lt; 0">
+<node CREATED="1647899434554" ID="ID_362342116" MODIFIED="1647899440996" TEXT="primeiro vem antes do segundo"/>
+</node>
+<node CREATED="1647899460438" ID="ID_1212473076" MODIFIED="1647899464358" TEXT="se retorno &gt; 0">
+<node CREATED="1647899467759" ID="ID_1103701633" MODIFIED="1647899471733" TEXT="segundo vem antes do primeiro"/>
+</node>
+<node CREATED="1647899489621" ID="ID_1154988938" MODIFIED="1647899492394" TEXT="se retorno = 0">
+<node CREATED="1647899494894" ID="ID_214415267" MODIFIED="1647899501750" TEXT="mant&#xe9;m primeiro e segundo inalterados"/>
+</node>
+</node>
+<node CREATED="1647900004263" ID="ID_1030452168" MODIFIED="1647900007863" TEXT="ordena&#xe7;&#xe3;o crescente">
+<node CREATED="1647900060325" ID="ID_541694920" MODIFIED="1647900070556">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="white-space: pre; background-color: #151416; color: #ffffff; font-family: Consolas, Courier New, monospace; line-height: 16px; font-size: 12px; font-weight: normal">
+      <div>
+        <font color="#ffffff">numbers.</font><b><font color="#ffd84f">sort</font></b><font color="#ffffff">((</font><i><font color="#ffd84f">a</font></i><font color="#ffffff">, </font><i><font color="#ffd84f">b</font></i><font color="#ffffff">) </font><i><font color="#ff2499">=&gt;</font></i><font color="#ffffff">&#160; {</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160; </font><font color="#66d9ef">return</font><font color="#ffffff">&#160;a </font><font color="#66d9ef">-</font><font color="#ffffff">&#160;b;</font>
+      </div>
+      <div>
+        <font color="#ffffff">});</font>
+      </div>
+    </div>
+  </body>
 </html>
 </richcontent>
 </node>
+</node>
+<node CREATED="1647900009778" ID="ID_372103703" MODIFIED="1647900014683" TEXT="ordena&#xe7;&#xe3;o decrescente">
+<node CREATED="1647900075163" ID="ID_224795170" MODIFIED="1647900083060">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="white-space: pre; background-color: #151416; color: #ffffff; font-family: Consolas, Courier New, monospace; line-height: 16px; font-size: 12px; font-weight: normal">
+      <div>
+        <font color="#ffffff">numbers.</font><b><font color="#ffd84f">sort</font></b><font color="#ffffff">((</font><i><font color="#ffd84f">a</font></i><font color="#ffffff">, </font><i><font color="#ffd84f">b</font></i><font color="#ffffff">) </font><i><font color="#ff2499">=&gt;</font></i><font color="#ffffff">&#160; {</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160; </font><font color="#66d9ef">return</font><font color="#ffffff">&#160;b </font><font color="#66d9ef">-</font><font color="#ffffff">&#160;a;</font>
+      </div>
+      <div>
+        <font color="#ffffff">});</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1647899106565" ID="ID_810782033" MODIFIED="1647899116482" TEXT="altera o array original"/>
+<node CREATED="1647900974637" ID="ID_1125017870" MODIFIED="1647900982166" TEXT="localeCompare()">
+<node CREATED="1647900988027" ID="ID_1646354849" MODIFIED="1647900995868" TEXT="retorna um n&#xfa;mero se string de refer&#xea;ncia">
+<node CREATED="1647901000178" ID="ID_1381902401" MODIFIED="1647901008273" TEXT="vem antes, depois ou &#xe9; igual a string comparada"/>
+</node>
+<node CREATED="1647901275946" ID="ID_1572395033" MODIFIED="1647901291513" TEXT="ignora diferen&#xe7;a de mai&#xfa;scula e min&#xfa;scula">
+<node CREATED="1647901291792" ID="ID_365313780" MODIFIED="1647901297623" TEXT="ignora caracteres especiais"/>
+</node>
+<node CREATED="1647901234019" ID="ID_1040049776" MODIFIED="1647901237701" TEXT="ordena&#xe7;&#xe3;o crescente">
+<node CREATED="1647901238117" ID="ID_1735011814" MODIFIED="1647901238117">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="white-space: pre; background-color: #151416; color: #ffffff; font-family: Consolas, Courier New, monospace; line-height: 16px; font-size: 12px; font-weight: normal">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">people.</font></span><span style="color: #ffd84f; font-weight: bold"><b><font color="#ffd84f">sort</font></b></span><span style="color: #ffffff"><font color="#ffffff">((</font></span><span style="color: #ffd84f; font-style: italic"><i><font color="#ffd84f">a</font></i></span><span style="color: #ffffff"><font color="#ffffff">, </font></span><span style="color: #ffd84f; font-style: italic"><i><font color="#ffd84f">b</font></i></span><span style="color: #ffffff"><font color="#ffffff">) </font></span><span style="color: #ff2499; font-style: italic"><i><font color="#ff2499">=&gt;</font></i></span><span style="color: #ffffff"><font color="#ffffff"> {</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="color: #66d9ef"><font color="#66d9ef">return</font></span><span style="color: #ffffff"><font color="#ffffff"> a.</font></span><span style="color: #ffd84f; font-weight: bold"><b><font color="#ffd84f">localeCompare</font></b></span><span style="color: #ffffff"><font color="#ffffff">(b);</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">});</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1647901245138" ID="ID_1343045017" MODIFIED="1647901249308" TEXT="ordena&#xe7;&#xe3;o decrescente">
+<node CREATED="1647901249681" ID="ID_1997285617" MODIFIED="1647901255002">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="white-space: pre; background-color: #151416; color: #ffffff; font-family: Consolas, Courier New, monospace; line-height: 16px; font-size: 12px; font-weight: normal">
+      <div>
+        <font color="#ffffff">people.</font><b><font color="#ffd84f">sort</font></b><font color="#ffffff">((</font><i><font color="#ffd84f">a</font></i><font color="#ffffff">, </font><i><font color="#ffd84f">b</font></i><font color="#ffffff">) </font><i><font color="#ff2499">=&gt;</font></i><font color="#ffffff">&#160; {</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160; </font><font color="#66d9ef">return</font><font color="#ffffff">&#160;b.</font><b><font color="#ffd84f">localeCompare</font></b><font color="#ffffff">(a);</font>
+      </div>
+      <div>
+        <font color="#ffffff">});</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1647902097933" ID="ID_706057815" MODIFIED="1647902112238" TEXT="reduce(callback)">
+<node CREATED="1647902101575" ID="ID_360019666" MODIFIED="1647902125506" TEXT="executa fun&#xe7;&#xe3;o callback para cada elemento do array"/>
+<node CREATED="1647902130279" ID="ID_1111813303" MODIFIED="1647902135881" TEXT="resulta em apenas um valor de retorno"/>
+<node CREATED="1647902160170" ID="ID_1363713847" MODIFIED="1647902181746" TEXT="a fun&#xe7;&#xe3;o cb recebe 4 argumentos">
+<node CREATED="1647902188492" ID="ID_1850799562" MODIFIED="1647902190196" TEXT="acumulador">
+<node CREATED="1647902194675" ID="ID_1438721416" MODIFIED="1647902202612" TEXT="valor inicial ou valor do callback anterior"/>
+<node CREATED="1647902320621" ID="ID_1721143949" MODIFIED="1647902335028" TEXT="por padr&#xe3;o, pega o primeiro elemento do array"/>
+</node>
+<node CREATED="1647902211259" ID="ID_404786482" MODIFIED="1647902213427" TEXT="valorAtual">
+<node CREATED="1647902215998" ID="ID_797831899" MODIFIED="1647902219636" TEXT="o valor do elemento atual"/>
+</node>
+<node CREATED="1647902230564" ID="ID_938036820" MODIFIED="1647902233526" TEXT="index">
+<node CREATED="1647902236106" ID="ID_1837913839" MODIFIED="1647902238745" TEXT="&#xed;ndice atual"/>
+</node>
+<node CREATED="1647902240314" ID="ID_1037690037" MODIFIED="1647902241409" TEXT="array">
+<node CREATED="1647902241700" ID="ID_1980500201" MODIFIED="1647902246789" TEXT="array completo"/>
+</node>
+</node>
+<node CREATED="1647902791827" ID="ID_794886441" MODIFIED="1647902796600" TEXT="n&#xe3;o altera array original"/>
+<node CREATED="1647903239268" ID="ID_1968040712" MODIFIED="1647903246806">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="white-space: pre; background-color: #151416; color: #ffffff; font-family: Consolas, Courier New, monospace; line-height: 16px; font-size: 12px; font-weight: normal">
+      <div>
+        <font color="#ffffff">array.</font><b><font color="#ffd84f">reduce</font></b><font color="#ffffff">((</font><i><font color="#ffd84f">acumulator</font></i><font color="#ffffff">, </font><i><font color="#ffd84f">currentItem</font></i><font color="#ffffff">, </font><i><font color="#ffd84f">index</font></i><font color="#ffffff">, </font><i><font color="#ffd84f">array</font></i><font color="#ffffff">) </font><i><font color="#ff2499">=&gt;</font></i><font color="#ffffff">&#160;{</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160; </font><font color="#66d9ef">return</font><font color="#ffffff">&#160;acumulator </font><font color="#66d9ef">+</font><font color="#ffffff">&#160; currentItem;</font>
+      </div>
+      <div>
+        <font color="#ffffff">})</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>

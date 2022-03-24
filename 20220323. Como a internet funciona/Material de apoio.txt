@@ -1,0 +1,14 @@
+Roadmap para se tornar um dev back-end (inglês)
+https://roadmap.sh/backend
+
+Como a Internet funciona?
+https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/How_does_the_Internet_work
+
+O que é um navegador web?
+https://www.mozilla.org/pt-BR/firefox/browsers/what-is-a-browser/#:~:text=How%20does%20a%20web%20browser,are%20transmitted%20on%20the%20web.
+
+Uma visão geral do HTTP
+https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview
+
+Mensagens HTTP
+https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Messages

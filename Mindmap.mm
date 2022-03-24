@@ -1126,8 +1126,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1647900009778" ID="ID_372103703" MODIFIED="1647900014683" TEXT="ordena&#xe7;&#xe3;o decrescente">
@@ -1149,8 +1148,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1181,8 +1179,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1647901245138" ID="ID_1343045017" MODIFIED="1647901249308" TEXT="ordena&#xe7;&#xe3;o decrescente">
@@ -1204,8 +1201,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1247,8 +1243,211 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1648071719273" FOLDED="true" ID="ID_452046203" MODIFIED="1648080119143" TEXT="Como a internet funciona?">
+<node CREATED="1648071818359" ID="ID_1357158709" MODIFIED="1648071820164" TEXT="Computadores">
+<node CREATED="1648073063606" ID="ID_1621564463" MODIFIED="1648073070585" TEXT="S&#xe3;o dispositivos &quot;program&#xe1;veis&quot;"/>
+<node CREATED="1648073089274" ID="ID_1530006631" MODIFIED="1648073092758" TEXT="Exemplos">
+<node CREATED="1648073093037" ID="ID_605876602" MODIFIED="1648073095711" TEXT="Desktop"/>
+<node CREATED="1648073096572" ID="ID_501700016" MODIFIED="1648073098382" TEXT="Notebook"/>
+<node CREATED="1648073098776" ID="ID_443371917" MODIFIED="1648073099543" TEXT="TV"/>
+<node CREATED="1648073112819" ID="ID_1930522220" MODIFIED="1648073117490" TEXT="L&#xe2;mpada inteligente"/>
+<node CREATED="1648073135213" ID="ID_215839192" MODIFIED="1648073142044" TEXT="Video games"/>
+<node CREATED="1648073154287" ID="ID_416951178" MODIFIED="1648073158028" TEXT="Fones bluetooth"/>
+<node CREATED="1648073176954" ID="ID_941014227" MODIFIED="1648073177784" TEXT="Carro"/>
+<node CREATED="1648073198604" ID="ID_1117602918" MODIFIED="1648073202231" TEXT="Roteador wifi"/>
+<node CREATED="1648073212613" ID="ID_1178968474" MODIFIED="1648073214998" TEXT="Smartphones"/>
+<node CREATED="1648073241868" ID="ID_230317319" MODIFIED="1648073247169" TEXT="Servidor de &#xfa;ltima gera&#xe7;&#xe3;o">
+<node CREATED="1648073247494" ID="ID_1396481959" MODIFIED="1648073253210" TEXT="Computadores muito potentes e muito caros"/>
+</node>
+</node>
+<node CREATED="1648073308943" ID="ID_167308615" MODIFIED="1648073314744" TEXT="Arquitetura de Von Neumann">
+<node CREATED="1648073318348" ID="ID_275587783" MODIFIED="1648073321825" TEXT="Proposta em 1945"/>
+<node CREATED="1648073324716" ID="ID_939167775" MODIFIED="1648073332264" TEXT="Modelo refer&#xea;ncia para computadores at&#xe9; hoje"/>
+<node CREATED="1648073346408" ID="ID_577777213" MODIFIED="1648073348378" TEXT="Arquitetura">
+<node CREATED="1648073349004" ID="ID_665735167" MODIFIED="1648073351943" TEXT="Input device"/>
+<node CREATED="1648073352356" ID="ID_1022664147" MODIFIED="1648073361498" TEXT="CPU (Central Processing Unit)">
+<node CREATED="1648073363059" ID="ID_1511429241" MODIFIED="1648073365679" TEXT="Control unit"/>
+<node CREATED="1648073367538" ID="ID_1659251583" MODIFIED="1648073369584" TEXT="Logic unit"/>
+</node>
+<node CREATED="1648073373228" ID="ID_1615095619" MODIFIED="1648073376975" TEXT="Memory unit"/>
+<node CREATED="1648073378706" ID="ID_1516952764" MODIFIED="1648073381066" TEXT="Output device"/>
+</node>
+</node>
+</node>
+<node CREATED="1648075893091" ID="ID_1775400026" MODIFIED="1648075896413" TEXT="IP e Rotas">
+<node CREATED="1648075959067" ID="ID_1209896644" MODIFIED="1648075960050" TEXT="LAN">
+<node CREATED="1648075964988" ID="ID_1701542778" MODIFIED="1648075970182" TEXT="Local Area Network"/>
+<node CREATED="1648075973396" ID="ID_597402240" MODIFIED="1648075980920" TEXT="Rede privada entre dispositivos dom&#xe9;sticos"/>
+</node>
+<node CREATED="1648076037818" ID="ID_1580678986" MODIFIED="1648076038503" TEXT="IP">
+<node CREATED="1648076204638" ID="ID_465603592" MODIFIED="1648076220166" TEXT="Endere&#xe7;o para um computador em uma rede">
+<node CREATED="1648076223727" ID="ID_622083501" MODIFIED="1648076228538" TEXT="&#xe9; como um n&#xfa;mero de telefone"/>
+</node>
+<node CREATED="1648076038825" ID="ID_687272476" MODIFIED="1648076044829" TEXT="Na internet, todo computador possui um IP"/>
+<node CREATED="1648076061278" ID="ID_932172509" MODIFIED="1648076068056" TEXT="Composto por 4 n&#xfa;meros, que v&#xe3;o de 0 a 255">
+<node CREATED="1648076274620" ID="ID_1294633034" MODIFIED="1648076314113" TEXT="Come&#xe7;o do c&#xf3;digo indica &#xe1;rea/regi&#xe3;o do IP, mas n&#xe3;o d&#xe1; certeza de localiza&#xe7;&#xe3;o"/>
+</node>
+<node CREATED="1648076125968" ID="ID_1494219547" MODIFIED="1648076140031" TEXT="Na internet, os computadores possuem IP global"/>
+<node CREATED="1648076155851" ID="ID_118731498" MODIFIED="1648076164523" TEXT="Computadores trocam mensagens o tempo todo"/>
+</node>
+<node CREATED="1648076330000" ID="ID_151144845" MODIFIED="1648076331971" TEXT="Pacote">
+<node CREATED="1648076333334" ID="ID_448354772" MODIFIED="1648076344789" TEXT="bloco de informa&#xe7;&#xe3;o trocado entre 2 computadores"/>
+<node CREATED="1648076349056" ID="ID_1671626815" MODIFIED="1648076368273" TEXT="possui endere&#xe7;os IP de origem e de destino"/>
+</node>
+<node CREATED="1648076439623" ID="ID_224938374" MODIFIED="1648076441573" TEXT="Roteador">
+<node CREATED="1648076442926" ID="ID_1913496764" MODIFIED="1648076472422" TEXT="Computador respons&#xe1;vel por encaminhar pacotes em uma rede para o destinat&#xe1;rio correto"/>
+</node>
+<node CREATED="1648076640531" ID="ID_326324229" MODIFIED="1648076642011" TEXT="Rota">
+<node CREATED="1648076643358" ID="ID_582761813" MODIFIED="1648076689332" TEXT="caminho que um pacote trilha passando por diversos computadores (ou roteadores) at&#xe9; chegar ao destino"/>
+</node>
+<node CREATED="1648076730734" ID="ID_823310803" MODIFIED="1648076731875" TEXT="Hop">
+<node CREATED="1648076733962" ID="ID_754721731" MODIFIED="1648076751995" TEXT="salto que o pacote faz durante o caminho, passando por 2 computadores diretamente conectados"/>
+</node>
+<node CREATED="1648076774390" ID="ID_1251526175" MODIFIED="1648076776050" TEXT="Peering">
+<node CREATED="1648076777952" ID="ID_815772146" MODIFIED="1648076793321" TEXT="acordo entre 2 empresas de telecomunica&#xe7;&#xe3;o para rotear tr&#xe1;fego entre elas"/>
+</node>
+</node>
+<node CREATED="1648077254250" ID="ID_616147370" MODIFIED="1648077255148" TEXT="Cloud">
+<node CREATED="1648077256629" ID="ID_200488989" MODIFIED="1648077260089" TEXT="O que &#xe9; datacenter?">
+<node CREATED="1648077271074" ID="ID_293399613" MODIFIED="1648077275204" TEXT="constru&#xe7;&#xe3;o com muitos servidores"/>
+<node CREATED="1648077330638" ID="ID_509358035" MODIFIED="1648077343859" TEXT="v&#xe1;rias geladeiras com muitos servidores dentro"/>
+</node>
+<node CREATED="1648077353735" ID="ID_1232505267" MODIFIED="1648077357965" TEXT="cloud &#xe9; o computador de outra pessoa">
+<node CREATED="1648077361153" ID="ID_1377095309" MODIFIED="1648077366294" TEXT="&#xe9; alugar servidores"/>
+<node CREATED="1648077405565" ID="ID_93607639" MODIFIED="1648077445110" TEXT="e vc pode alugar um de gra&#xe7;a (free por um tempo)"/>
+</node>
+</node>
+<node CREATED="1648077575730" ID="ID_579636147" MODIFIED="1648077986288" TEXT="DNS">
+<node CREATED="1648077595483" ID="ID_925195036" MODIFIED="1648077603505" TEXT="IPs s&#xe3;o dif&#xed;ceis de lembrar e mudam"/>
+<node CREATED="1648077679929" ID="ID_1520251121" MODIFIED="1648077727433" TEXT="Ao tentar entra em um site &quot;cubos.academy&quot;">
+<node CREATED="1648077698402" ID="ID_267719778" MODIFIED="1648077707617" TEXT="meu computador envia uma mensagem para um servidor DNS">
+<node CREATED="1648077741299" ID="ID_340224729" MODIFIED="1648077749836" TEXT="ele responde os IPs que correspondem ao site">
+<node CREATED="1648077766429" ID="ID_950103811" MODIFIED="1648077777739" TEXT="meu computador escolhe um dos IPs e utiliza ele pra acessar"/>
+</node>
+</node>
+<node CREATED="1648077708086" ID="ID_1980943405" MODIFIED="1648077718455" TEXT="&quot;Qual o IP desse site?&quot;"/>
+</node>
+<node CREATED="1648077860134" ID="ID_657071624" MODIFIED="1648077865874" TEXT="dom&#xed;nios podem ser comprados">
+<node CREATED="1648077883673" ID="ID_638480196" MODIFIED="1648077940470" TEXT="Depois de adquirir um dom&#xed;nio, eu informo ao &#xf3;rg&#xe3;o de dom&#xed;nios qual o IP a ser utilizado"/>
+</node>
+<node CREATED="1648078084606" ID="ID_1831014745" MODIFIED="1648078092441" TEXT="Domain Name System">
+<node CREATED="1648078095183" ID="ID_1326997191" MODIFIED="1648078105635" TEXT="sistema respons&#xe1;vel por identificar o IP atrelado a um dom&#xed;nio"/>
+</node>
+</node>
+<node CREATED="1648077986776" ID="ID_262164960" MODIFIED="1648077987906" TEXT="URL">
+<node CREATED="1648078116230" ID="ID_1600316737" MODIFIED="1648078121606" TEXT="Uniform Resource Locator">
+<node CREATED="1648078126602" ID="ID_1802008239" MODIFIED="1648078166819" TEXT="forma padronizada de descrever a localiza&#xe7;&#xe3;o de um &quot;recurso&quot;"/>
+</node>
+<node CREATED="1648078173218" ID="ID_905626964" MODIFIED="1648078175631" TEXT="estrutura de URL">
+<node CREATED="1648078177820" ID="ID_368470973" MODIFIED="1648078195430" TEXT="https://cubos.academy/cursos/programacao-do-zero/">
+<node CREATED="1648078226507" ID="ID_1657127090" MODIFIED="1648078228701" TEXT="https">
+<node CREATED="1648078229819" ID="ID_1761442506" MODIFIED="1648078233497" TEXT="protocolo de comunica&#xe7;&#xe3;o"/>
+</node>
+<node CREATED="1648078240382" ID="ID_574333737" MODIFIED="1648078243231" TEXT="cubos.academy">
+<node CREATED="1648078243572" ID="ID_1003495651" MODIFIED="1648078246512" TEXT="host ou dom&#xed;nio"/>
+</node>
+<node CREATED="1648078263257" ID="ID_1226605679" MODIFIED="1648078276360" TEXT="/cursos/programacao-do-zero/">
+<node CREATED="1648078277780" ID="ID_581037728" MODIFIED="1648078278927" TEXT="recurso"/>
+</node>
+</node>
+</node>
+<node CREATED="1648078308654" ID="ID_590379988" MODIFIED="1648078310604" TEXT="protocolo">
+<node CREATED="1648078312757" ID="ID_888149829" MODIFIED="1648078330049" TEXT="conjunto de regras que estabelece como 2 computadores devem se comunicar"/>
+<node CREATED="1648078331579" ID="ID_145262753" MODIFIED="1648078337533" TEXT="&#xe9; a linguagem entre m&#xe1;quinas"/>
+</node>
+<node CREATED="1648078420107" ID="ID_222872504" MODIFIED="1648078420895" TEXT="porta">
+<node CREATED="1648078423753" ID="ID_122702912" MODIFIED="1648078451271" TEXT="identifica&#xe7;&#xe3;o de qual aplica&#xe7;&#xe3;o dentro do servidor &#xe9; o destinat&#xe1;rio de uma mensagem na rede"/>
+<node CREATED="1648078454169" ID="ID_1767891143" MODIFIED="1648078461437" TEXT="HTTP geralmente utiliza porta 80"/>
+<node CREATED="1648078463261" ID="ID_473893411" MODIFIED="1648078472421" TEXT="HTTPS geralmente utiliza 443"/>
+</node>
+<node CREATED="1648078548353" ID="ID_808751909" MODIFIED="1648078552856" TEXT="estrutura mais complexa de URL">
+<node CREATED="1648078555064" ID="ID_551903350" MODIFIED="1648078834132" TEXT="https://algumsite.com.br:1234/caminho/da/pagina?aa=12&amp;bb=xz&amp;k=3#paragrafo2">
+<node CREATED="1648078226507" ID="ID_154382197" MODIFIED="1648078228701" TEXT="https">
+<node CREATED="1648078229819" ID="ID_1548442499" MODIFIED="1648078626275" TEXT="protocolo https"/>
+</node>
+<node CREATED="1648078240382" ID="ID_290721577" MODIFIED="1648078645628" TEXT="algumsite.com.br">
+<node CREATED="1648078243572" ID="ID_760285581" MODIFIED="1648078246512" TEXT="host ou dom&#xed;nio"/>
+</node>
+<node CREATED="1648078651598" ID="ID_1752247305" MODIFIED="1648078652708" TEXT="1234">
+<node CREATED="1648078689559" ID="ID_144328597" MODIFIED="1648078690353" TEXT="porta"/>
+</node>
+<node CREATED="1648078695338" ID="ID_551510809" MODIFIED="1648078764936" TEXT="/caminho/da/pagina">
+<node CREATED="1648078766638" ID="ID_1339522674" MODIFIED="1648078768417" TEXT="recurso"/>
+</node>
+<node CREATED="1648078788873" ID="ID_1986140369" MODIFIED="1648078837026" TEXT="?aa=12&amp;bb=xz&amp;k=3">
+<node CREATED="1648078801875" ID="ID_1127401259" MODIFIED="1648078803714" TEXT="parametros">
+<node CREATED="1648078804169" ID="ID_1163160202" MODIFIED="1648078806247" TEXT="aa = 12"/>
+<node CREATED="1648078807619" ID="ID_836005269" MODIFIED="1648078814198" TEXT="bb = xz"/>
+<node CREATED="1648078814639" ID="ID_299621490" MODIFIED="1648078815811" TEXT="k = 3"/>
+</node>
+</node>
+<node CREATED="1648078837574" ID="ID_1083411963" MODIFIED="1648078838031" TEXT="#paragrafo2">
+<node CREATED="1648078843479" ID="ID_1564155555" MODIFIED="1648078853876" TEXT="fragmento ou parte do recurso"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1648079026185" ID="ID_1098183155" MODIFIED="1648079030028" TEXT="Protocolo HTTP">
+<node CREATED="1648079058882" ID="ID_1885726425" MODIFIED="1648079065776" TEXT="baseado em requisi&#xe7;&#xf5;es e respostas">
+<node CREATED="1648079084713" ID="ID_665472741" MODIFIED="1648079092087" TEXT="cliente envia requisi&#xe7;&#xe3;o para servidor"/>
+<node CREATED="1648079092399" ID="ID_230972252" MODIFIED="1648079099908" TEXT="servidor responde para cliente">
+<node CREATED="1648079990534" ID="ID_22165590" MODIFIED="1648080001804" TEXT="Browsers/Navegadores s&#xe3;o clientes HTTP"/>
+</node>
+</node>
+<node CREATED="1648079141423" ID="ID_251259180" MODIFIED="1648079146296" TEXT="Requisi&#xe7;&#xe3;o HTTP">
+<node CREATED="1648079153435" ID="ID_1565847497" MODIFIED="1648079155036" TEXT="verbo">
+<node CREATED="1648079155364" ID="ID_492175502" MODIFIED="1648079160238" TEXT="a&#xe7;&#xe3;o a realizar"/>
+<node CREATED="1648079161920" ID="ID_1504568725" MODIFIED="1648079162677" TEXT="get">
+<node CREATED="1648079313078" ID="ID_1598219179" MODIFIED="1648079320386" TEXT="o cliente quer obter esse recurso"/>
+<node CREATED="1648079322031" ID="ID_333499510" MODIFIED="1648079324167" TEXT="ler ou baixar"/>
+</node>
+<node CREATED="1648079163060" ID="ID_500872498" MODIFIED="1648079164473" TEXT="head">
+<node CREATED="1648079327015" ID="ID_755375130" MODIFIED="1648079342336" TEXT="o cliente quer ver apenas as caracter&#xed;sticas do recurso"/>
+<node CREATED="1648079346019" ID="ID_57547981" MODIFIED="1648079349706" TEXT="mas n&#xe3;o quer ver o recurso em si"/>
+</node>
+<node CREATED="1648079165737" ID="ID_1951279168" MODIFIED="1648079166502" TEXT="post">
+<node CREATED="1648079352745" ID="ID_589836633" MODIFIED="1648079361926" TEXT="o cliente quer enviar um novo recurso para o servidor"/>
+</node>
+<node CREATED="1648079167475" ID="ID_251195420" MODIFIED="1648079168232" TEXT="put">
+<node CREATED="1648079366721" ID="ID_1659879304" MODIFIED="1648079374414" TEXT="o cliente quer substituir um recurso que talvez j&#xe1; exista"/>
+</node>
+<node CREATED="1648079168566" ID="ID_767524931" MODIFIED="1648079170409" TEXT="patch">
+<node CREATED="1648079378281" ID="ID_1951073426" MODIFIED="1648079385448" TEXT="o cliente quer editar um recurso que j&#xe1; existe"/>
+</node>
+<node CREATED="1648079171772" ID="ID_1042866168" MODIFIED="1648079174125" TEXT="delete">
+<node CREATED="1648079391755" ID="ID_38710799" MODIFIED="1648079396786" TEXT="o cliente quer deletar um recurso"/>
+</node>
+<node CREATED="1648079175331" ID="ID_152503693" MODIFIED="1648079176725" TEXT="options">
+<node CREATED="1648079398386" ID="ID_1515505996" MODIFIED="1648079411908" TEXT="o cliente quer saber o que ele pode fazer com um recurso"/>
+</node>
+</node>
+<node CREATED="1648079178501" ID="ID_42918597" MODIFIED="1648079179490" TEXT="recurso">
+<node CREATED="1648079182130" ID="ID_1726755144" MODIFIED="1648079192128" TEXT="a parte da URL que vem depois do dom&#xed;nio"/>
+</node>
+<node CREATED="1648079196978" ID="ID_950911241" MODIFIED="1648079201212" TEXT="cabe&#xe7;alhos">
+<node CREATED="1648079205517" ID="ID_1219343284" MODIFIED="1648079221961" TEXT="conjunto de caracter&#xed;sticas do cliente, para contextualizar servidor"/>
+</node>
+<node CREATED="1648079224119" ID="ID_1191412309" MODIFIED="1648079225644" TEXT="conte&#xfa;do">
+<node CREATED="1648079225644" ID="ID_306630268" MODIFIED="1648079228128" TEXT="dados enviados"/>
+</node>
+</node>
+<node CREATED="1648079606278" ID="ID_319989097" MODIFIED="1648079611939" TEXT="Resposta HTTP">
+<node CREATED="1648079613023" ID="ID_436757882" MODIFIED="1648079618457" TEXT="c&#xf3;digo de status">
+<node CREATED="1648079628314" ID="ID_1203408201" MODIFIED="1648079637033" TEXT="c&#xf3;digo que indica se requisi&#xe7;&#xe3;o deu certo ou n&#xe3;o e o motivo"/>
+<node CREATED="1648079728156" ID="ID_1009874550" MODIFIED="1648079733197" TEXT="poss&#xed;veis status">
+<node CREATED="1648079750615" ID="ID_1264617113" MODIFIED="1648079751240" TEXT="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status"/>
+</node>
+</node>
+<node CREATED="1648079619899" ID="ID_1443984894" MODIFIED="1648079622356" TEXT="cabe&#xe7;alhos">
+<node CREATED="1648079639100" ID="ID_1436073373" MODIFIED="1648079654506" TEXT="conjunto de caracter&#xed;sticas desse recurso, para contextualizar o cliente"/>
+</node>
+<node CREATED="1648079623552" ID="ID_1386670091" MODIFIED="1648079625182" TEXT="conte&#xfa;do">
+<node CREATED="1648079665732" ID="ID_489242643" MODIFIED="1648079667623" TEXT="dados recebidos"/>
+</node>
 </node>
 </node>
 </node>

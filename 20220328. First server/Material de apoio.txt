@@ -1,0 +1,8 @@
+NPM:
+https://www.npmjs.com/
+
+Express:
+https://expressjs.com/pt-br/
+
+gitignore:
+https://docs.github.com/pt/get-started/getting-started-with-git/ignoring-files

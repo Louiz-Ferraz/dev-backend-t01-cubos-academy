@@ -1,0 +1,15 @@
+{
+  "name": "first-server",
+  "version": "0.0.1",
+  "description": "Primeiro servidor criado no curso de backend da Cubos Academy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luiz Ferraz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "lodash": "^4.17.21"
+  }
+}

@@ -1247,7 +1247,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1648071719273" FOLDED="true" ID="ID_452046203" MODIFIED="1648080119143" TEXT="Como a internet funciona?">
+<node CREATED="1648071719273" FOLDED="true" ID="ID_452046203" MODIFIED="1648510585473" TEXT="Como a internet funciona?">
 <node CREATED="1648071818359" ID="ID_1357158709" MODIFIED="1648071820164" TEXT="Computadores">
 <node CREATED="1648073063606" ID="ID_1621564463" MODIFIED="1648073070585" TEXT="S&#xe3;o dispositivos &quot;program&#xe1;veis&quot;"/>
 <node CREATED="1648073089274" ID="ID_1530006631" MODIFIED="1648073092758" TEXT="Exemplos">
@@ -1449,6 +1449,77 @@
 <node CREATED="1648079665732" ID="ID_489242643" MODIFIED="1648079667623" TEXT="dados recebidos"/>
 </node>
 </node>
+</node>
+</node>
+<node CREATED="1648506440579" FOLDED="true" ID="ID_1356861374" MODIFIED="1648511347338" TEXT="Primeiro servidor">
+<node CREATED="1648506483808" ID="ID_1934087291" MODIFIED="1648506485079" TEXT="Pacotes">
+<node CREATED="1648506525617" ID="ID_564727751" MODIFIED="1648506533427" TEXT="Conjunto de c&#xf3;digos que resolve determinado problema"/>
+<node CREATED="1648506536513" ID="ID_147175353" MODIFIED="1648506557730" TEXT="Foi desenvolvido por algu&#xe9;m e disponibilizado para uso em outros projetos"/>
+<node CREATED="1648506720481" ID="ID_1532149781" MODIFIED="1648506726005" TEXT="Tamb&#xe9;m chamados de bibliotecas"/>
+</node>
+<node CREATED="1648506660258" ID="ID_891914972" MODIFIED="1648506661254" TEXT="NPM">
+<node CREATED="1648506664521" ID="ID_1258446379" MODIFIED="1648506669347" TEXT="Node Package Manager"/>
+<node CREATED="1648506691217" ID="ID_255691875" MODIFIED="1648506700389" TEXT="Gerenciador de pacotes do Node.js"/>
+<node CREATED="1648506703025" ID="ID_1235422259" MODIFIED="1648506714911" TEXT="Permite instalar, remover e atualizar os pacotes em um projeto"/>
+<node CREATED="1648506758244" ID="ID_1659798127" MODIFIED="1648506765544" TEXT="Necess&#xe1;rio ter o Node.js instalado"/>
+<node CREATED="1648506750450" ID="ID_826674551" MODIFIED="1648506750835" TEXT="https://www.npmjs.com/"/>
+<node CREATED="1648507045728" ID="ID_901979100" MODIFIED="1648507048743" TEXT="npm init">
+<node CREATED="1648507049070" ID="ID_627223520" MODIFIED="1648507054655" TEXT="inicializar NPM no Node.js"/>
+<node CREATED="1648507294590" ID="ID_592036017" MODIFIED="1648507297765" TEXT="npm init -y">
+<node CREATED="1648507297765" ID="ID_1612424172" MODIFIED="1648507307340" TEXT="cria o servidor com todas as op&#xe7;&#xf5;es default"/>
+</node>
+</node>
+<node CREATED="1648507351080" ID="ID_1271143703" MODIFIED="1648507359976" TEXT="package.json">
+<node CREATED="1648507381247" ID="ID_329045224" MODIFIED="1648507388003" TEXT="arquivo de configura&#xe7;&#xe3;o do projeto em node.js"/>
+<node CREATED="1648507388592" ID="ID_504732518" MODIFIED="1648507393917" TEXT="criado ao utilizar o npm init"/>
+</node>
+<node CREATED="1648507474800" ID="ID_940306574" MODIFIED="1648507487016" TEXT="npm install &quot;nome-do-pacote&quot;">
+<node CREATED="1648507499963" ID="ID_55230522" MODIFIED="1648507505467" TEXT="instalar pacotes"/>
+<node CREATED="1648507586043" ID="ID_1182582952" MODIFIED="1648507594684" TEXT="sem passar a vers&#xe3;o do pacote a instalar, instala a mais atual"/>
+</node>
+</node>
+<node CREATED="1648507708236" ID="ID_1700761236" MODIFIED="1648507710681" TEXT="gitignore">
+<node CREATED="1648507763250" ID="ID_1406367983" MODIFIED="1648507785983" TEXT="Utilizado no git para ignorar determinados arquivos e n&#xe3;o os subir"/>
+<node CREATED="1648507787375" ID="ID_300053374" MODIFIED="1648507807087" TEXT="&#xc9; boa pr&#xe1;tica n&#xe3;o pushar a pasta &quot;node-modules&quot;">
+<node CREATED="1648507808707" ID="ID_659569807" MODIFIED="1648507822507" TEXT="Essa pasta costuma ficar grande e &#xe9; desnecess&#xe1;rio"/>
+<node CREATED="1648507836761" ID="ID_1419403930" MODIFIED="1648507853537" TEXT="O arquivo package.json baixa as depend&#xea;ncias quando algu&#xe9;m for executar o c&#xf3;digo">
+<node CREATED="1648507900064" ID="ID_1055447382" MODIFIED="1648507904484" TEXT="s&#xf3; rodar comando npm install"/>
+<node CREATED="1648508419761" ID="ID_1154962847" MODIFIED="1648508421551" TEXT="ou npm i"/>
+</node>
+</node>
+<node CREATED="1648508258492" ID="ID_76037024" MODIFIED="1648508264322" TEXT="criar arquivo .gitignore">
+<node CREATED="1648508264681" ID="ID_1527354007" MODIFIED="1648508284412" TEXT="escrever o nome das pastas e arquivos a serem ignorados"/>
+<node CREATED="1648508284726" ID="ID_1572213285" MODIFIED="1648508290378" TEXT="um por linha no arquivo .gitignore"/>
+</node>
+</node>
+<node CREATED="1648508731891" ID="ID_1725369867" MODIFIED="1648508742659" TEXT="Utilizando bibliotecas">
+<node CREATED="1648508477592" ID="ID_938104291" MODIFIED="1648508490611" TEXT="&#xe9; necess&#xe1;rio importar a biblioteca em cada arquivo em que se vai utilizar">
+<node CREATED="1648508549565" ID="ID_1760395304" MODIFIED="1648508764109" TEXT="const &quot;nomeDaBiblioteca&quot; = require(&apos;nome-da-biblioteca&apos;)">
+<node CREATED="1648508768519" ID="ID_1117923400" MODIFIED="1648508773277" TEXT="importa toda a biblioteca"/>
+</node>
+<node CREATED="1648508783197" ID="ID_913382549" MODIFIED="1648508790049" TEXT="posso importar s&#xf3; os m&#xe9;todos a serem utilizados">
+<node CREATED="1648508794778" ID="ID_201690269" MODIFIED="1648508796709" TEXT="ex.:">
+<node CREATED="1648508797048" ID="ID_1538553185" MODIFIED="1648508824410" TEXT="const { &quot;m&#xe9;todo&quot; } = require(&quot;nome-da-biblioteca&quot;)"/>
+</node>
+</node>
+</node>
+<node CREATED="1648508956036" ID="ID_1169249427" MODIFIED="1648508964968" TEXT="tamb&#xe9;m se pode importar outros arquivos para o arquivo atual">
+<node CREATED="1648508965850" ID="ID_434133207" MODIFIED="1648508974158" TEXT="um arquivo que eu mesmo criei e quero utilizar em outro">
+<node CREATED="1648509199167" ID="ID_1830621326" MODIFIED="1648509200858" TEXT="ex.:">
+<node CREATED="1648509201305" ID="ID_355666064" MODIFIED="1648509213052" TEXT="const array = require(&apos;./array&apos;)"/>
+</node>
+</node>
+<node CREATED="1648509307204" ID="ID_804478944" MODIFIED="1648509326178" TEXT="tamb&#xe9;m &#xe9; poss&#xed;vel utilizar desestrutura&#xe7;&#xe3;o e importar s&#xf3; parte do arquivo"/>
+<node CREATED="1648509007047" ID="ID_476643600" MODIFIED="1648509015409" TEXT="arquivo a importar precisa ser export&#xe1;vel">
+<node CREATED="1648509024258" ID="ID_527915227" MODIFIED="1648509039034" TEXT="module.exports = &quot;o que ser&#xe1; exportado&quot;"/>
+</node>
+</node>
+</node>
+<node CREATED="1648509713984" ID="ID_1351816341" MODIFIED="1648509716514" TEXT="express.js">
+<node CREATED="1648509728781" ID="ID_459617210" MODIFIED="1648509748218" TEXT="Biblioteca do node.js que possibilita cria&#xe7;&#xe3;o de servidor http"/>
+<node CREATED="1648509831794" ID="ID_591631080" MODIFIED="1648509832206" TEXT="https://expressjs.com/pt-br/"/>
+<node CREATED="1648509871198" ID="ID_1193014555" MODIFIED="1648509871725" TEXT="https://www.npmjs.com/package/express"/>
+<node CREATED="1648509956969" ID="ID_227909348" MODIFIED="1648509960137" TEXT="npm i express"/>
 </node>
 </node>
 </node>

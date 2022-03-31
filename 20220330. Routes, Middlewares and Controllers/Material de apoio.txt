@@ -1,0 +1,8 @@
+insomnia
+https://insomnia.rest/download
+
+nodemon
+https://www.npmjs.com/package/nodemon
+
+postman
+https://www.postman.com/

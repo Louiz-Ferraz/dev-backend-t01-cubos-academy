@@ -1451,7 +1451,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1648506440579" FOLDED="true" ID="ID_1356861374" MODIFIED="1648511347338" TEXT="Primeiro servidor">
+<node CREATED="1648506440579" FOLDED="true" ID="ID_1356861374" MODIFIED="1648678548572" TEXT="Primeiro servidor">
 <node CREATED="1648506483808" ID="ID_1934087291" MODIFIED="1648506485079" TEXT="Pacotes">
 <node CREATED="1648506525617" ID="ID_564727751" MODIFIED="1648506533427" TEXT="Conjunto de c&#xf3;digos que resolve determinado problema"/>
 <node CREATED="1648506536513" ID="ID_147175353" MODIFIED="1648506557730" TEXT="Foi desenvolvido por algu&#xe9;m e disponibilizado para uso em outros projetos"/>
@@ -1520,6 +1520,154 @@
 <node CREATED="1648509831794" ID="ID_591631080" MODIFIED="1648509832206" TEXT="https://expressjs.com/pt-br/"/>
 <node CREATED="1648509871198" ID="ID_1193014555" MODIFIED="1648509871725" TEXT="https://www.npmjs.com/package/express"/>
 <node CREATED="1648509956969" ID="ID_227909348" MODIFIED="1648509960137" TEXT="npm i express"/>
+</node>
+</node>
+<node CREATED="1648678549269" FOLDED="true" ID="ID_1261309107" MODIFIED="1648686362955" TEXT="Rotas, Intermedi&#xe1;rios e Controladores">
+<node CREATED="1648678561996" ID="ID_685783038" MODIFIED="1648678569699" TEXT="Etapas de requisi&#xe7;&#xe3;o HTTP">
+<node CREATED="1648678591056" ID="ID_537532544" MODIFIED="1648678595000" TEXT="Cliente se comunica com servidor"/>
+<node CREATED="1648678623506" ID="ID_1411412126" MODIFIED="1648678626830" TEXT="Comunica&#xe7;&#xe3;o via HTTP"/>
+<node CREATED="1648678628303" ID="ID_211443261" MODIFIED="1648678637725" TEXT="Cliente comp&#xf5;e e manda requisi&#xe7;&#xe3;o">
+<node CREATED="1648678660548" ID="ID_106661842" MODIFIED="1648678685406" TEXT="Quando requisi&#xe7;&#xe3;o chega, o primeiro ponto &#xe9; passar pelo roteador do servidor"/>
+<node CREATED="1648678694847" ID="ID_1403032202" MODIFIED="1648678713253" TEXT="Roteador envia para controladores">
+<node CREATED="1648678722292" ID="ID_235541902" MODIFIED="1648678734344" TEXT="Controladores que recebem s&#xe3;o os que precisam para aquela rota"/>
+<node CREATED="1648678741118" ID="ID_1072463345" MODIFIED="1648678754775" TEXT="Controlador processa as informa&#xe7;&#xf5;es e faz as a&#xe7;&#xf5;es solicitadas"/>
+</node>
+<node CREATED="1648678756979" ID="ID_81058115" MODIFIED="1648678762482" TEXT="Controlador devolve resposta para cliente"/>
+</node>
+</node>
+<node CREATED="1648679460927" ID="ID_993307642" MODIFIED="1648679466446" TEXT="Nodemon">
+<node CREATED="1648679467549" ID="ID_1878519514" MODIFIED="1648679544499" TEXT="Biblioteca que auxilia com servidores"/>
+<node CREATED="1648679545770" ID="ID_552854111" MODIFIED="1648679590876" TEXT="Tira a necessidade de ficar resetando servidor manualmente sempre que h&#xe1; mudan&#xe7;a no c&#xf3;digo"/>
+<node CREATED="1648679481437" ID="ID_896773783" MODIFIED="1648679481799" TEXT="https://www.npmjs.com/package/nodemon"/>
+<node CREATED="1648679658532" ID="ID_952791446" MODIFIED="1648679669408" TEXT="Ele s&#xf3; &#xe9; utilizado em ambiente de desenvolvimento">
+<node CREATED="1648679669408" ID="ID_1689203004" MODIFIED="1648679676872" TEXT="Recomenda-se instalar com"/>
+<node CREATED="1648679677402" ID="ID_1992091264" MODIFIED="1648679685018" TEXT="npm i -D nodemon">
+<node CREATED="1648679685018" ID="ID_1581924486" MODIFIED="1648679692366" TEXT="Instala apenas em ambiente dev"/>
+</node>
+</node>
+<node CREATED="1648679894998" ID="ID_1509554633" MODIFIED="1648679900611" TEXT="Para executar o servidor com nodeman">
+<node CREATED="1648679908777" ID="ID_548160638" MODIFIED="1648679916350" TEXT="criar script em package.json">
+<node CREATED="1648679919319" ID="ID_158177170" MODIFIED="1648679919319">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-family: Consolas, Courier New, monospace; font-size: 12px; color: #ffffff; white-space: pre; font-weight: normal; line-height: 16px; background-color: #151416">
+      <div>
+        <font color="#ff2499"><span style="color: #ff2499; font-style: italic"><i>&quot;dev&quot;</i></span></font><font color="#ffffff"><span style="color: #ffffff">: </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">&quot;nodemon ./src/index.js&quot;</span></font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1648679927396" ID="ID_28588661" MODIFIED="1648679937176" TEXT="executar script criado no terminal">
+<node CREATED="1648679931405" ID="ID_45789609" MODIFIED="1648679931405" TEXT="npm run dev"/>
+</node>
+</node>
+</node>
+<node CREATED="1648679987891" ID="ID_1032094871" MODIFIED="1648679990075" TEXT="Insomnia">
+<node CREATED="1648680108822" ID="ID_624074239" LINK="https://insomnia.rest/download" MODIFIED="1648680108822" TEXT="https://insomnia.rest/download"/>
+<node CREATED="1648680159143" ID="ID_1162814548" MODIFIED="1648680394815" TEXT="Ferramenta para testar rotas e aplica&#xe7;&#xf5;es backend"/>
+</node>
+<node CREATED="1648680415639" ID="ID_1164469992" MODIFIED="1648680421654" TEXT="Par&#xe2;metros de rotas no Express.js">
+<node CREATED="1648681109229" ID="ID_557681753" MODIFIED="1648681115532" TEXT="Podem ser declarados em uma rota"/>
+<node CREATED="1648681116338" ID="ID_864872756" MODIFIED="1648681142442" TEXT="podem ser acessados em req.params.parametro_da_rota"/>
+<node CREATED="1648681371516" ID="ID_1126268645" MODIFIED="1648681372157" TEXT="http://localhost:3000/teachers/2"/>
+</node>
+<node CREATED="1648681233295" ID="ID_148683027" MODIFIED="1648681241140" TEXT="Par&#xe2;metros de consulta no Express.js">
+<node CREATED="1648681252734" ID="ID_1411515406" MODIFIED="1648681255617" TEXT="ou par&#xe2;metros de URL">
+<node CREATED="1648681257489" ID="ID_1667089341" MODIFIED="1648681266142" TEXT="ou query params"/>
+</node>
+<node CREATED="1648681513099" ID="ID_1160792170" MODIFIED="1648681527430" TEXT="podem ser acessados em req.query.parametro_de_consulta"/>
+<node CREATED="1648681349022" ID="ID_156429616" MODIFIED="1648681422700" TEXT="http://localhost:3000/teachers?name=Guido&amp;stack=Backend">
+<node CREATED="1648681750067" ID="ID_4239996" MODIFIED="1648681765385" TEXT="esses query params s&#xe3;o criados na pr&#xf3;pria URL, n&#xe3;o no c&#xf3;digo"/>
+<node CREATED="1648681884453" ID="ID_658526952" MODIFIED="1648681898564" TEXT="s&#xe3;o opcionais, a n&#xe3;o ser que definido ser obrigat&#xf3;rio"/>
+</node>
+</node>
+<node CREATED="1648681931227" ID="ID_1372887372" MODIFIED="1648681998096" TEXT="Controladores e Organiza&#xe7;&#xe3;o">
+<node CREATED="1648682179680" ID="ID_1064753346" MODIFIED="1648682190746" TEXT="Controladores s&#xe3;o fun&#xe7;&#xf5;es que executam as respostas das rotas"/>
+<node CREATED="1648682191579" ID="ID_1907503673" MODIFIED="1648682205739" TEXT="Por organiza&#xe7;&#xe3;o, devem ser inseridas em pasta Controllers">
+<node CREATED="1648682206080" ID="ID_1253683103" MODIFIED="1648682225620" TEXT="cada rota principal deve ter seu arquivo .js, no qual est&#xe3;o todos seus controladores"/>
+</node>
+<node CREATED="1648682233946" ID="ID_470869889" MODIFIED="1648682250331" TEXT="Os controladores s&#xe3;o importados para o index.js e utilizados nas rotas"/>
+</node>
+<node CREATED="1648682830848" ID="ID_84151032" MODIFIED="1648682832985" TEXT="Intermedi&#xe1;rios">
+<node CREATED="1648682845049" ID="ID_1791239007" MODIFIED="1648682846821" TEXT="Middleware"/>
+<node CREATED="1648682880516" ID="ID_414745355" MODIFIED="1648682893236" TEXT="No fluxo de etapas de requisi&#xe7;&#xe3;o HTTP">
+<node CREATED="1648682893718" ID="ID_153793982" MODIFIED="1648682909813" TEXT="Intermedi&#xe1;rios entram entre roteador e controladores, no servidor"/>
+<node CREATED="1648682962665" ID="ID_367399240" MODIFIED="1648682986474" TEXT="Pode haver mais de 1 intermedi&#xe1;rio, e estes atuam sequencialmente"/>
+</node>
+<node CREATED="1648683390534" ID="ID_1086364479" MODIFIED="1648683390534">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-family: Consolas, Courier New, monospace; font-size: 12px; color: #ffffff; white-space: pre; font-weight: normal; line-height: 16px; background-color: #151416">
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">app.</span></font><b><font color="#ffd84f"><span style="color: #ffd84f; font-weight: bold">use</span></font></b><font color="#ffffff"><span style="color: #ffffff">((</span></font><font color="#ffd84f"><span style="color: #ffd84f; font-style: italic"><i>req</i></span></font><font color="#ffffff"><span style="color: #ffffff">, </span></font><font color="#ffd84f"><span style="color: #ffd84f; font-style: italic"><i>res</i></span></font><font color="#ffffff"><span style="color: #ffffff">, </span></font><font color="#ffd84f"><span style="color: #ffd84f; font-style: italic"><i>next</i></span></font><font color="#ffffff"><span style="color: #ffffff">) </span></font><font color="#ff2499"><span style="color: #ff2499; font-style: italic"><i>=&gt;</i></span></font><font color="#ffffff"><span style="color: #ffffff"> {</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; console.</span></font><b><font color="#ffd84f"><span style="color: #ffd84f; font-weight: bold">log</span></font></b><font color="#ffffff"><span style="color: #ffffff">(</span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'went through first middleware'</span></font><font color="#ffffff"><span style="color: #ffffff">);</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; </span></font><b><font color="#ffd84f"><span style="color: #ffd84f; font-weight: bold">next</span></font></b><font color="#ffffff"><span style="color: #ffffff">();</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">});</span></font>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1648683002617" ID="ID_146367825" MODIFIED="1648683006663" TEXT="Intermedi&#xe1;rios independentes">
+<node CREATED="1648683517842" ID="ID_490650004" MODIFIED="1648683526727" TEXT="S&#xe3;o independentes quando n&#xe3;o t&#xea;m rela&#xe7;&#xe3;o com as rotas">
+<node CREATED="1648683528022" ID="ID_420930497" MODIFIED="1648683532565" TEXT="S&#xe3;o executados de qualquer maneira"/>
+</node>
+</node>
+<node CREATED="1648683588632" ID="ID_621044370" MODIFIED="1648683595924" TEXT="Intermedi&#xe1;rios na rota">
+<node CREATED="1648683703285" ID="ID_991334450" MODIFIED="1648683733844" TEXT="S&#xf3; s&#xe3;o executados nas rotas em que &#xe9; passado de par&#xe2;metro">
+<node CREATED="1648683738339" ID="ID_1287481703" MODIFIED="1648683738339">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-family: Consolas, Courier New, monospace; font-size: 12px; color: #ffffff; white-space: pre; font-weight: normal; line-height: 16px; background-color: #151416">
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">app.</span></font><b><font color="#ffd84f"><span style="color: #ffd84f; font-weight: bold">get</span></font></b><font color="#ffffff"><span style="color: #ffffff">(</span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'/teachers'</span></font><font color="#ffffff"><span style="color: #ffffff">, routeMiddleware, filterTeachers);</span></font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1648684035895" ID="ID_1698038845" MODIFIED="1648684047570" TEXT="Posso passar v&#xe1;rios intermedi&#xe1;rios nas rotas">
+<node CREATED="1648684048797" ID="ID_578049012" MODIFIED="1648684055441" TEXT="O controlador sempre ser&#xe1; o &#xfa;ltimo par&#xe2;metro">
+<node CREATED="1648683738339" ID="ID_616666347" MODIFIED="1648684133672">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-family: Consolas, Courier New, monospace; font-size: 12px; color: #ffffff; white-space: pre; font-weight: normal; line-height: 16px; background-color: #151416">
+      <div>
+        <font color="#ffffff">app.</font><b><font color="#ffd84f">get</font></b><font color="#ffffff">(</font><font color="#ffb6dd">'/teachers'</font><font color="#ffffff">, routeMiddleware, secondMiddleware,&#160;filterTeachers);</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1648684098935" ID="ID_986497160" MODIFIED="1648684141888" TEXT="A rota executa na ordem declarada dos par&#xe2;metros"/>
+</node>
+</node>
+<node CREATED="1648683843289" ID="ID_228302745" MODIFIED="1648683848376" TEXT="&#xe9; executado depois dos independentes"/>
+</node>
 </node>
 </node>
 </node>

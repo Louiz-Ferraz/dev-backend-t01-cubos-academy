@@ -1,0 +1,5 @@
+REST
+https://restfulapi.net/
+
+JSON
+https://restfulapi.net/introduction-to-json/

@@ -1559,8 +1559,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1648679927396" ID="ID_28588661" MODIFIED="1648679937176" TEXT="executar script criado no terminal">
@@ -1642,8 +1641,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1648684035895" ID="ID_1698038845" MODIFIED="1648684047570" TEXT="Posso passar v&#xe1;rios intermedi&#xe1;rios nas rotas">
 <node CREATED="1648684048797" ID="ID_578049012" MODIFIED="1648684055441" TEXT="O controlador sempre ser&#xe1; o &#xfa;ltimo par&#xe2;metro">
@@ -1659,14 +1657,205 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1648684098935" ID="ID_986497160" MODIFIED="1648684141888" TEXT="A rota executa na ordem declarada dos par&#xe2;metros"/>
 </node>
 </node>
 <node CREATED="1648683843289" ID="ID_228302745" MODIFIED="1648683848376" TEXT="&#xe9; executado depois dos independentes"/>
+</node>
+</node>
+</node>
+<node CREATED="1649108142036" FOLDED="true" ID="ID_67113403" MODIFIED="1649115828954" TEXT="API Rest">
+<node CREATED="1649109335373" ID="ID_1674838397" MODIFIED="1649109490831" TEXT="API">
+<node CREATED="1649109421720" ID="ID_1242154643" MODIFIED="1649109427770" TEXT="Application Interface Programming"/>
+<node CREATED="1649109512766" ID="ID_233496916" MODIFIED="1649109515749" TEXT="Defini&#xe7;&#xf5;es">
+<node CREATED="1649109350087" ID="ID_98913754" MODIFIED="1649109384634" TEXT="conjunto de instru&#xe7;&#xf5;es determina como se comunicar com uma aplica&#xe7;&#xe3;o"/>
+<node CREATED="1649109372809" ID="ID_1323561287" MODIFIED="1649109394578" TEXT="diversos sistemas disponibilizam APIs para serem integradas com outros sistemas"/>
+<node CREATED="1649109435705" ID="ID_1798300034" MODIFIED="1649109457172" TEXT="os servidores que estamos desenvolvendo em aula (backend) tamb&#xe9;m s&#xe3;o APIs"/>
+<node CREATED="1649109467680" ID="ID_1576800982" MODIFIED="1649109472451" TEXT="uma API pode se comunicar com outra"/>
+</node>
+<node CREATED="1649109485748" ID="ID_1420530248" MODIFIED="1649109547101" TEXT="Exemplos">
+<node CREATED="1649109494120" ID="ID_499029442" MODIFIED="1649109510815" TEXT="Youtube possui API para acessar listar v&#xed;deos, buscar coment&#xe1;rios, etc"/>
+<node CREATED="1649109550648" ID="ID_408664172" MODIFIED="1649109560117" TEXT="Instagram possui API para ver perfil de usu&#xe1;rios, ver fotos"/>
+<node CREATED="1649109564251" ID="ID_154808333" MODIFIED="1649109571974" TEXT="Yahoo possui API para ver previs&#xe3;o do tempo"/>
+<node CREATED="1649109587355" ID="ID_280804161" MODIFIED="1649109600005" TEXT="Mercado Livre possui API para pesquisar produtos, fazer compras"/>
+</node>
+</node>
+<node CREATED="1649109880064" ID="ID_1378457245" MODIFIED="1649109881073" TEXT="REST">
+<node CREATED="1649109886917" ID="ID_1419571872" MODIFIED="1649109891837" TEXT="Representational State Transfer"/>
+<node CREATED="1649109902159" ID="ID_970328750" MODIFIED="1649109905204" TEXT="Defini&#xe7;&#xf5;es">
+<node CREATED="1649109905610" ID="ID_512959974" MODIFIED="1649109921928" TEXT="conjunto de restri&#xe7;&#xf5;es de arquitetura que podem ser utilizadas ao construir APIs"/>
+<node CREATED="1649110014475" ID="ID_873727262" MODIFIED="1649110032368" TEXT="REST organiza a comunica&#xe7;&#xe3;o entre cliente e servidor"/>
+<node CREATED="1649110032718" ID="ID_593260348" MODIFIED="1649110059698" TEXT="as requisi&#xe7;&#xf5;es do cliente precisam ser padronizadas para que as respostas sejam adequadas"/>
+</node>
+</node>
+<node CREATED="1649110082132" ID="ID_1559826214" MODIFIED="1649110085665" TEXT="Organiza&#xe7;&#xe3;o de API REST">
+<node CREATED="1649110096533" ID="ID_82287215" MODIFIED="1649110099403" TEXT="Cole&#xe7;&#xf5;es de recursos">
+<node CREATED="1649110101597" ID="ID_1306716364" MODIFIED="1649110113935" TEXT="os dados manipulados em API REST s&#xe3;o chamados de recursos"/>
+<node CREATED="1649110116726" ID="ID_680088351" MODIFIED="1649110121990" TEXT="recursos s&#xe3;o agrupados em cole&#xe7;&#xf5;es"/>
+<node CREATED="1649110285078" ID="ID_1849263189" MODIFIED="1649110286349" TEXT="Exemplo">
+<node CREATED="1649110276553" ID="ID_919355393" MODIFIED="1649110281776" TEXT="API de biblioteca">
+<node CREATED="1649110296097" ID="ID_331437977" MODIFIED="1649110301310" TEXT="livros s&#xe3;o recursos"/>
+<node CREATED="1649110303816" ID="ID_1563126570" MODIFIED="1649110490600" TEXT="listagem de livros &#xe9; cole&#xe7;&#xe3;o"/>
+<node CREATED="1649110373646" ID="ID_1230667043" MODIFIED="1649110379087" TEXT="podemos ter cole&#xe7;&#xe3;o de autores"/>
+<node CREATED="1649110381845" ID="ID_1705465408" MODIFIED="1649110390369" TEXT="e cada autor possuir cole&#xe7;&#xe3;o de livros"/>
+<node CREATED="1649110170731" ID="ID_1579701703" MODIFIED="1649110180188" TEXT="cada recurso possui um id &#xfa;nico e imut&#xe1;vel">
+<node CREATED="1649110333424" ID="ID_1362304952" MODIFIED="1649110346909" TEXT="usado para obter informa&#xe7;&#xf5;es espec&#xed;ficas de um livro"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1649110161550" ID="ID_10053648" MODIFIED="1649110753568" TEXT="Identificadores de recursos">
+<node CREATED="1649110170731" ID="ID_561499129" MODIFIED="1649110180188" TEXT="cada recurso possui um id &#xfa;nico e imut&#xe1;vel">
+<node CREATED="1649110333424" ID="ID_530886094" MODIFIED="1649110351091" TEXT="usado para obter informa&#xe7;&#xf5;es espec&#xed;ficas de um recurso"/>
+</node>
+<node CREATED="1649110185478" ID="ID_671567703" MODIFIED="1649110187385" TEXT="chave prim&#xe1;ria"/>
+</node>
+<node CREATED="1649110216665" ID="ID_1188171468" MODIFIED="1649110221315" TEXT="Representa&#xe7;&#xe3;o de recursos com JSON">
+<node CREATED="1649110226418" ID="ID_65801537" MODIFIED="1649110239711" TEXT="JSON &#xe9; uma nota&#xe7;&#xe3;o utilizada para representar os recursos"/>
+</node>
+</node>
+<node CREATED="1649110507166" ID="ID_926619795" MODIFIED="1649110509152" TEXT="JSON">
+<node CREATED="1649110525728" ID="ID_1457170613" MODIFIED="1649110531881" TEXT="JavaScript Object Notation"/>
+<node CREATED="1649110537584" ID="ID_720959690" MODIFIED="1649110540309" TEXT="Defini&#xe7;&#xf5;es">
+<node CREATED="1649110543399" ID="ID_885760900" MODIFIED="1649110566574" TEXT="nota&#xe7;&#xe3;o para transitar dados na web"/>
+<node CREATED="1649110559790" ID="ID_512832297" MODIFIED="1649110561047" TEXT="baseada em JS"/>
+</node>
+</node>
+<node CREATED="1649110641296" ID="ID_1568156896" MODIFIED="1649110645320" TEXT="Manipula&#xe7;&#xe3;o de cole&#xe7;&#xf5;es">
+<node CREATED="1649110659940" ID="ID_1172397981" MODIFIED="1649110710145" TEXT="numa requisi&#xe7;&#xe3;o HTTP, podemos definir m&#xe9;todos (verbos) para indicar a a&#xe7;&#xe3;o a ser realizada no recurso"/>
+<node CREATED="1649111020060" ID="ID_866100259" MODIFIED="1649111021645" TEXT="Verbos">
+<node CREATED="1649111022850" ID="ID_619799232" MODIFIED="1649111039034" TEXT="GET /colecao">
+<node CREATED="1649110715619" ID="ID_1869787515" MODIFIED="1649110719961" TEXT="GET /livros">
+<node CREATED="1649110728059" ID="ID_1474233636" MODIFIED="1649110731064" TEXT="rota ou endpoint"/>
+<node CREATED="1649110739597" ID="ID_88896183" MODIFIED="1649110748989" TEXT="utilizado para listar recursos de uma cole&#xe7;&#xe3;o"/>
+</node>
+</node>
+<node CREATED="1649111029094" ID="ID_96678495" MODIFIED="1649111034176" TEXT="GET /colecao/:id">
+<node CREATED="1649110763360" ID="ID_1363464628" MODIFIED="1649110766753" TEXT="GET /livros/3">
+<node CREATED="1649110770657" ID="ID_15457207" MODIFIED="1649110790891" TEXT="tamb&#xe9;m pode ser utilizado para acessar um recurso espec&#xed;fico de cole&#xe7;&#xe3;o"/>
+</node>
+</node>
+<node CREATED="1649111041129" ID="ID_17025193" MODIFIED="1649111045450" TEXT="POST /colecao">
+<node CREATED="1649110802741" ID="ID_1050751371" MODIFIED="1649110805439" TEXT="POST /livros">
+<node CREATED="1649110820049" ID="ID_896318056" MODIFIED="1649110832123" TEXT="usado para cadastrar um novo recurso em uma cole&#xe7;&#xe3;o"/>
+</node>
+</node>
+<node CREATED="1649111046827" ID="ID_1606417089" MODIFIED="1649111051416" TEXT="PUT /colecao/:id">
+<node CREATED="1649110845252" ID="ID_473801387" MODIFIED="1649110850288" TEXT="PUT /livros/12">
+<node CREATED="1649110868291" ID="ID_1285160874" MODIFIED="1649110877986" TEXT="usado para alterar por completo um recurso especificado"/>
+</node>
+</node>
+<node CREATED="1649111057060" ID="ID_1832959278" MODIFIED="1649111061535" TEXT="PATCH /colecao/:id">
+<node CREATED="1649110910115" ID="ID_188699957" MODIFIED="1649110922858" TEXT="PATCH /livros/12">
+<node CREATED="1649110926312" ID="ID_1266713435" MODIFIED="1649110936668" TEXT="usado para alterar parte de um recurso espec&#xed;fico"/>
+</node>
+</node>
+<node CREATED="1649111057060" ID="ID_43971777" MODIFIED="1649111073284" TEXT="DELETE /colecao/:id">
+<node CREATED="1649110970848" ID="ID_1592146250" MODIFIED="1649110977387" TEXT="DELET /livros/17">
+<node CREATED="1649110979359" ID="ID_1334402559" MODIFIED="1649110993374" TEXT="usado para excluir recurso espec&#xed;fico de cole&#xe7;&#xe3;o"/>
+</node>
+</node>
+</node>
+<node CREATED="1649111161181" ID="ID_483448683" MODIFIED="1649111170959" TEXT="endpoints devem ser padronizados">
+<node CREATED="1649111171294" ID="ID_383703777" MODIFIED="1649111184676" TEXT="se uma cole&#xe7;&#xe3;o est&#xe1; no plural, todas devem estar">
+<node CREATED="1649111188628" ID="ID_1628520198" MODIFIED="1649111191033" TEXT="livros e autories"/>
+</node>
+<node CREATED="1649111197444" ID="ID_473961212" MODIFIED="1649111200049" TEXT="e vice-versa">
+<node CREATED="1649111184982" ID="ID_636819894" MODIFIED="1649111188299" TEXT="livro e autor"/>
+</node>
+</node>
+<node CREATED="1649111235387" ID="ID_775492016" MODIFIED="1649111237602" TEXT="Exemplo">
+<node CREATED="1649111248908" ID="ID_1813186191" MODIFIED="1649111258167" TEXT="GET /autores/:idAutor/livros">
+<node CREATED="1649111237953" ID="ID_1303144738" MODIFIED="1649111265079" TEXT="listar todos os livros de um autor"/>
+</node>
+<node CREATED="1649111273038" ID="ID_1978551029" MODIFIED="1649111285568" TEXT="GET /autores/:idAutor/livros/:idLivro">
+<node CREATED="1649111332097" ID="ID_1383426761" MODIFIED="1649111347828" TEXT="listar um livro espec&#xed;fico de um autor espec&#xed;fico"/>
+<node CREATED="1649111448319" ID="ID_935122746" MODIFIED="1649111451766" TEXT="redundante"/>
+</node>
+<node CREATED="1649111293803" ID="ID_542167394" MODIFIED="1649111302064" TEXT="POST /autores/:idAutor/livros">
+<node CREATED="1649111349611" ID="ID_1962357809" MODIFIED="1649111358948" TEXT="adicionar um livro a um autor espec&#xed;fico"/>
+<node CREATED="1649111448319" ID="ID_113941346" MODIFIED="1649111451766" TEXT="redundante"/>
+</node>
+<node CREATED="1649111308560" ID="ID_1635351532" MODIFIED="1649111371838" TEXT="PUT /autores/:idAutor/livros/:idLivro">
+<node CREATED="1649111377545" ID="ID_1587052551" MODIFIED="1649111386185" TEXT="alterar livro espec&#xed;fico de autor espec&#xed;fico"/>
+<node CREATED="1649111448319" ID="ID_1068719728" MODIFIED="1649111451766" TEXT="redundante"/>
+</node>
+<node CREATED="1649111390387" ID="ID_690610187" MODIFIED="1649111400509" TEXT="PATCH /autores/:idAutor/livros/:idLivro">
+<node CREATED="1649111377545" ID="ID_1151499641" MODIFIED="1649111412039" TEXT="alterar parte de livro espec&#xed;fico de autor espec&#xed;fico"/>
+<node CREATED="1649111448319" ID="ID_597973036" MODIFIED="1649111451766" TEXT="redundante"/>
+</node>
+<node CREATED="1649111390387" ID="ID_415121144" MODIFIED="1649111419825" TEXT="DELETE /autores/:idAutor/livros/:idLivro">
+<node CREATED="1649111377545" ID="ID_170592698" MODIFIED="1649111427481" TEXT="deletar livro espec&#xed;fico de autor espec&#xed;fico"/>
+<node CREATED="1649111448319" ID="ID_1254300481" MODIFIED="1649111451766" TEXT="redundante"/>
+</node>
+</node>
+</node>
+<node CREATED="1649111522936" ID="ID_1937732192" MODIFIED="1649111538400" TEXT="C&#xf3;digos de respostas HTTP">
+<node CREATED="1649111528662" ID="ID_1043287184" MODIFIED="1649111530548" TEXT="Status code"/>
+<node CREATED="1649111540710" ID="ID_1519726114" MODIFIED="1649111542408" TEXT="Defini&#xe7;&#xf5;es">
+<node CREATED="1649111544274" ID="ID_917090633" MODIFIED="1649111571128" TEXT="em cada resposta a uma requisi&#xe7;&#xe3;o, &#xe9; utilizado um c&#xf3;digo para informar o status"/>
+<node CREATED="1649111577880" ID="ID_1502682471" MODIFIED="1649111584751" TEXT="requisi&#xe7;&#xe3;o pode ser bem sucedida ou n&#xe3;o">
+<node CREATED="1649111589608" ID="ID_517507899" MODIFIED="1649111595042" TEXT="existem c&#xf3;digos para sucesso e erro"/>
+</node>
+<node CREATED="1649111622600" ID="ID_866964157" MODIFIED="1649111630664" TEXT="tamb&#xe9;m existem c&#xf3;digos informativos e de redirecionamento">
+<node CREATED="1649111635263" ID="ID_230124360" MODIFIED="1649111640886" TEXT="n&#xe3;o s&#xe3;o utilizados em APIs REST"/>
+</node>
+</node>
+<node CREATED="1649111668129" ID="ID_1132837425" MODIFIED="1649111672913" TEXT="C&#xf3;digos">
+<node CREATED="1649111673254" ID="ID_708241998" MODIFIED="1649111674332" TEXT="2xx">
+<node CREATED="1649111674332" ID="ID_635931440" MODIFIED="1649111675584" TEXT="Sucesso"/>
+<node CREATED="1649111686190" ID="ID_1429272525" MODIFIED="1649111699973" TEXT="indica que solicita&#xe7;&#xe3;o do cliente foi aceita com sucesso"/>
+<node CREATED="1649111785183" ID="ID_79026888" MODIFIED="1649111787416" TEXT="Principais">
+<node CREATED="1649111787838" ID="ID_359866074" MODIFIED="1649111788478" TEXT="200">
+<node CREATED="1649111788886" ID="ID_1554149737" MODIFIED="1649111789608" TEXT="OK"/>
+<node CREATED="1649111792151" ID="ID_1739129077" MODIFIED="1649111795488" TEXT="Requisi&#xe7;&#xe3;o bem sucedida"/>
+</node>
+<node CREATED="1649111813670" ID="ID_162323154" MODIFIED="1649111815512" TEXT="201">
+<node CREATED="1649111815824" ID="ID_1003656244" MODIFIED="1649111817097" TEXT="Created"/>
+<node CREATED="1649111792151" ID="ID_1809187491" MODIFIED="1649111827265" TEXT="Requisi&#xe7;&#xe3;o bem sucedida e algo foi criado"/>
+</node>
+<node CREATED="1649111840435" ID="ID_1820072619" MODIFIED="1649111841091" TEXT="204">
+<node CREATED="1649111841379" ID="ID_445129723" MODIFIED="1649111843182" TEXT="No content"/>
+<node CREATED="1649111792151" ID="ID_879226187" MODIFIED="1649111864450" TEXT="Requisi&#xe7;&#xe3;o bem sucedida, sem conte&#xfa;do no corpo da resposta"/>
+</node>
+</node>
+</node>
+<node CREATED="1649111702570" ID="ID_842861622" MODIFIED="1649111703431" TEXT="4xx">
+<node CREATED="1649111703995" ID="ID_1750656199" MODIFIED="1649111705997" TEXT="Erro do cliente"/>
+<node CREATED="1649111686190" ID="ID_437806140" MODIFIED="1649111721803" TEXT="indica que solicita&#xe7;&#xe3;o do cliente foi recebida, por&#xe9;m possui erros"/>
+<node CREATED="1649111901008" ID="ID_1840307088" MODIFIED="1649111903800" TEXT="Principais">
+<node CREATED="1649111905696" ID="ID_1876445312" MODIFIED="1649111906714" TEXT="400">
+<node CREATED="1649111907220" ID="ID_1917038935" MODIFIED="1649111909228" TEXT="Bad request"/>
+<node CREATED="1649111912757" ID="ID_446845045" MODIFIED="1649111923012" TEXT="Servidor n&#xe3;o entendeu a requisi&#xe7;&#xe3;o pois sintaxe &#xe9; inv&#xe1;lida"/>
+</node>
+<node CREATED="1649111957894" ID="ID_1937068033" MODIFIED="1649111964736" TEXT="401">
+<node CREATED="1649111966271" ID="ID_1164339388" MODIFIED="1649111971450" TEXT="Unauthorized"/>
+<node CREATED="1649111975099" ID="ID_1069290" MODIFIED="1649111979652" TEXT="Usu&#xe1;rio n&#xe3;o autenticado"/>
+</node>
+<node CREATED="1649111988650" ID="ID_71576789" MODIFIED="1649111989685" TEXT="403">
+<node CREATED="1649111990210" ID="ID_1169977682" MODIFIED="1649111992424" TEXT="Forbidden"/>
+<node CREATED="1649111994076" ID="ID_1939050926" MODIFIED="1649112006811" TEXT="Usu&#xe1;rio n&#xe3;o tem permiss&#xe3;o para acessar recurso solicitado"/>
+</node>
+<node CREATED="1649112021870" ID="ID_900963946" MODIFIED="1649112022771" TEXT="404">
+<node CREATED="1649112023232" ID="ID_1203486334" MODIFIED="1649112025402" TEXT="Not found"/>
+<node CREATED="1649112028738" ID="ID_1707838415" MODIFIED="1649112035383" TEXT="Servidor n&#xe3;o encontrou recurso solicitado"/>
+</node>
+</node>
+</node>
+<node CREATED="1649111737704" ID="ID_1454728872" MODIFIED="1649111738587" TEXT="5xx">
+<node CREATED="1649111738588" ID="ID_588521590" MODIFIED="1649111740861" TEXT="Erro do servidor"/>
+<node CREATED="1649111742775" ID="ID_120074409" MODIFIED="1649111748548" TEXT="indica que houve erro interno no servidor"/>
+<node CREATED="1649112048584" ID="ID_834271283" MODIFIED="1649112050175" TEXT="Principais">
+<node CREATED="1649112054535" ID="ID_1551314294" MODIFIED="1649112055707" TEXT="500">
+<node CREATED="1649112056125" ID="ID_1571858395" MODIFIED="1649112060136" TEXT="Internal server error"/>
+<node CREATED="1649112065061" ID="ID_1581715753" MODIFIED="1649112070099" TEXT="Servidor encontrou erro inesperado"/>
+<node CREATED="1649112073125" ID="ID_1081274571" MODIFIED="1649112078593" TEXT="Situa&#xe7;&#xe3;o com a qual ele n&#xe3;o sabe lidar"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>

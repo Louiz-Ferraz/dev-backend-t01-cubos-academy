@@ -1,5 +1,6 @@
 const database = {
     idTeacher: 3,
+    idClass: 2,
     teachers: [
         {
             id: 1,
@@ -13,6 +14,14 @@ const database = {
             email: "dani@email.com",
             status: true
         },
+    ],
+    classes: [
+        {
+            id: 1,
+            idTeacher: 1,
+            name: "API REST",
+            description: "Class about API REST"
+        }
     ]
 }
 

@@ -1859,6 +1859,148 @@
 </node>
 </node>
 </node>
+<node CREATED="1649708355313" FOLDED="true" ID="ID_1991340196" MODIFIED="1649719422292" TEXT="Programa&#xe7;&#xe3;o Ass&#xed;ncrona">
+<node CREATED="1649708681050" ID="ID_917712114" MODIFIED="1649708683504" TEXT="Defini&#xe7;&#xe3;o">
+<node CREATED="1649708685057" ID="ID_700179521" MODIFIED="1649708689236" TEXT="C&#xf3;digo s&#xed;ncrono">
+<node CREATED="1649708689592" ID="ID_1962091535" MODIFIED="1649708693409" TEXT="executado sequencialmente"/>
+<node CREATED="1649708699545" ID="ID_1508469307" MODIFIED="1649708712782" TEXT="antes de executar a pr&#xf3;xima linha, a execu&#xe7;&#xe3;o da anterior &#xe9; finalizada"/>
+</node>
+<node CREATED="1649708745377" ID="ID_1121001855" MODIFIED="1649708748029" TEXT="C&#xf3;digo ass&#xed;ncrono">
+<node CREATED="1649708803653" ID="ID_1400261533" MODIFIED="1649708807661" TEXT="executado de maneira n&#xe3;o linear"/>
+<node CREATED="1649708811882" ID="ID_256059556" MODIFIED="1649708821982" TEXT="vai deixando tarefas para depois, conforme necess&#xe1;rio"/>
+</node>
+</node>
+<node CREATED="1649709885736" ID="ID_288636502" MODIFIED="1649709887725" TEXT="Promises">
+<node CREATED="1649710025969" ID="ID_162253232" MODIFIED="1649710035018" TEXT="Promessa de que algo ser&#xe1; executado ou devolvido"/>
+<node CREATED="1649710035485" ID="ID_1653542538" MODIFIED="1649710036900" TEXT="status">
+<node CREATED="1649710037242" ID="ID_736229479" MODIFIED="1649710038411" TEXT="pendente"/>
+<node CREATED="1649710040023" ID="ID_514555141" MODIFIED="1649710043170" TEXT="resolvida"/>
+<node CREATED="1649710043690" ID="ID_642389669" MODIFIED="1649710045311" TEXT="rejeitada"/>
+</node>
+</node>
+<node CREATED="1649710097762" ID="ID_979822135" MODIFIED="1649710104696" TEXT="Execu&#xe7;&#xe3;o do Node">
+<node CREATED="1649710107724" ID="ID_1345481364" MODIFIED="1649710109787" TEXT="Event loop">
+<node CREATED="1649710113451" ID="ID_466533548" MODIFIED="1649710120361" TEXT="principal caracter&#xed;stica do Node.js"/>
+<node CREATED="1649710127660" ID="ID_616266644" MODIFIED="1649710133807" TEXT="ou ciclo de evento"/>
+</node>
+</node>
+<node CREATED="1649713150214" ID="ID_519059053" MODIFIED="1649713154715" TEXT="then e catch">
+<node CREATED="1649713268315" ID="ID_918561818" MODIFIED="1649716633992">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="line-height: 16px; font-family: Consolas, Courier New, monospace; white-space: pre; font-weight: normal; color: #ffffff; font-size: 12px; background-color: #151416">
+      <div>
+        <span style="font-style: italic; color: #ff2499"><i><font color="#ff2499">const</font></i></span><span style="color: #ffffff"><font color="#ffffff"> { getCityFromZipcode } </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">require</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'utils-playground'</font></span><span style="color: #ffffff"><font color="#ffffff">);</font></span>
+      </div>
+      <br />
+      
+
+      <div>
+        <span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">getCityFromZipcode</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'13470300'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">then</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="font-style: italic; color: #ffd84f"><i><font color="#ffd84f">city</font></i></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-style: italic; color: #ff2499"><i><font color="#ff2499">=&gt;</font></i></span><span style="color: #ffffff"><font color="#ffffff"> {</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; console.</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">log</font></b></span><span style="color: #ffffff"><font color="#ffffff">(city);</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">}).</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">catch</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="font-style: italic; color: #ffd84f"><i><font color="#ffd84f">error</font></i></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-style: italic; color: #ff2499"><i><font color="#ff2499">=&gt;</font></i></span><span style="color: #ffffff"><font color="#ffffff"> {</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; console.</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">log</font></b></span><span style="color: #ffffff"><font color="#ffffff">(error.message);</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">})</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1649713183122" ID="ID_943882890" MODIFIED="1649713187210" TEXT="problemas de usar o then">
+<node CREATED="1649716528567" ID="ID_654859381" MODIFIED="1649716547292" TEXT="Ao executar mais de um trecho ass&#xed;ncrono, a ordem do resultado pode variar"/>
+<node CREATED="1649716550550" ID="ID_1737061043" MODIFIED="1649716569579" TEXT="Pra que um trecho seja executado apenas ap&#xf3;s o outro, &#xe9; necess&#xe1;rio inserir um dentro do outro"/>
+<node CREATED="1649716599654" ID="ID_322239922" MODIFIED="1649716633213" TEXT="necess&#xe1;rio v&#xe1;rios n&#xed;veis de identa&#xe7;&#xe3;o conforme c&#xf3;digo cresce"/>
+</node>
+</node>
+<node CREATED="1649713849641" ID="ID_1890835064" MODIFIED="1649713853095" TEXT="async e await">
+<node CREATED="1649717140544" ID="ID_369290031" MODIFIED="1649717140544">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="line-height: 16px; font-family: Consolas, Courier New, monospace; white-space: pre; font-weight: normal; color: #ffffff; font-size: 12px; background-color: #151416">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ff2499"><font color="#ff2499">async</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-style: italic; color: #ff2499"><i><font color="#ff2499">function</font></i></span><span style="color: #ffffff"><font color="#ffffff"> () {</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="font-style: italic; color: #ff2499"><i><font color="#ff2499">const</font></i></span><span style="color: #ffffff"><font color="#ffffff"> city </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">getCityFromZipcode</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'13470300'</font></span><span style="color: #ffffff"><font color="#ffffff">);</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; console.</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">log</font></b></span><span style="color: #ffffff"><font color="#ffffff">(city);</font></span>
+      </div>
+      <br />
+      
+
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="font-style: italic; color: #ff2499"><i><font color="#ff2499">const</font></i></span><span style="color: #ffffff"><font color="#ffffff"> state </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">getStateFromZipcode</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'13470300'</font></span><span style="color: #ffffff"><font color="#ffffff">);</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; console.</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">log</font></b></span><span style="color: #ffffff"><font color="#ffffff">(state);</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">})();</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1649717349487" ID="ID_1868928686" MODIFIED="1649717364488" TEXT="o async / await d&#xe1; mais legibilidade para o c&#xf3;digo"/>
+<node CREATED="1649717364791" ID="ID_940678906" MODIFIED="1649717388910" TEXT="al&#xe9;m de sempre ditar a ordem de execu&#xe7;&#xe3;o, j&#xe1; que a pr&#xf3;xima linha s&#xf3; ser&#xe1; executada ap&#xf3;s finaliza&#xe7;&#xe3;o do await"/>
+<node CREATED="1649718199639" ID="ID_22652483" MODIFIED="1649718208798" TEXT="Promise all">
+<node CREATED="1649718331485" ID="ID_1377385866" MODIFIED="1649718331485">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="line-height: 16px; font-family: Consolas, Courier New, monospace; white-space: pre; font-weight: normal; color: #ffffff; font-size: 12px; background-color: #151416">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">app.</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">get</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'/'</font></span><span style="color: #ffffff"><font color="#ffffff">, </font></span><span style="color: #ff2499"><font color="#ff2499">async</font></span><span style="color: #ffffff"><font color="#ffffff"> (</font></span><span style="font-style: italic; color: #ffd84f"><i><font color="#ffd84f">req</font></i></span><span style="color: #ffffff"><font color="#ffffff">, </font></span><span style="font-style: italic; color: #ffd84f"><i><font color="#ffd84f">res</font></i></span><span style="color: #ffffff"><font color="#ffffff">) </font></span><span style="font-style: italic; color: #ff2499"><i><font color="#ff2499">=&gt;</font></i></span><span style="color: #ffffff"><font color="#ffffff"> {</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="font-style: italic; color: #ff2499"><i><font color="#ff2499">const</font></i></span><span style="color: #ffffff"><font color="#ffffff"> city </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">getCityFromZipcode</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'13466300'</font></span><span style="color: #ffffff"><font color="#ffffff">);</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="font-style: italic; color: #ff2499"><i><font color="#ff2499">const</font></i></span><span style="color: #ffffff"><font color="#ffffff"> city2 </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">getCityFromZipcode</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'44380000'</font></span><span style="color: #ffffff"><font color="#ffffff">)</font></span>
+      </div>
+      <br />
+      
+
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="font-style: italic; color: #ff2499"><i><font color="#ff2499">const</font></i></span><span style="color: #ffffff"><font color="#ffffff"> promise </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-style: italic; color: #ff2499"><i><font color="#ff2499">Promise</font></i></span><span style="color: #ffffff"><font color="#ffffff">.</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">all</font></b></span><span style="color: #ffffff"><font color="#ffffff">([city, city2]);</font></span>
+      </div>
+      <br />
+      
+
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; res.</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">send</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">`Cities found: </font></span><font color="#ffb6dd"><span style="color: #ffb6dd">${promise}</span><span style="color: #ffb6dd">`</span></font><span style="color: #ffffff"><font color="#ffffff">);</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">})</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1649718358351" ID="ID_1796567507" MODIFIED="1649718364500" TEXT="retorna na ordem informada no array"/>
+<node CREATED="1649718280745" ID="ID_1704581280" MODIFIED="1649718285413" TEXT="para promessas n&#xe3;o dependentes"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>

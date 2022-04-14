@@ -1954,8 +1954,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1649717349487" ID="ID_1868928686" MODIFIED="1649717364488" TEXT="o async / await d&#xe1; mais legibilidade para o c&#xf3;digo"/>
 <node CREATED="1649717364791" ID="ID_940678906" MODIFIED="1649717388910" TEXT="al&#xe9;m de sempre ditar a ordem de execu&#xe7;&#xe3;o, j&#xe1; que a pr&#xf3;xima linha s&#xf3; ser&#xe1; executada ap&#xf3;s finaliza&#xe7;&#xe3;o do await"/>
@@ -1993,12 +1992,137 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1649718358351" ID="ID_1796567507" MODIFIED="1649718364500" TEXT="retorna na ordem informada no array"/>
 <node CREATED="1649718280745" ID="ID_1704581280" MODIFIED="1649718285413" TEXT="para promessas n&#xe3;o dependentes"/>
 </node>
+</node>
+</node>
+<node CREATED="1649886321724" FOLDED="true" ID="ID_891207306" MODIFIED="1649894505122" TEXT="Leitura e Escrita em arquivos">
+<node CREATED="1649888712458" ID="ID_1368652620" MODIFIED="1649888714705" TEXT="File System">
+<node CREATED="1649888753730" ID="ID_196093232" MODIFIED="1649888754573" TEXT="fs"/>
+<node CREATED="1649888755001" ID="ID_118278200" MODIFIED="1649888761532" TEXT="biblioteca nativa do Node.js"/>
+<node CREATED="1649888765116" ID="ID_765097117" MODIFIED="1649888772654" TEXT="permite interagir com arquivos do sistema"/>
+<node CREATED="1649888776156" ID="ID_1598861081" MODIFIED="1649888788624" TEXT="exs.:">
+<node CREATED="1649888777116" ID="ID_420089980" MODIFIED="1649888778529" TEXT="ler"/>
+<node CREATED="1649888779910" ID="ID_236523053" MODIFIED="1649888780807" TEXT="criar"/>
+<node CREATED="1649888781093" ID="ID_30168847" MODIFIED="1649888782343" TEXT="escrever"/>
+</node>
+<node CREATED="1649888801146" ID="ID_541374955" MODIFIED="1649888802522" TEXT="por padr&#xe3;o">
+<node CREATED="1649888804511" ID="ID_778457362" MODIFIED="1649888823670" TEXT="&#xe9; poss&#xed;vel trabalhar com assincronicidade com fs"/>
+<node CREATED="1649888823994" ID="ID_1446039019" MODIFIED="1649888827718" TEXT="utilizando conceito de callbacks"/>
+<node CREATED="1649888852295" ID="ID_966609492" MODIFIED="1649888868047" TEXT="para trabalhar com assincronicidade com promises">
+<node CREATED="1649888870064" ID="ID_13781673" MODIFIED="1649888880379" TEXT="a biblioteca fs implementou um m&#xf3;dulo espec&#xed;fico"/>
+<node CREATED="1649888889774" ID="ID_1442195800" MODIFIED="1649888892018" TEXT="fs/promises"/>
+</node>
+</node>
+</node>
+<node CREATED="1649889080136" ID="ID_1641165768" MODIFIED="1649889083026" TEXT="Leitura de arquivos">
+<node CREATED="1649889087070" ID="ID_65423565" MODIFIED="1649889088543" TEXT="S&#xed;ncrona">
+<node CREATED="1649889090876" ID="ID_1801691613" MODIFIED="1649889647169">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-size: 12px; font-weight: normal; font-family: Consolas, Courier New, monospace; background-color: #151416; line-height: 16px; color: #ffffff; white-space: pre">
+      <div>
+        <div style="font-size: 12px; font-weight: normal; font-family: Consolas, Courier New, monospace; line-height: 16px; background-color: #151416; color: #ffffff; white-space: pre">
+          <div>
+            <span style="color: #ff2499; font-style: italic"><font color="#ff2499"><i>const</i></font></span><span style="color: #ffffff"><font color="#ffffff">&#160;fs </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff">&#160;</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>require</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'fs'</font></span><span style="color: #ffffff"><font color="#ffffff">);</font></span>
+          </div>
+        </div>
+        <font color="#ff2499"><i>const</i></font><font color="#ffffff">&#160;test </font><font color="#66d9ef">=</font><font color="#ffffff">&#160;fs.</font><font color="#ffd84f"><b>readFileSync</b></font><font color="#ffffff">(</font><font color="#ffb6dd">'test.txt'</font><font color="#ffffff">).</font><font color="#ffd84f"><b>toString</b></font><font color="#ffffff">();</font>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1649889102205" ID="ID_1996944257" MODIFIED="1649889105348" TEXT="Ass&#xed;ncrona">
+<node CREATED="1649889843392" MODIFIED="1649889843392">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-size: 12px; font-family: Consolas, Courier New, monospace; font-weight: normal; background-color: #151416; line-height: 16px; color: #ffffff; white-space: pre">
+      <div>
+        <span style="color: #ff2499; font-style: italic"><font color="#ff2499"><i>const</i></font></span><span style="color: #ffffff"><font color="#ffffff"> fs </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>require</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'fs/promises'</font></span><span style="color: #ffffff"><font color="#ffffff">);</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ff2499"><font color="#ff2499">async</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #ff2499; font-style: italic"><font color="#ff2499"><i>function</i></font></span><span style="color: #ffffff"><font color="#ffffff"> () {</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="color: #ff2499; font-style: italic"><font color="#ff2499"><i>const</i></font></span><span style="color: #ffffff"><font color="#ffffff"> test </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> fs.</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>readFile</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'test.txt'</font></span><span style="color: #ffffff"><font color="#ffffff">);</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; console.</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>log</b></font></span><span style="color: #ffffff"><font color="#ffffff">(test.</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>toString</b></font></span><span style="color: #ffffff"><font color="#ffffff">());</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">})();</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1649889861334" ID="ID_1406344170" MODIFIED="1649889862383" TEXT="Buffer">
+<node CREATED="1649889865075" ID="ID_1115566568" MODIFIED="1649889886987" TEXT="espa&#xe7;o de mem&#xf3;ria que armazena dados bin&#xe1;rios, que s&#xe3;o representados por sequ&#xea;ncia de n&#xfa;meros inteiros"/>
+<node CREATED="1649889993428" ID="ID_1365888043" MODIFIED="1649890019190" TEXT="o .toString() converte as informa&#xe7;&#xf5;es do buffer para exibi&#xe7;&#xe3;o"/>
+</node>
+<node CREATED="1649890047056" ID="ID_324230485" MODIFIED="1649890054109" TEXT="JSON parse e stringify">
+<node CREATED="1649890457111" ID="ID_1727864195" MODIFIED="1649890464695" TEXT="JSON.parse(jsonFile)">
+<node CREATED="1649890465310" ID="ID_986078724" MODIFIED="1649891597698" TEXT="permite que a resposta da leitura de um arquivo JSON seja em formato JSON"/>
+</node>
+<node CREATED="1649890646107" ID="ID_335755024" MODIFIED="1649890652761" TEXT="JSON.stringify(object)">
+<node CREATED="1649890689621" ID="ID_1399020997" MODIFIED="1649890700315" TEXT="permite transformar um objeto JS em JSON"/>
+<node CREATED="1649890750999" ID="ID_284946910" MODIFIED="1649890758079" TEXT="para escrever em um arquivo JSON, por exemplo"/>
+</node>
+</node>
+<node CREATED="1649890765941" ID="ID_1096777065" MODIFIED="1649890769192" TEXT="Escrita em arquivos">
+<node CREATED="1649891261392" ID="ID_1328729334" MODIFIED="1649891283816">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-size: 12px; font-weight: normal; font-family: Consolas, Courier New, monospace; background-color: #151416; line-height: 16px; color: #ffffff; white-space: pre">
+      <div>
+        <font color="#ff2499"><i>const</i></font><font color="#ffffff">&#160;fs </font><font color="#66d9ef">=</font><font color="#ffffff">&#160;</font><font color="#ffd84f"><b>require</b></font><font color="#ffffff">(</font><font color="#ffb6dd">'fs/promises'</font><font color="#ffffff">)</font>;
+      </div>
+      <div>
+        <font color="#ff2499"><i>const</i></font><font color="#ffffff">&#160;app </font><font color="#66d9ef">=</font><font color="#ffffff">&#160;</font><font color="#ffd84f"><b>express</b></font><font color="#ffffff">();</font>
+      </div>
+      <div>
+        <font color="#ffffff">app.</font><font color="#ffd84f"><b>get</b></font><font color="#ffffff">(</font><font color="#ffb6dd">'/'</font><font color="#ffffff">, </font><font color="#ff2499">async</font><font color="#ffffff">&#160;(</font><font color="#ffd84f"><i>req</i></font><font color="#ffffff">, </font><font color="#ffd84f"><i>res</i></font><font color="#ffffff">) </font><font color="#ff2499"><i>=&gt;</i></font><font color="#ffffff">&#160;{</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160; </font><font color="#ff2499"><i>const</i></font><font color="#ffffff">&#160;text </font><font color="#66d9ef">=</font><font color="#ffffff">&#160;</font><font color="#ffb6dd">'hello'</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160; </font><font color="#66d9ef">await</font><font color="#ffffff">&#160;fs.</font><font color="#ffd84f"><b>writeFile</b></font><font color="#ffffff">(</font><font color="#ffb6dd">'./src/a.txt'</font><font color="#ffffff">, text);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;res.</font><font color="#ffd84f"><b>json</b></font><font color="#ffffff">(</font><font color="#ffb6dd">'ok'</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">});</font>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1649891326024" ID="ID_633201855" MODIFIED="1649891341034" TEXT="caso escreva em arquivo existente, ele sobrescreve todo o conte&#xfa;do"/>
+<node CREATED="1649891341418" ID="ID_752700507" MODIFIED="1649891351313" TEXT="caso arquivo n&#xe3;o exista, ele cria arquivo e escreve"/>
+</node>
+<node CREATED="1649891901873" ID="ID_147629599" MODIFIED="1649891916628" TEXT="try - catch - finally">
+<node CREATED="1649891925909" ID="ID_722143335" MODIFIED="1649891952925" TEXT="o try marca bloco de declara&#xe7;&#xf5;es no qual todo o c&#xf3;digo ser&#xe1; executado/testado"/>
+<node CREATED="1649891963952" ID="ID_132709786" MODIFIED="1649891987536" TEXT="caso aconte&#xe7;a algum erro no bloco try, o c&#xf3;digo &#xe9; interrompido e o erro &#xe9; capturado pelo catch"/>
+<node CREATED="1649892012780" ID="ID_597154924" MODIFIED="1649892028849" TEXT="o finally &#xe9; executado sempre depois da execu&#xe7;&#xe3;o do try - catch"/>
+<node CREATED="1649892465935" ID="ID_486818644" MODIFIED="1649892474108" TEXT="sempre utilizar quando tratar fun&#xe7;&#xf5;es ass&#xed;ncronas"/>
 </node>
 </node>
 </node>

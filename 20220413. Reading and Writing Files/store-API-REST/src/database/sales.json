@@ -1,0 +1,20 @@
+{
+    "sales": [
+        {
+            "product": {
+                "id": 1,
+                "name": "TV Samsung 4K",
+                "amount": 129900
+            },
+            "quantity": 5
+        },
+        {
+            "product": {
+                "id": 4,
+                "name": "Teclado Keychron K8",
+                "amount": 50000
+            },
+            "quantity": 2
+        }
+    ]
+}

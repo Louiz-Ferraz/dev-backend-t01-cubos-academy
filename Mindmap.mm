@@ -2125,6 +2125,187 @@
 <node CREATED="1649892465935" ID="ID_486818644" MODIFIED="1649892474108" TEXT="sempre utilizar quando tratar fun&#xe7;&#xf5;es ass&#xed;ncronas"/>
 </node>
 </node>
+<node CREATED="1650317798469" FOLDED="true" ID="ID_1145215529" MODIFIED="1650326933610" TEXT="Datas em JS">
+<node CREATED="1650320045883" ID="ID_1679130894" MODIFIED="1650320049791" TEXT="Momento vs Data">
+<node CREATED="1650320052561" ID="ID_832003239" MODIFIED="1650320061250" TEXT="um mesmo momento pode ser representado por diversas datas">
+<node CREATED="1650320065031" ID="ID_1567111354" MODIFIED="1650320067373" TEXT="fuso hor&#xe1;rios"/>
+</node>
+<node CREATED="1650319973607" ID="ID_465376479" MODIFIED="1650319976136" TEXT="new Date()">
+<node CREATED="1650319977470" ID="ID_46853454" MODIFIED="1650319998872" TEXT="objeto nativo do JS criado para armazenar e manipular datas"/>
+<node CREATED="1650320364719" ID="ID_969020436" MODIFIED="1650320369850" TEXT="new data salva um momento"/>
+<node CREATED="1650320731458" ID="ID_354060451" MODIFIED="1650320747077" TEXT="ao n&#xe3;o passar par&#xe2;metros, pega momento atual"/>
+<node CREATED="1650320747745" ID="ID_1956329147" MODIFIED="1650320752803" TEXT="com par&#xe2;metros">
+<node CREATED="1650320754301" ID="ID_1601342266" MODIFIED="1650320757487" TEXT="obrigat&#xf3;rios">
+<node CREATED="1650320760368" ID="ID_983409968" MODIFIED="1650320761930" TEXT="ano"/>
+<node CREATED="1650320762201" ID="ID_1757332777" MODIFIED="1650320763448" TEXT="m&#xea;s">
+<node CREATED="1650320763448" ID="ID_966514617" MODIFIED="1650320768079" TEXT="vai do 0 ao 11"/>
+</node>
+<node CREATED="1650322512881" ID="ID_1483537666" MODIFIED="1650322521551" TEXT="se passar apenas um argumento, vai considerar timestamp"/>
+</node>
+<node CREATED="1650320770460" ID="ID_635378722" MODIFIED="1650320772503" TEXT="opcionais">
+<node CREATED="1650320773856" ID="ID_891109582" MODIFIED="1650320774480" TEXT="dia">
+<node CREATED="1650320775175" ID="ID_615511423" MODIFIED="1650320779066" TEXT="se dia n&#xe3;o &#xe9; passado, atribui 1"/>
+<node CREATED="1650320779427" ID="ID_1158890807" MODIFIED="1650320787354" TEXT="vai de 1 a 31, conforme m&#xea;s"/>
+</node>
+<node CREATED="1650321280563" ID="ID_1413744751" MODIFIED="1650321286889" TEXT="hora, minutos, etc"/>
+</node>
+<node CREATED="1650321397343" ID="ID_1448162115" MODIFIED="1650321544207" TEXT="fuso n&#xe3;o &#xe9; par&#xe2;metro">
+<node CREATED="1650321401252" ID="ID_1541403377" MODIFIED="1650321414207" TEXT="ele considera a hora no seu fuso local"/>
+<node CREATED="1650321426918" ID="ID_1916583024" MODIFIED="1650321434353" TEXT="se n&#xe3;o passar hora, ele considera hora 0 no seu fuso"/>
+<node CREATED="1650321435081" ID="ID_1888543424" MODIFIED="1650321462849" TEXT="se ele mostrar em outro fuso (como UTC), ele vai mostrar bras&#xed;lia + 3h (03:00:00)"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1650321945184" ID="ID_103237690" MODIFIED="1650322032905" TEXT="Timestamp">
+<node CREATED="1650321954341" ID="ID_113166930" MODIFIED="1650321959801" TEXT="n&#xfa;mero que representa momento na hist&#xf3;ria"/>
+<node CREATED="1650321966183" ID="ID_109671022" MODIFIED="1650321981260" TEXT="esse n&#xfa;mero &#xe9; a quantidade de milissegundos que passaram">
+<node CREATED="1650321981560" ID="ID_1738299695" MODIFIED="1650322009229" TEXT="desde 01/01/1970, &#xe0;s 00:00:00:000 em Greenwich (UTC)"/>
+</node>
+<node CREATED="1650322114342" ID="ID_184362907" MODIFIED="1650322126361" TEXT="ao inserir um &quot;+&quot; em frente a uma data">
+<node CREATED="1650322126687" ID="ID_753954311" MODIFIED="1650322133631" TEXT="exibe a data em timestamp"/>
+</node>
+</node>
+<node CREATED="1650323172559" ID="ID_1853508373" MODIFIED="1650323176355" TEXT="Comparando datas">
+<node CREATED="1650323187391" ID="ID_57328576" MODIFIED="1650323191027" TEXT="datas s&#xe3;o objetos">
+<node CREATED="1650323194533" ID="ID_78573504" MODIFIED="1650323201187" TEXT="s&#xe3;o comparados por refer&#xea;ncia"/>
+<node CREATED="1650323210644" ID="ID_1391180413" MODIFIED="1650323228789" TEXT="new Date(0) !== new Date(0) &#xe9; sempre true"/>
+<node CREATED="1650323238310" ID="ID_660215563" MODIFIED="1650323244099" TEXT="pra comparar duas datas, usar timestamps"/>
+<node CREATED="1650323210644" ID="ID_808458222" MODIFIED="1650323267977" TEXT="+(new Date(0)) === +(new Date(0))"/>
+</node>
+<node CREATED="1650323279661" ID="ID_389383665" MODIFIED="1650323289231" TEXT="para comparar anterioridade ou posterioridade">
+<node CREATED="1650323292353" ID="ID_857355078" MODIFIED="1650323306735" TEXT="timestamps com &lt;, &gt;, &lt;=, &gt;="/>
+</node>
+</node>
+<node CREATED="1650325955987" ID="ID_1333122393" MODIFIED="1650325960564" TEXT="Fusos no JS">
+<node CREATED="1650326022124" ID="ID_1399679025" MODIFIED="1650326030024" TEXT="Mudando de fuso, o timestamp nunca muda"/>
+<node CREATED="1650326063692" ID="ID_595547186" MODIFIED="1650326074314" TEXT="Ao salvar uma data no JS, s&#xf3; &#xe9; salvo o timestamp">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1650323707067" ID="ID_433331398" MODIFIED="1650326931928" TEXT="date-fns">
+<node CREATED="1650323714000" ID="ID_790722836" MODIFIED="1650323721360" TEXT="biblioteca para trabalhar com datas"/>
+<node CREATED="1650323748275" ID="ID_1939971529" LINK="https://date-fns.org/docs/Getting-Started" MODIFIED="1650323748275" TEXT="https://date-fns.org/docs/Getting-Started"/>
+<node CREATED="1650323863330" ID="ID_394824103" MODIFIED="1650323867067" TEXT="npm i date-fns"/>
+<node CREATED="1650324731139" ID="ID_935679037" MODIFIED="1650325920271" TEXT="fun&#xe7;&#xf5;es mais comuns">
+<node CREATED="1650324737082" ID="ID_189507503" MODIFIED="1650324738054" TEXT="format">
+<node CREATED="1650324812064" ID="ID_1230501225" MODIFIED="1650324830900" TEXT="formata um objeto Date passado, conforme tipo de formato desejado"/>
+<node CREATED="1650324837398" ID="ID_246223229" MODIFIED="1650324839900" TEXT="ex.:">
+<node CREATED="1650324840762" MODIFIED="1650324840762">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="background-color: #151416; line-height: 16px; color: #ffffff; font-size: 12px; font-weight: normal; font-family: Consolas, Courier New, monospace; white-space: pre">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">console.</font></span><b><span style="color: #ffd84f; font-weight: bold"><font color="#ffd84f">log</font></span></b><span style="color: #ffffff"><font color="#ffffff">(</font></span><b><span style="color: #ffd84f; font-weight: bold"><font color="#ffd84f">format</font></span></b><span style="color: #ffffff"><font color="#ffffff">(date, </font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'dd-MMM-yyyy'</font></span><span style="color: #ffffff"><font color="#ffffff">));</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">console.</font></span><b><span style="color: #ffd84f; font-weight: bold"><font color="#ffd84f">log</font></span></b><span style="color: #ffffff"><font color="#ffffff">(</font></span><b><span style="color: #ffd84f; font-weight: bold"><font color="#ffd84f">format</font></span></b><span style="color: #ffffff"><font color="#ffffff">(date, </font></span><span style="color: #ffb6dd"><font color="#ffb6dd">&quot;dd 'de' MMM 'de' yyyy&quot;</font></span><span style="color: #ffffff"><font color="#ffffff">));</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1650324738401" ID="ID_346292342" MODIFIED="1650324739323" TEXT="parse">
+<node CREATED="1650324845115" ID="ID_1459388635" MODIFIED="1650324852373" TEXT="transforma um string em Date"/>
+<node CREATED="1650324853202" ID="ID_1917585166" MODIFIED="1650324859701" TEXT="interpreta conforme regras da fun&#xe7;&#xe3;o"/>
+</node>
+<node CREATED="1650324741713" ID="ID_1554037262" MODIFIED="1650324742056" TEXT="add">
+<node CREATED="1650324861197" ID="ID_1460585923" MODIFIED="1650324868472" TEXT="adiciona objeto de tempo a um Date"/>
+<node CREATED="1650324887284" ID="ID_1633251864" MODIFIED="1650324895780" TEXT="o objeto pode possuir propriedades">
+<node CREATED="1650324896081" ID="ID_1388446777" MODIFIED="1650324913011" TEXT="years"/>
+<node CREATED="1650324897767" ID="ID_1185681449" MODIFIED="1650324918235" TEXT="months"/>
+<node CREATED="1650324907256" ID="ID_1745107764" MODIFIED="1650324908402" TEXT="weeks"/>
+<node CREATED="1650324899010" ID="ID_1439725582" MODIFIED="1650324919666" TEXT="days..."/>
+</node>
+<node CREATED="1650324993752" ID="ID_431056839" MODIFIED="1650325000204" TEXT="n&#xe3;o altera objeto original"/>
+<node CREATED="1650325125081" MODIFIED="1650325125081">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="background-color: #151416; line-height: 16px; color: #ffffff; font-size: 12px; font-weight: normal; font-family: Consolas, Courier New, monospace; white-space: pre">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">console.</font></span><b><span style="color: #ffd84f; font-weight: bold"><font color="#ffd84f">log</font></span></b><span style="color: #ffffff"><font color="#ffffff">(</font></span><b><span style="color: #ffd84f; font-weight: bold"><font color="#ffd84f">add</font></span></b><span style="color: #ffffff"><font color="#ffffff">(date, {</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; months: </font></span><span style="color: #ffd84f"><font color="#ffd84f">1</font></span><span style="color: #ffffff"><font color="#ffffff">,</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; days: </font></span><span style="color: #ffd84f"><font color="#ffd84f">1</font></span><span style="color: #ffffff"><font color="#ffffff">,</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; seconds: </font></span><span style="color: #ffd84f"><font color="#ffd84f">2</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">}));</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1650324743965" ID="ID_1291282182" MODIFIED="1650324747015" TEXT="addBusinessDay">
+<node CREATED="1650325109242" ID="ID_382890886" MODIFIED="1650325116618" TEXT="soma dias &#xfa;teis &#xe0; data original"/>
+<node CREATED="1650325131847" ID="ID_700288063" MODIFIED="1650325139116" TEXT="considera apenas finais de semana como dia n&#xe3;o &#xfa;til"/>
+</node>
+<node CREATED="1650324749438" ID="ID_1204680331" MODIFIED="1650324751193" TEXT="difference">
+<node CREATED="1650325208170" ID="ID_496047133" MODIFIED="1650325214112" TEXT="v&#xe1;rios m&#xe9;todos para diferen&#xe7;a em cada unidade">
+<node CREATED="1650325238556" ID="ID_155607500" MODIFIED="1650325243570" TEXT="todos funcionam mais ou menos da mesma forma"/>
+<node CREATED="1650325214420" ID="ID_8949092" MODIFIED="1650325232102" TEXT="differenceInMilliseconds"/>
+<node CREATED="1650325214420" ID="ID_572075276" MODIFIED="1650325271291" TEXT="differenceInHours..."/>
+</node>
+<node CREATED="1650325249806" ID="ID_768683127" MODIFIED="1650325254170" TEXT="subtrai uma data menos a outra">
+<node CREATED="1650325287365" ID="ID_531286992" MODIFIED="1650325295785" TEXT="d&#xe1; o resultado na unidade do m&#xe9;todo"/>
+</node>
+</node>
+<node CREATED="1650324753722" ID="ID_1141174839" MODIFIED="1650324754232" TEXT="set">
+<node CREATED="1650325433656" ID="ID_1202871461" MODIFIED="1650325443743" TEXT="permite setar v&#xe1;rios par&#xe2;metros de uma data"/>
+<node CREATED="1650325457196" ID="ID_505145390" MODIFIED="1650325462353" TEXT="existem m&#xe9;todos espec&#xed;ficos">
+<node CREATED="1650325463705" ID="ID_1113135982" MODIFIED="1650325477603" TEXT="setMonths"/>
+<node CREATED="1650325465713" ID="ID_1183269782" MODIFIED="1650325479090" TEXT="setDays..."/>
+<node CREATED="1650325468781" ID="ID_852262681" MODIFIED="1650325473548" TEXT="s&#xf3; set &#xe9; mais flex&#xed;vel"/>
+</node>
+<node CREATED="1650325499709" ID="ID_202925099" MODIFIED="1650325501975" TEXT="par&#xe2;metros">
+<node CREATED="1650325502466" ID="ID_1141019516" MODIFIED="1650325503136" TEXT="data"/>
+<node CREATED="1650325503875" ID="ID_1485427170" MODIFIED="1650325512201" TEXT="objeto de valores a serem modificados">
+<node CREATED="1650325514361" ID="ID_1119744758" MODIFIED="1650325532007" TEXT="todos os par&#xe2;metros informados no objeto ser&#xe3;o utilizados na modifica&#xe7;&#xe3;o"/>
+</node>
+</node>
+</node>
+<node CREATED="1650324756532" ID="ID_314151898" MODIFIED="1650324757643" TEXT="isSame">
+<node CREATED="1650325654783" ID="ID_1595429041" MODIFIED="1650325661148" TEXT="v&#xe1;rios m&#xe9;todos para comparar datas"/>
+<node CREATED="1650325661623" ID="ID_862840309" MODIFIED="1650325664157" TEXT="isSameDay"/>
+<node CREATED="1650325664538" ID="ID_644747179" MODIFIED="1650325670324" TEXT="isSameMonth..."/>
+</node>
+<node CREATED="1650324758946" ID="ID_1354302987" MODIFIED="1650324760674" TEXT="isBefore">
+<node CREATED="1650325721956" ID="ID_1552480229" MODIFIED="1650325723587" TEXT="isAfter">
+<node CREATED="1650325738913" ID="ID_375766403" MODIFIED="1650325766019" TEXT="mede se primeira data passada &#xe9; antes ou depois da segunda"/>
+</node>
+</node>
+<node CREATED="1650324762933" ID="ID_1478759743" MODIFIED="1650324766142" TEXT="startOf">
+<node CREATED="1650324767025" ID="ID_1797155173" MODIFIED="1650324767974" TEXT="endOf">
+<node CREATED="1650325822951" ID="ID_220850628" MODIFIED="1650325838783" TEXT="v&#xe1;rios m&#xe9;todos para &quot;arredondar&quot;, dar o come&#xe7;o ou o fim de uma parte da data"/>
+<node CREATED="1650325840546" ID="ID_560477732" MODIFIED="1650325851939" TEXT="startOfHour/endOfHour"/>
+<node CREATED="1650325852560" ID="ID_1671572376" MODIFIED="1650325865302" TEXT="startOfMinute/endOfMinute..."/>
+</node>
+</node>
+<node CREATED="1650326455660" ID="ID_1472657246" MODIFIED="1650326472585" TEXT="time zone functions">
+<node CREATED="1650326461440" ID="ID_64698593" MODIFIED="1650326467581" TEXT="m&#xf3;dulo a parte do date-fns">
+<node CREATED="1650326478260" ID="ID_1568890643" MODIFIED="1650326486851" TEXT="date-fns-tz"/>
+</node>
+<node CREATED="1650326609156" ID="ID_378470080" LINK="https://date-fns.org/v2.28.0/docs/Time-Zones" MODIFIED="1650326609156" TEXT="https://date-fns.org/v2.28.0/docs/Time-Zones"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>

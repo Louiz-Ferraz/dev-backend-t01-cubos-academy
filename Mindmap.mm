@@ -3046,6 +3046,41 @@
 </node>
 </node>
 </node>
+<node CREATED="1653515028114" FOLDED="true" ID="ID_1061890704" MODIFIED="1653521230854" TEXT="Conex&#xe3;o NodeJs com PostgreSQL">
+<node CREATED="1653515239924" ID="ID_547727586" MODIFIED="1653515242547" TEXT="node-postgres">
+<node CREATED="1653515254160" ID="ID_1494568398" MODIFIED="1653515271759" TEXT="biblioteca node.js para conex&#xe3;o com PostgreSQL">
+<node CREATED="1653515278974" ID="ID_561712320" MODIFIED="1653515295846" TEXT="suporte a callbacks, promises, async/await..."/>
+</node>
+<node CREATED="1653515483417" ID="ID_1480127607" MODIFIED="1653515489655" TEXT="trabalha com conceito de pool de conex&#xe3;o">
+<node CREATED="1653515492561" ID="ID_1787729399" MODIFIED="1653515503718" TEXT="agrupamento de conex&#xf5;es reutiliz&#xe1;veis">
+<node CREATED="1653515503987" ID="ID_437657892" MODIFIED="1653515514406" TEXT="para que n&#xe3;o seja necess&#xe1;rio fazer uma conex&#xe3;o a cada query desejada"/>
+</node>
+<node CREATED="1653515539614" ID="ID_1897428438" MODIFIED="1653515554448" TEXT="ap&#xf3;s o processamento, a conex&#xe3;o passa para a pr&#xf3;xima chamada"/>
+<node CREATED="1653515568580" ID="ID_269696434" MODIFIED="1653515583552" TEXT="encerra conex&#xf5;es automaticamente quando inativas"/>
+<node CREATED="1653515727031" LINK="https://node-postgres.com/features/pooling" MODIFIED="1653515727031" TEXT="https://node-postgres.com/features/pooling"/>
+<node CREATED="1653517411447" ID="ID_1993341331" MODIFIED="1653517419816">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="background-color: #151416; color: #ffffff; font-size: 12px; white-space: pre; font-weight: normal; font-family: Consolas, Courier New, monospace; line-height: 16px">
+      <div>
+        <i><font color="#ff2499">const</font></i><font color="#ffffff">&#160;{ Pool } </font><font color="#66d9ef">=</font><font color="#ffffff">&#160;</font><font color="#ffd84f"><b>require</b></font><font color="#ffffff">(</font><font color="#ffb6dd">'pg'</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <i><font color="#ff2499">const</font></i><font color="#ffffff">&#160;pool </font><font color="#66d9ef">=</font><font color="#ffffff">&#160;</font><font color="#66d9ef">new</font><font color="#ffffff">&#160;</font><font color="#ffd84f"><b>Pool</b></font><font color="#ffffff">();</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1653515705755" ID="ID_712902902" LINK="https://node-postgres.com/" MODIFIED="1653515705755" TEXT="https://node-postgres.com/"/>
+<node CREATED="1653515736345" ID="ID_1244124323" MODIFIED="1653515741756" TEXT="npm install pg"/>
+</node>
+</node>
 </node>
 </node>
 </map>

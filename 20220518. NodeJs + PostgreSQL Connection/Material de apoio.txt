@@ -1,0 +1,11 @@
+Gerador de dados
+https://generatedata.com/
+
+Documentação PostegreSQL - Site Oficial
+https://www.postgresql.org/docs/
+
+PostgreSQL Tutorial
+https://www.postgresqltutorial.com/
+
+Documentação node-postgres
+https://node-postgres.com/

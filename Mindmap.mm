@@ -3046,7 +3046,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1653515028114" FOLDED="true" ID="ID_1061890704" MODIFIED="1653521230854" TEXT="Conex&#xe3;o NodeJs com PostgreSQL">
+<node CREATED="1653515028114" FOLDED="true" ID="ID_1061890704" MODIFIED="1653604292868" TEXT="Conex&#xe3;o NodeJs com PostgreSQL">
 <node CREATED="1653515239924" ID="ID_547727586" MODIFIED="1653515242547" TEXT="node-postgres">
 <node CREATED="1653515254160" ID="ID_1494568398" MODIFIED="1653515271759" TEXT="biblioteca node.js para conex&#xe3;o com PostgreSQL">
 <node CREATED="1653515278974" ID="ID_561712320" MODIFIED="1653515295846" TEXT="suporte a callbacks, promises, async/await..."/>
@@ -3073,12 +3073,128 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1653515705755" ID="ID_712902902" LINK="https://node-postgres.com/" MODIFIED="1653515705755" TEXT="https://node-postgres.com/"/>
 <node CREATED="1653515736345" ID="ID_1244124323" MODIFIED="1653515741756" TEXT="npm install pg"/>
+</node>
+</node>
+<node CREATED="1653604293575" FOLDED="true" ID="ID_600390534" MODIFIED="1653611277209" TEXT="Autentica&#xe7;&#xe3;o e Criptografia">
+<node CREATED="1653606690958" ID="ID_515915650" MODIFIED="1653606693774" TEXT="Criptografia">
+<node CREATED="1653606693775" ID="ID_1081295555" MODIFIED="1653606701161" TEXT="Comunica&#xe7;&#xe3;o segura"/>
+<node CREATED="1653606712561" ID="ID_1388212071" MODIFIED="1653606719623" TEXT="Estabelecer confian&#xe7;a entre duas partes">
+<node CREATED="1653606724417" ID="ID_1856498463" MODIFIED="1653606733022" TEXT="sem precisar confiar em intermedi&#xe1;rios"/>
+</node>
+<node CREATED="1653606737951" ID="ID_633794528" MODIFIED="1653606742214" TEXT="Princ&#xed;pios">
+<node CREATED="1653606743338" ID="ID_1419309589" MODIFIED="1653606747135" TEXT="Confidencialidade"/>
+<node CREATED="1653606752936" ID="ID_1690863214" MODIFIED="1653606754805" TEXT="Integridade">
+<node CREATED="1653606804231" ID="ID_1054284093" MODIFIED="1653606807490" TEXT="N&#xe3;o pode ser alterada"/>
+</node>
+<node CREATED="1653606776867" ID="ID_169773222" MODIFIED="1653606779552" TEXT="Autentica&#xe7;&#xe3;o">
+<node CREATED="1653606809580" ID="ID_1740676041" MODIFIED="1653606815277" TEXT="Poss&#xed;vel verificar a origem"/>
+</node>
+<node CREATED="1653606792628" ID="ID_1765532025" MODIFIED="1653606795676" TEXT="N&#xe3;o-rep&#xfa;dio">
+<node CREATED="1653606831713" ID="ID_192436322" MODIFIED="1653606846687" TEXT="Posso provar para outros que mensagem &#xe9; aut&#xea;ntica e veio da fonte verdadeira"/>
+</node>
+</node>
+</node>
+<node CREATED="1653607046209" ID="ID_1905952743" MODIFIED="1653607048983" TEXT="Teoria da informa&#xe7;&#xe3;o">
+<node CREATED="1653607053143" ID="ID_1902535475" MODIFIED="1653607063463" TEXT="uma mesma informa&#xe7;&#xe3;o pode ser representada de v&#xe1;rias formas">
+<node CREATED="1653607066115" ID="ID_1817697969" MODIFIED="1653607099941" TEXT="137 ou &quot;centro e trinta e sete&quot;..."/>
+</node>
+<node CREATED="1653607106861" ID="ID_1988719876" MODIFIED="1653607116220" TEXT="a informa&#xe7;&#xe3;o &#xe9; abstrata, a representa&#xe7;&#xe3;o &#xe9; concreta"/>
+<node CREATED="1653607124173" ID="ID_916981708" MODIFIED="1653607133136" TEXT="na criptografia, trabalhamos com representa&#xe7;&#xe3;o"/>
+</node>
+<node CREATED="1653607154901" ID="ID_1639948971" MODIFIED="1653607156637" TEXT="Ofusca&#xe7;&#xe3;o">
+<node CREATED="1653607160090" ID="ID_1551011666" MODIFIED="1653607176138" TEXT="Procedimento secreto para transformar dados e torn&#xe1;-los incompreens&#xed;veis"/>
+<node CREATED="1653607180738" ID="ID_350097595" MODIFIED="1653607197730" TEXT="junto a procedimento secreto para recuperar informa&#xe7;&#xe3;o original"/>
+<node CREATED="1653607221635" ID="ID_1025089556" MODIFIED="1653607226435" TEXT="&#xc9; a origem da criptografia"/>
+<node CREATED="1653607232814" ID="ID_1821170172" MODIFIED="1653607345683" TEXT="N&#xe3;o traz seguran&#xe7;a">
+<node CREATED="1653607239838" ID="ID_1886946619" MODIFIED="1653607252166" TEXT="Uma vez que o procedimento &#xe9; sabido, todo hist&#xf3;rico j&#xe1; era"/>
+</node>
+</node>
+<node CREATED="1653607317478" ID="ID_115135777" MODIFIED="1653607320798" TEXT="Esteganografia">
+<node CREATED="1653607324897" ID="ID_1437910230" MODIFIED="1653607332550" TEXT="Ocultar informa&#xe7;&#xe3;o de forma que n&#xe3;o seja percebida"/>
+<node CREATED="1653607336473" ID="ID_158659261" MODIFIED="1653607339285" TEXT="Muito comum em fotos">
+<node CREATED="1653607352961" ID="ID_1340128726" MODIFIED="1653607370794" TEXT="colocar informa&#xe7;&#xe3;o em uma foto, pequena, disfar&#xe7;ada"/>
+</node>
+<node CREATED="1653607232814" ID="ID_172961696" MODIFIED="1653607345683" TEXT="N&#xe3;o traz seguran&#xe7;a"/>
+</node>
+<node CREATED="1653607440495" ID="ID_458652641" MODIFIED="1653607445918" TEXT="Criptografia sim&#xe9;trica">
+<node CREATED="1653607452222" ID="ID_1644926061" MODIFIED="1653607464346" TEXT="uma cifra sim&#xe9;trica &#xe9; um par de procedimentos (E e D)">
+<node CREATED="1653607466367" ID="ID_1464642030" MODIFIED="1653607486698" TEXT="em que &#xe9; poss&#xed;vel encriptar mensagem M"/>
+<node CREATED="1653607488432" ID="ID_884811696" MODIFIED="1653607488432" TEXT="com uma chave K"/>
+<node CREATED="1653607490972" ID="ID_727260160" MODIFIED="1653607506230" TEXT="gerando um texto cifrado C indistingu&#xed;vel de aleat&#xf3;rio"/>
+<node CREATED="1653607508040" ID="ID_1957809337" MODIFIED="1653607517529" TEXT="e &#xe9; poss&#xed;vel reverter apenas com a chave K"/>
+</node>
+<node CREATED="1653607567324" ID="ID_1796278572" MODIFIED="1653607568350" TEXT="ou seja">
+<node CREATED="1653607586725" ID="ID_995701393" MODIFIED="1653607592211" TEXT="E(M, K) = C">
+<node CREATED="1653607606954" ID="ID_1888610086" MODIFIED="1653607613274" TEXT="encriptografia"/>
+</node>
+<node CREATED="1653607592627" ID="ID_1519422063" MODIFIED="1653607599423" TEXT="D(C, K) = M">
+<node CREATED="1653607614295" ID="ID_5907921" MODIFIED="1653607617869" TEXT="desencriptografia"/>
+</node>
+</node>
+<node CREATED="1653607667199" ID="ID_872962955" MODIFIED="1653607669895" TEXT="Propriedades">
+<node CREATED="1653607670233" ID="ID_1667550392" MODIFIED="1653607695773" TEXT="mesmo com M e C, n&#xe3;o d&#xe1; pra deduzir K"/>
+<node CREATED="1653607706335" ID="ID_495935071" MODIFIED="1653607714208" TEXT="a mesma chave K pode ser utilizada em v&#xe1;rias mensagens"/>
+<node CREATED="1653607723722" ID="ID_447663058" MODIFIED="1653607734982" TEXT="os procedimentos E e D s&#xe3;o publicamente conhecidos">
+<node CREATED="1653607738164" ID="ID_1679848283" MODIFIED="1653607741466" TEXT="s&#xe3;o alvo de muita pesquisa"/>
+</node>
+<node CREATED="1653607764164" ID="ID_1882684198" MODIFIED="1653607773842" TEXT="se vc perder K, &#xe9; imposs&#xed;vel recuperar M"/>
+<node CREATED="1653607847734" ID="ID_587790463" MODIFIED="1653607850892" TEXT="exemplo procedimento">
+<node CREATED="1653607851508" ID="ID_1267668298" MODIFIED="1653607855682" TEXT="AES-CBC"/>
+</node>
+</node>
+</node>
+<node CREATED="1653607883919" ID="ID_385097319" MODIFIED="1653607885656" TEXT="Hash">
+<node CREATED="1653607889490" ID="ID_1048814759" MODIFIED="1653607893420" TEXT="Fun&#xe7;&#xe3;o de sentido &#xfa;nico">
+<node CREATED="1653607896397" ID="ID_1041149509" MODIFIED="1653607901040" TEXT="one way function"/>
+<node CREATED="1653607905084" ID="ID_817654860" MODIFIED="1653607909616" TEXT="procedimento f&#xe1;cil de ser realizado"/>
+<node CREATED="1653607912979" ID="ID_503804462" MODIFIED="1653607922450" TEXT="dado o resultado, &#xe9; muito dif&#xed;cil reverter"/>
+</node>
+<node CREATED="1653608017528" ID="ID_1956184323" MODIFIED="1653608021933" TEXT="Hash criptogr&#xe1;fico">
+<node CREATED="1653608030005" ID="ID_446662901" MODIFIED="1653608045316" TEXT="para uma mensagem M, &#xe9; poss&#xed;vel calcular H(M) rapidamente"/>
+<node CREATED="1653608072200" ID="ID_840932589" MODIFIED="1653608080427" TEXT="Dado H(X), n&#xe3;o &#xe9; poss&#xed;vel achar X"/>
+<node CREATED="1653608109997" ID="ID_881353367" MODIFIED="1653608119636" TEXT="H(X) &#xe9; indistingu&#xed;vel de dados aleat&#xf3;rios"/>
+<node CREATED="1653608143206" ID="ID_1679299800" MODIFIED="1653608200443" TEXT="N&#xe3;o d&#xe1; pra encontrar X e Y tais que H(X) = H(Y)"/>
+<node CREATED="1653608221312" ID="ID_772465586" MODIFIED="1653608223442" TEXT="Exemplo:">
+<node CREATED="1653608223443" ID="ID_1023044996" MODIFIED="1653608225820" TEXT="SHA-256"/>
+</node>
+<node CREATED="1653608240948" ID="ID_1485977152" MODIFIED="1653608243492" TEXT="Aplica&#xe7;&#xe3;o">
+<node CREATED="1653608244653" ID="ID_969664043" MODIFIED="1653608248322" TEXT="verificar integridade ou posse"/>
+</node>
+</node>
+</node>
+<node CREATED="1653608370012" ID="ID_114329332" MODIFIED="1653608372698" TEXT="Assinatura digital">
+<node CREATED="1653608375470" ID="ID_1924475349" MODIFIED="1653608385356" TEXT="um procedimento de assinar e um de verificar"/>
+<node CREATED="1653608396435" ID="ID_1905316179" MODIFIED="1653608411371" TEXT="a assinatura &#xe9; calculada a partir do hash da mensagem e uma chave secreta">
+<node CREATED="1653608418217" ID="ID_989728253" MODIFIED="1653608425026" TEXT="essa assinatura n&#xe3;o revela nada da mensagem original"/>
+</node>
+<node CREATED="1653608450312" ID="ID_271928349" MODIFIED="1653608459407" TEXT="da posse da mensagem original, assinatura e da chave">
+<node CREATED="1653608461171" ID="ID_1766127953" MODIFIED="1653608473350" TEXT="&#xe9; poss&#xed;vel verificar se a assinatura &#xe9; leg&#xed;tima"/>
+</node>
+<node CREATED="1653608492495" ID="ID_59856222" MODIFIED="1653608499305" TEXT="qualquer modifica&#xe7;&#xe3;o na mensagem invalida a assinatura"/>
+<node CREATED="1653608534704" ID="ID_201110477" MODIFIED="1653608536025" TEXT="Exemplo">
+<node CREATED="1653608536025" ID="ID_903489392" MODIFIED="1653608537086" TEXT="HMAC"/>
+</node>
+<node CREATED="1653608585753" ID="ID_1476556465" MODIFIED="1653608589914" TEXT="Assinatura digital assim&#xe9;trica">
+<node CREATED="1653608591551" ID="ID_788625423" MODIFIED="1653608624358" TEXT="usa uma chave privada pra assinar">
+<node CREATED="1653608600361" ID="ID_580511879" MODIFIED="1653608605314" TEXT="uma chave p&#xfa;blica pra verificar">
+<node CREATED="1653608610073" ID="ID_1131959591" MODIFIED="1653608615643" TEXT="a chave p&#xfa;blica &#xe9; divulgada abertamente"/>
+</node>
+</node>
+<node CREATED="1653608630542" ID="ID_36245431" MODIFIED="1653608636620" TEXT="apenas quem tem a chave privada pode assinar"/>
+<node CREATED="1653608641292" ID="ID_282749506" MODIFIED="1653608646628" TEXT="qualquer um consegue validar a assinatura"/>
+<node CREATED="1653608663580" ID="ID_1611504932" MODIFIED="1653608666784" TEXT="muito comum em documentos"/>
+</node>
+</node>
+<node CREATED="1653610239088" ID="ID_1818239071" MODIFIED="1653610244319" TEXT="Biblioteca secure-password">
+<node CREATED="1653610244727" LINK="https://www.npmjs.com/package/secure-password" MODIFIED="1653610244727" TEXT="https://www.npmjs.com/package/secure-password"/>
+</node>
+<node CREATED="1653610579799" ID="ID_245814380" MODIFIED="1653610584716" TEXT="Biblioteca para tokens">
+<node CREATED="1653610585224" LINK="https://www.npmjs.com/package/jsonwebtoken" MODIFIED="1653610585224" TEXT="https://www.npmjs.com/package/jsonwebtoken"/>
 </node>
 </node>
 </node>

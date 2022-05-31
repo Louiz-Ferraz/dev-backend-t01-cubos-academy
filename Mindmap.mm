@@ -3080,7 +3080,7 @@
 <node CREATED="1653515736345" ID="ID_1244124323" MODIFIED="1653515741756" TEXT="npm install pg"/>
 </node>
 </node>
-<node CREATED="1653604293575" FOLDED="true" ID="ID_600390534" MODIFIED="1653611277209" TEXT="Autentica&#xe7;&#xe3;o e Criptografia">
+<node CREATED="1653604293575" FOLDED="true" ID="ID_600390534" MODIFIED="1654018004395" TEXT="Autentica&#xe7;&#xe3;o e Criptografia">
 <node CREATED="1653606690958" ID="ID_515915650" MODIFIED="1653606693774" TEXT="Criptografia">
 <node CREATED="1653606693775" ID="ID_1081295555" MODIFIED="1653606701161" TEXT="Comunica&#xe7;&#xe3;o segura"/>
 <node CREATED="1653606712561" ID="ID_1388212071" MODIFIED="1653606719623" TEXT="Estabelecer confian&#xe7;a entre duas partes">
@@ -3195,6 +3195,23 @@
 </node>
 <node CREATED="1653610579799" ID="ID_245814380" MODIFIED="1653610584716" TEXT="Biblioteca para tokens">
 <node CREATED="1653610585224" LINK="https://www.npmjs.com/package/jsonwebtoken" MODIFIED="1653610585224" TEXT="https://www.npmjs.com/package/jsonwebtoken"/>
+</node>
+</node>
+<node CREATED="1653951865509" FOLDED="true" ID="ID_1709024168" MODIFIED="1654026236942" TEXT="Integra&#xe7;&#xe3;o com API de terceiros">
+<node CREATED="1653951925887" ID="ID_1837239137" MODIFIED="1653951930847" TEXT="Gateway de pagamentos">
+<node CREATED="1654026204643" LINK="https://docs.pagar.me/v4/reference" MODIFIED="1654026204643" TEXT="https://docs.pagar.me/v4/reference"/>
+</node>
+<node CREATED="1654017537912" ID="ID_326621877" MODIFIED="1654017541220" TEXT="Cabe&#xe7;alhos HTTP">
+<node CREATED="1654017581713" ID="ID_1701364431" MODIFIED="1654017583322" TEXT="Headers"/>
+<node CREATED="1654017588863" ID="ID_1451666922" LINK="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Headers" MODIFIED="1654017588863" TEXT="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Headers"/>
+</node>
+<node CREATED="1654018554202" ID="ID_500144796" MODIFIED="1654018555422" TEXT="Axios">
+<node CREATED="1654018582964" ID="ID_1284673271" MODIFIED="1654018586070" TEXT="Biblioteca">
+<node CREATED="1654018586662" ID="ID_355685200" MODIFIED="1654018588769" TEXT="Cliente HTTP"/>
+</node>
+<node CREATED="1654018599210" ID="ID_732471187" LINK="https://axios-http.com/ptbr/docs/intro" MODIFIED="1654018599210" TEXT="https://axios-http.com/ptbr/docs/intro">
+<node CREATED="1654018618502" ID="ID_1478798953" LINK="https://github.com/axios/axios" MODIFIED="1654018618502" TEXT="https://github.com/axios/axios"/>
+</node>
 </node>
 </node>
 </node>

@@ -909,7 +909,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1647558965343" FOLDED="true" ID="ID_1136906619" MODIFIED="1647898767750" TEXT="M&#xe9;todos de Arrays II">
+<node CREATED="1647558965343" FOLDED="true" ID="ID_1136906619" MODIFIED="1654209662239" TEXT="M&#xe9;todos de Arrays II">
 <node CREATED="1647558974442" ID="ID_1348331998" MODIFIED="1647559058556" TEXT="every(callback)">
 <node CREATED="1647558979927" ID="ID_175800572" MODIFIED="1647559001411" TEXT="testa todos os elementos do array"/>
 <node CREATED="1647559003659" ID="ID_1983968960" MODIFIED="1647559014398" TEXT="se passam pelo teste implementado na fun&#xe7;&#xe3;o callback"/>

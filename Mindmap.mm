@@ -3214,6 +3214,14 @@
 </node>
 </node>
 </node>
+<node CREATED="1655254298300" FOLDED="true" ID="ID_1653836838" MODIFIED="1655255987938" TEXT="Git e fluxo de trabalho em equipe">
+<node CREATED="1655254309430" ID="ID_1577389412" MODIFIED="1655254311708" TEXT="Pull request">
+<node CREATED="1655254314960" ID="ID_1284121052" MODIFIED="1655254333561" TEXT="Permite informar altera&#xe7;&#xf5;es para que sejam discutidas/revisadas"/>
+</node>
+<node CREATED="1655254989613" ID="ID_860768516" MODIFIED="1655254990894" TEXT="Conflitos">
+<node CREATED="1655254991261" ID="ID_1980436214" MODIFIED="1655255013145" TEXT="Ocorrem quando duas ou mais pessoas modificam o mesmo c&#xf3;digo e tentam mesclar em uma branch"/>
+</node>
+</node>
 </node>
 </node>
 </map>

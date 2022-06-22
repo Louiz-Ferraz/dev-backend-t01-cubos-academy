@@ -3214,7 +3214,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1655254298300" FOLDED="true" ID="ID_1653836838" MODIFIED="1655255987938" TEXT="Git e fluxo de trabalho em equipe">
+<node CREATED="1655254298300" FOLDED="true" ID="ID_1653836838" MODIFIED="1655764130975" TEXT="Git e fluxo de trabalho em equipe">
 <node CREATED="1655254309430" ID="ID_1577389412" MODIFIED="1655254311708" TEXT="Pull request">
 <node CREATED="1655254314960" ID="ID_1284121052" MODIFIED="1655254333561" TEXT="Permite informar altera&#xe7;&#xf5;es para que sejam discutidas/revisadas"/>
 </node>
@@ -3222,6 +3222,632 @@
 <node CREATED="1655254991261" ID="ID_1980436214" MODIFIED="1655255013145" TEXT="Ocorrem quando duas ou mais pessoas modificam o mesmo c&#xf3;digo e tentam mesclar em uma branch"/>
 </node>
 </node>
+</node>
+<node CREATED="1655764132126" ID="ID_499524822" MODIFIED="1655764133701" POSITION="right" TEXT="Unidade 4">
+<node CREATED="1655764134837" FOLDED="true" ID="ID_319113655" MODIFIED="1655858581661" TEXT="Query Builder">
+<node CREATED="1655764501525" ID="ID_1984187163" MODIFIED="1655764505724" TEXT="Conceito">
+<node CREATED="1655764506068" ID="ID_1706431347" MODIFIED="1655764525107" STYLE="fork" TEXT="Funcionalidades de bibliotecas que possibilitam escrever SQL de maneira simplificada"/>
+</node>
+<node CREATED="1655764572515" ID="ID_1384088359" MODIFIED="1655764574171" TEXT="Knex.js">
+<node CREATED="1655764882771" ID="ID_1609819242" LINK="https://knexjs.org/" MODIFIED="1655764882771" TEXT="https://knexjs.org/"/>
+<node CREATED="1655769427532" ID="ID_483807566" MODIFIED="1655769429072" TEXT="SELECT">
+<node CREATED="1655769437074" ID="ID_1731433278" MODIFIED="1655769446840">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160; </font><font color="#7a7fa0">// SELECT * FROM agenda;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160; </font><i><font color="#ff2499">const</font></i><font color="#ffffff">&#160;agenda </font><font color="#66d9ef">=</font><font color="#ffffff">&#160;</font><font color="#66d9ef">await</font><font color="#ffffff">&#160;</font><font color="#ffd84f"><b>knex</b></font><font color="#ffffff">(</font><font color="#ffb6dd">'agenda'</font><font color="#ffffff">);</font>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1655770432174" ID="ID_1392548581" MODIFIED="1655770436869" TEXT="selecionar campos espec&#xed;ficos">
+<node CREATED="1655770479503" MODIFIED="1655770479503">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="color: #7a7fa0"><font color="#7a7fa0">// SELECT id, nome FROM agenda WHERE id = 5 LIMIT 1; </font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">const</font></span></i><span style="color: #ffffff"><font color="#ffffff"> agenda </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>knex</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'agenda'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>select</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'id'</font></span><span style="color: #ffffff"><font color="#ffffff">, </font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'nome'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>debug</b></font></span><span style="color: #ffffff"><font color="#ffffff">();</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1655769458550" ID="ID_195459260" MODIFIED="1655769462707" TEXT="knex.raw">
+<node CREATED="1655769463940" ID="ID_1230789686" MODIFIED="1655769478580" TEXT="fun&#xe7;&#xe3;o para query &quot;crua&quot;"/>
+<node CREATED="1655769548035" MODIFIED="1655769548035">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">const</font></span></i><span style="color: #ffffff"><font color="#ffffff"> agenda </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> knex.</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>raw</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'SELECT * FROM agenda'</font></span><span style="color: #ffffff"><font color="#ffffff">);</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1655769704911" ID="ID_1156301646" MODIFIED="1655769705968" TEXT="WHERE">
+<node CREATED="1655769720465" MODIFIED="1655769720465">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="color: #7a7fa0"><font color="#7a7fa0">// SELECT * FROM agenda WHERE id = 5;</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">const</font></span></i><span style="color: #ffffff"><font color="#ffffff"> agenda </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>knex</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'agenda'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>where</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'id'</font></span><span style="color: #ffffff"><font color="#ffffff">, </font></span><span style="color: #ffd84f"><font color="#ffd84f">5</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>debug</b></font></span><span style="color: #ffffff"><font color="#ffffff">();</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1655769777113" MODIFIED="1655769777113">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="color: #7a7fa0"><font color="#7a7fa0">// SELECT * FROM agenda WHERE id &lt;&gt; 5;</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">const</font></span></i><span style="color: #ffffff"><font color="#ffffff"> agenda </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>knex</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'agenda'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>where</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'id'</font></span><span style="color: #ffffff"><font color="#ffffff">, </font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'&lt;&gt;'</font></span><span style="color: #ffffff"><font color="#ffffff">, </font></span><span style="color: #ffd84f"><font color="#ffd84f">5</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>debug</b></font></span><span style="color: #ffffff"><font color="#ffffff">();</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1655769928457" ID="ID_206029724" MODIFIED="1655770059939">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+          <div>
+            <font color="#7a7fa0">&#160;// SELECT * FROM agenda WHERE id = 5 AND nome = 'Samantha R. Maldonado';</font>
+          </div>
+        </div>
+        <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+          <div>
+            <i><font color="#ff2499">&#160;const</font></i><font color="#ffffff">&#160;agenda </font><font color="#66d9ef">=</font><font color="#ffffff">&#160;</font><font color="#66d9ef">await</font><font color="#ffffff">&#160; </font><font color="#ffd84f"><b>knex</b></font><font color="#ffffff">(</font><font color="#ffb6dd">'agenda'</font><font color="#ffffff">).</font><font color="#ffd84f"><b>where</b></font><font color="#ffffff">({ id: </font><font color="#ffd84f">5</font><font color="#ffffff">, nome: </font><font color="#ffb6dd">'Samantha R. Maldonado'</font><font color="#ffffff">&#160;&#160;})</font>;
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1655770654180" ID="ID_1158283711" MODIFIED="1655770655971" TEXT="IS NULL">
+<node CREATED="1655770656620" MODIFIED="1655770656620">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="color: #7a7fa0"><font color="#7a7fa0">// SELECT * FROM agenda WHERE email IS NULL;</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">const</font></span></i><span style="color: #ffffff"><font color="#ffffff"> agenda </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>knex</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'agenda'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>whereNull</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'email'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>debug</b></font></span><span style="color: #ffffff"><font color="#ffffff">();</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1655770684554" ID="ID_1776923012" MODIFIED="1655770686279" TEXT="IS NOT NULL">
+<node CREATED="1655770686577" MODIFIED="1655770686577">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="color: #7a7fa0"><font color="#7a7fa0">// SELECT * FROM agenda WHERE email IS NOT NULL;</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">const</font></span></i><span style="color: #ffffff"><font color="#ffffff"> agenda </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>knex</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'agenda'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>whereNotNull</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'email'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>debug</b></font></span><span style="color: #ffffff"><font color="#ffffff">();</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1655770763557" ID="ID_1657113496" MODIFIED="1655770766718" TEXT="BETWEEN">
+<node CREATED="1655770767098" MODIFIED="1655770767098">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="color: #7a7fa0"><font color="#7a7fa0">// SELECT * FROM agenda WHERE id BETWEEN 5 AND 10;</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">const</font></span></i><span style="color: #ffffff"><font color="#ffffff"> agenda </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>knex</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'agenda'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>whereBetween</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'id'</font></span><span style="color: #ffffff"><font color="#ffffff">, [</font></span><span style="color: #ffd84f"><font color="#ffd84f">5</font></span><span style="color: #ffffff"><font color="#ffffff">, </font></span><span style="color: #ffd84f"><font color="#ffd84f">10</font></span><span style="color: #ffffff"><font color="#ffffff">]).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>debug</b></font></span><span style="color: #ffffff"><font color="#ffffff">();</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1655770296346" ID="ID_1438295056" MODIFIED="1655770297533" TEXT="FIRST">
+<node CREATED="1655770297940" ID="ID_303921860" MODIFIED="1655770297940">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="color: #7a7fa0"><font color="#7a7fa0">// SELECT * FROM agenda WHERE id = 5 LIMIT 1; TRAZ S&#211; O PRIMEIRO OBJETO, N&#195;O ARRAY</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">const</font></span></i><span style="color: #ffffff"><font color="#ffffff"> agenda </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>knex</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'agenda'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>where</b></font></span><span style="color: #ffffff"><font color="#ffffff">({ id: </font></span><span style="color: #ffd84f"><font color="#ffd84f">5</font></span><span style="color: #ffffff"><font color="#ffffff"> }).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>first</b></font></span><span style="color: #ffffff"><font color="#ffffff">().</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>debug</b></font></span><span style="color: #ffffff"><font color="#ffffff">();</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1655770844542" ID="ID_1693409394" MODIFIED="1655770846697" TEXT="ORDER BY">
+<node CREATED="1655770863359" MODIFIED="1655770863359">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="color: #7a7fa0"><font color="#7a7fa0">// SELECT * FROM agenda WHERE id BETWEEN 5 AND 10 ORDER BY id DESC;</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">const</font></span></i><span style="color: #ffffff"><font color="#ffffff"> agenda </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>knex</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'agenda'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>whereBetween</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'id'</font></span><span style="color: #ffffff"><font color="#ffffff">, [</font></span><span style="color: #ffd84f"><font color="#ffd84f">5</font></span><span style="color: #ffffff"><font color="#ffffff">, </font></span><span style="color: #ffd84f"><font color="#ffd84f">10</font></span><span style="color: #ffffff"><font color="#ffffff">]).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>orderBy</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'id'</font></span><span style="color: #ffffff"><font color="#ffffff">, </font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'DESC'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>debug</b></font></span><span style="color: #ffffff"><font color="#ffffff">();</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1655770931339" ID="ID_1111826073" MODIFIED="1655770933274" TEXT="DISTINCT">
+<node CREATED="1655770933627" MODIFIED="1655770933627">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="color: #7a7fa0"><font color="#7a7fa0">// SELECT DISTINCT(email) FROM agenda;</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">const</font></span></i><span style="color: #ffffff"><font color="#ffffff"> agenda </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>knex</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'agenda'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>distinct</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'email'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>debug</b></font></span><span style="color: #ffffff"><font color="#ffffff">();</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1655771181983" ID="ID_1799279142" MODIFIED="1655771183326" TEXT="GROUP BY">
+<node CREATED="1655771183669" MODIFIED="1655771183669">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="color: #7a7fa0"><font color="#7a7fa0">// SELECT email FROM agenda GROUP BY email;</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">const</font></span></i><span style="color: #ffffff"><font color="#ffffff"> agenda </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>knex</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'agenda'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>select</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'email'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>groupBy</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'email'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>debug</b></font></span><span style="color: #ffffff"><font color="#ffffff">();</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1655771274372" ID="ID_1564980134" MODIFIED="1655771275630" TEXT="COUNT">
+<node CREATED="1655771313013" ID="ID_311376997" MODIFIED="1655771320251">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160; </font><font color="#7a7fa0">// SELECT email, COUNT(*) FROM agenda GROUP BY email;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160; </font><i><font color="#ff2499">const</font></i><font color="#ffffff">&#160;agenda </font><font color="#66d9ef">=</font><font color="#ffffff">&#160;</font><font color="#66d9ef">await</font><font color="#ffffff">&#160; </font><font color="#ffd84f"><b>knex</b></font><font color="#ffffff">(</font><font color="#ffb6dd">'agenda'</font><font color="#ffffff">).</font><font color="#ffd84f"><b>select</b></font><font color="#ffffff">(</font><font color="#ffb6dd">'email'</font><font color="#ffffff">).</font><font color="#ffd84f"><b>groupBy</b></font><font color="#ffffff">(</font><font color="#ffb6dd">'email'</font><font color="#ffffff">).</font><font color="#ffd84f"><b>count</b></font><font color="#ffffff">().</font><font color="#ffd84f"><b>debug</b></font><font color="#ffffff">();</font>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1655771570598" MODIFIED="1655771570598">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="color: #7a7fa0"><font color="#7a7fa0">// SELECT COUNT(*) FROM agenda WHERE email IS NULL;</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">const</font></span></i><span style="color: #ffffff"><font color="#ffffff"> agenda </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>knex</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'agenda'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>whereNull</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'email'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>count</b></font></span><span style="color: #ffffff"><font color="#ffffff">().</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>debug</b></font></span><span style="color: #ffffff"><font color="#ffffff">();</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1655771620013" ID="ID_1557870017" MODIFIED="1655771620900" TEXT="SUM">
+<node CREATED="1655771621212" MODIFIED="1655771621212">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="color: #7a7fa0"><font color="#7a7fa0">// SELECT SUM(id) FROM agenda WHERE email IS NULL;</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">const</font></span></i><span style="color: #ffffff"><font color="#ffffff"> agenda </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>knex</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'agenda'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>whereNull</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'email'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>sum</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'id'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>debug</b></font></span><span style="color: #ffffff"><font color="#ffffff">();</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1655771673053" ID="ID_1895206007" MODIFIED="1655771676123" TEXT="AVG">
+<node CREATED="1655771676521" MODIFIED="1655771676521">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="color: #7a7fa0"><font color="#7a7fa0">// SELECT AVG(id) FROM agenda WHERE email IS NULL;</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">const</font></span></i><span style="color: #ffffff"><font color="#ffffff"> agenda </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>knex</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'agenda'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>whereNull</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'email'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>avg</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'id'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>debug</b></font></span><span style="color: #ffffff"><font color="#ffffff">();</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1655771736431" ID="ID_1941971954" MODIFIED="1655771737153" TEXT="MIN">
+<node CREATED="1655771737450" MODIFIED="1655771737450">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="color: #7a7fa0"><font color="#7a7fa0">// SELECT MIN(id) FROM agenda WHERE email IS NULL;</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">const</font></span></i><span style="color: #ffffff"><font color="#ffffff"> agenda </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>knex</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'agenda'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>whereNull</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'email'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>min</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'id'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>debug</b></font></span><span style="color: #ffffff"><font color="#ffffff">();</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1655771743987" ID="ID_530571023" MODIFIED="1655771745698" TEXT="MAX">
+<node CREATED="1655771746640" ID="ID_1503450842" MODIFIED="1655771752456">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160; </font><font color="#7a7fa0">// SELECT MAX(id) FROM agenda WHERE email IS NULL;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160; </font><i><font color="#ff2499">const</font></i><font color="#ffffff">&#160;agenda </font><font color="#66d9ef">=</font><font color="#ffffff">&#160;</font><font color="#66d9ef">await</font><font color="#ffffff">&#160; </font><font color="#ffd84f"><b>knex</b></font><font color="#ffffff">(</font><font color="#ffb6dd">'agenda'</font><font color="#ffffff">).</font><font color="#ffd84f"><b>whereNull</b></font><font color="#ffffff">(</font><font color="#ffb6dd">'email'</font><font color="#ffffff">).</font><font color="#ffd84f"><b>max</b></font><font color="#ffffff">(</font><font color="#ffb6dd">'id'</font><font color="#ffffff">).</font><font color="#ffd84f"><b>debug</b></font><font color="#ffffff">()</font>;
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1655771411159" ID="ID_817600929" MODIFIED="1655771412846" TEXT="LIMIT">
+<node CREATED="1655771413240" MODIFIED="1655771413240">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="color: #7a7fa0"><font color="#7a7fa0">// SELECT * FROM agenda LIMIT 5;</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">const</font></span></i><span style="color: #ffffff"><font color="#ffffff"> agenda </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>knex</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'agenda'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>limit</b></font></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffd84f"><font color="#ffd84f">5</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><font color="#ffd84f"><b>debug</b></font></span><span style="color: #ffffff"><font color="#ffffff">();</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1655771432246" ID="ID_1524838515" MODIFIED="1655771435394" TEXT="OFFSET">
+<node CREATED="1655771473074" ID="ID_87937294" MODIFIED="1655771478123">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-weight: normal; color: #ffffff; background-color: #151416; font-family: Consolas, Courier New, monospace; font-size: 12px; line-height: 16px; white-space: pre">
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160; </font><font color="#7a7fa0">// SELECT * FROM agenda LIMIT 5 OFFSET 2;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160; </font><i><font color="#ff2499">const</font></i><font color="#ffffff">&#160;agenda </font><font color="#66d9ef">=</font><font color="#ffffff">&#160;</font><font color="#66d9ef">await</font><font color="#ffffff">&#160; </font><font color="#ffd84f"><b>knex</b></font><font color="#ffffff">(</font><font color="#ffb6dd">'agenda'</font><font color="#ffffff">).</font><font color="#ffd84f"><b>limit</b></font><font color="#ffffff">(</font><font color="#ffd84f">5</font><font color="#ffffff">).</font><font color="#ffd84f"><b>offset</b></font><font color="#ffffff">(</font><font color="#ffd84f">2</font><font color="#ffffff">).</font><font color="#ffd84f"><b>debug</b></font><font color="#ffffff">();</font>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1655854285138" ID="ID_699537271" MODIFIED="1655854286667" TEXT="INSERT">
+<node CREATED="1655854626649" ID="ID_1456087863" MODIFIED="1655854631867">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-family: Consolas, Courier New, monospace; background-color: #151416; font-size: 12px; line-height: 16px; color: #ffffff; white-space: pre; font-weight: normal">
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160; </font><font color="#ff2499"><i>const</i></font><font color="#ffffff">&#160;luiz </font><font color="#66d9ef">=</font><font color="#ffffff">&#160;{</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nome: </font><font color="#ffb6dd">&quot;Luiz Ferraz&quot;</font><font color="#ffffff">,</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;email: </font><font color="#ffb6dd">&quot;luiz@email.com&quot;</font><font color="#ffffff">,</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;telefone: </font><font color="#ffb6dd">&quot;(99) 99999-9999&quot;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;}</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160; </font><font color="#ff2499"><i>const</i></font><font color="#ffffff">&#160;agenda </font><font color="#66d9ef">=</font><font color="#ffffff">&#160;</font><font color="#66d9ef">await</font><font color="#ffffff">&#160; </font><font color="#ffd84f"><b>knex</b></font><font color="#ffffff">(</font><font color="#ffb6dd">'agenda'</font><font color="#ffffff">).</font><font color="#ffd84f"><b>insert</b></font><font color="#ffffff">(luiz).</font><font color="#ffd84f"><b>returning</b></font><font color="#ffffff">(</font><font color="#ffb6dd">'*'</font><font color="#ffffff">).</font><font color="#ffd84f"><b>debug</b></font><font color="#ffffff">();</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1655854709299" ID="ID_990204919" MODIFIED="1655854709299">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-family: Consolas, Courier New, monospace; background-color: #151416; font-size: 12px; line-height: 16px; color: #ffffff; white-space: pre; font-weight: normal">
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; </span></font><font color="#ff2499"><i><span style="color: #ff2499; font-style: italic">const</span></i></font><font color="#ffffff"><span style="color: #ffffff"> maria </span></font><font color="#66d9ef"><span style="color: #66d9ef">=</span></font><font color="#ffffff"><span style="color: #ffffff"> {</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; nome: </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">&quot;Maria&quot;</span></font><font color="#ffffff"><span style="color: #ffffff">,</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; email: </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">&quot;maria@email.com&quot;</span></font><font color="#ffffff"><span style="color: #ffffff">,</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; telefone: </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">&quot;(99) 99999-9999&quot;</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; }</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; </span></font><font color="#ff2499"><i><span style="color: #ff2499; font-style: italic">const</span></i></font><font color="#ffffff"><span style="color: #ffffff"> luiz </span></font><font color="#66d9ef"><span style="color: #66d9ef">=</span></font><font color="#ffffff"><span style="color: #ffffff"> {</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; nome: </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">&quot;Luiz Ferraz&quot;</span></font><font color="#ffffff"><span style="color: #ffffff">,</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; email: </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">&quot;luiz@email.com&quot;</span></font><font color="#ffffff"><span style="color: #ffffff">,</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; telefone: </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">&quot;(99) 99999-9999&quot;</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; }</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; </span></font><font color="#ff2499"><i><span style="color: #ff2499; font-style: italic">const</span></i></font><font color="#ffffff"><span style="color: #ffffff"> agenda </span></font><font color="#66d9ef"><span style="color: #66d9ef">=</span></font><font color="#ffffff"><span style="color: #ffffff"> </span></font><font color="#66d9ef"><span style="color: #66d9ef">await</span></font><font color="#ffffff"><span style="color: #ffffff"> </span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">knex</span></b></font><font color="#ffffff"><span style="color: #ffffff">(</span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'agenda'</span></font><font color="#ffffff"><span style="color: #ffffff">).</span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">insert</span></b></font><font color="#ffffff"><span style="color: #ffffff">([maria, luiz]).</span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">returning</span></b></font><font color="#ffffff"><span style="color: #ffffff">(</span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'*'</span></font><font color="#ffffff"><span style="color: #ffffff">).</span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">debug</span></b></font><font color="#ffffff"><span style="color: #ffffff">();</span></font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1655854638456" ID="ID_320288165" MODIFIED="1655854642037" TEXT="RETURNING">
+<node CREATED="1655854643858" ID="ID_1489408679" MODIFIED="1655854648143" TEXT="retorna os dados inseridos"/>
+</node>
+</node>
+<node CREATED="1655854729288" ID="ID_647051657" MODIFIED="1655854730413" TEXT="UPDATE">
+<node CREATED="1655855328026" MODIFIED="1655855328026">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-family: Consolas, Courier New, monospace; background-color: #151416; font-size: 12px; line-height: 16px; color: #ffffff; white-space: pre; font-weight: normal">
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; </span></font><font color="#ff2499"><i><span style="color: #ff2499; font-style: italic">const</span></i></font><font color="#ffffff"><span style="color: #ffffff"> agendaAtualizada </span></font><font color="#66d9ef"><span style="color: #66d9ef">=</span></font><font color="#ffffff"><span style="color: #ffffff"> </span></font><font color="#66d9ef"><span style="color: #66d9ef">await</span></font><font color="#ffffff"><span style="color: #ffffff"> </span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">knex</span></b></font><font color="#ffffff"><span style="color: #ffffff">(</span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'agenda'</span></font><font color="#ffffff"><span style="color: #ffffff">)</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; .</span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">update</span></b></font><font color="#ffffff"><span style="color: #ffffff">({ nome, email, telefone })</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; .</span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">where</span></b></font><font color="#ffffff"><span style="color: #ffffff">({ id })</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; .</span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">returning</span></b></font><font color="#ffffff"><span style="color: #ffffff">(</span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'*'</span></font><font color="#ffffff"><span style="color: #ffffff">)</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; .</span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">debug</span></b></font><font color="#ffffff"><span style="color: #ffffff">();</span></font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1655855352812" ID="ID_1510006066" MODIFIED="1655855394508" TEXT="DELETE">
+<node CREATED="1655855474311" MODIFIED="1655855474311">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-family: Consolas, Courier New, monospace; background-color: #151416; font-size: 12px; line-height: 16px; color: #ffffff; white-space: pre; font-weight: normal">
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; </span></font><font color="#ff2499"><i><span style="color: #ff2499; font-style: italic">const</span></i></font><font color="#ffffff"><span style="color: #ffffff"> agendaExcluida </span></font><font color="#66d9ef"><span style="color: #66d9ef">=</span></font><font color="#ffffff"><span style="color: #ffffff"> </span></font><font color="#66d9ef"><span style="color: #66d9ef">await</span></font><font color="#ffffff"><span style="color: #ffffff"> </span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">knex</span></b></font><font color="#ffffff"><span style="color: #ffffff">(</span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'agenda'</span></font><font color="#ffffff"><span style="color: #ffffff">)</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; .</span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">del</span></b></font><font color="#ffffff"><span style="color: #ffffff">()</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; .</span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">where</span></b></font><font color="#ffffff"><span style="color: #ffffff">({ id })</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; .</span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">returning</span></b></font><font color="#ffffff"><span style="color: #ffffff">(</span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'*'</span></font><font color="#ffffff"><span style="color: #ffffff">)</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; .</span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">debug</span></b></font><font color="#ffffff"><span style="color: #ffffff">();</span></font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1655857763308" ID="ID_1840745969" MODIFIED="1655857764732" TEXT="JOIN">
+<node CREATED="1655858476578" ID="ID_10050292" MODIFIED="1655858479402" TEXT="INNER JOIN">
+<node CREATED="1655858483946" MODIFIED="1655858483946">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-family: Consolas, Courier New, monospace; background-color: #151416; font-size: 12px; line-height: 16px; color: #ffffff; white-space: pre; font-weight: normal">
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; </span></font><font color="#ff2499"><i><span style="color: #ff2499; font-style: italic">const</span></i></font><font color="#ffffff"><span style="color: #ffffff"> anotacoes </span></font><font color="#66d9ef"><span style="color: #66d9ef">=</span></font><font color="#ffffff"><span style="color: #ffffff"> </span></font><font color="#66d9ef"><span style="color: #66d9ef">await</span></font><font color="#ffffff"><span style="color: #ffffff"> </span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">knex</span></b></font><font color="#ffffff"><span style="color: #ffffff">(</span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'anotacoes'</span></font><font color="#ffffff"><span style="color: #ffffff">)</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; .</span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">join</span></b></font><font color="#ffffff"><span style="color: #ffffff">(</span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'agenda'</span></font><font color="#ffffff"><span style="color: #ffffff">, </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'anotacoes.agenda_id'</span></font><font color="#ffffff"><span style="color: #ffffff">, </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'='</span></font><font color="#ffffff"><span style="color: #ffffff">, </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'agenda.id'</span></font><font color="#ffffff"><span style="color: #ffffff">)</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; .</span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">select</span></b></font><font color="#ffffff"><span style="color: #ffffff">(</span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'anotacoes.*'</span></font><font color="#ffffff"><span style="color: #ffffff">, </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'agenda.nome'</span></font><font color="#ffffff"><span style="color: #ffffff">)</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; .</span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">debug</span></b></font><font color="#ffffff"><span style="color: #ffffff">();</span></font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1655858547404" ID="ID_401109589" MODIFIED="1655858550021" TEXT="LEFT JOIN">
+<node CREATED="1655858554928" MODIFIED="1655858554928">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-family: Consolas, Courier New, monospace; background-color: #151416; font-size: 12px; line-height: 16px; color: #ffffff; white-space: pre; font-weight: normal">
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; </span></font><font color="#ff2499"><i><span style="color: #ff2499; font-style: italic">const</span></i></font><font color="#ffffff"><span style="color: #ffffff"> anotacoes </span></font><font color="#66d9ef"><span style="color: #66d9ef">=</span></font><font color="#ffffff"><span style="color: #ffffff"> </span></font><font color="#66d9ef"><span style="color: #66d9ef">await</span></font><font color="#ffffff"><span style="color: #ffffff"> </span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">knex</span></b></font><font color="#ffffff"><span style="color: #ffffff">(</span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'anotacoes'</span></font><font color="#ffffff"><span style="color: #ffffff">)</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; .</span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">leftJoin</span></b></font><font color="#ffffff"><span style="color: #ffffff">(</span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'agenda'</span></font><font color="#ffffff"><span style="color: #ffffff">, </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'anotacoes.agenda_id'</span></font><font color="#ffffff"><span style="color: #ffffff">, </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'='</span></font><font color="#ffffff"><span style="color: #ffffff">, </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'agenda.id'</span></font><font color="#ffffff"><span style="color: #ffffff">)</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; .</span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">select</span></b></font><font color="#ffffff"><span style="color: #ffffff">(</span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'anotacoes.*'</span></font><font color="#ffffff"><span style="color: #ffffff">, </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'agenda.nome'</span></font><font color="#ffffff"><span style="color: #ffffff">)</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; .</span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">debug</span></b></font><font color="#ffffff"><span style="color: #ffffff">();</span></font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1655858555801" ID="ID_1271444481" MODIFIED="1655858558287" TEXT="RIGHT JOIN">
+<node CREATED="1655858562346" MODIFIED="1655858562346">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="font-family: Consolas, Courier New, monospace; background-color: #151416; font-size: 12px; line-height: 16px; color: #ffffff; white-space: pre; font-weight: normal">
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; </span></font><font color="#ff2499"><i><span style="color: #ff2499; font-style: italic">const</span></i></font><font color="#ffffff"><span style="color: #ffffff"> anotacoes </span></font><font color="#66d9ef"><span style="color: #66d9ef">=</span></font><font color="#ffffff"><span style="color: #ffffff"> </span></font><font color="#66d9ef"><span style="color: #66d9ef">await</span></font><font color="#ffffff"><span style="color: #ffffff"> </span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">knex</span></b></font><font color="#ffffff"><span style="color: #ffffff">(</span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'anotacoes'</span></font><font color="#ffffff"><span style="color: #ffffff">)</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; .</span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">rightJoin</span></b></font><font color="#ffffff"><span style="color: #ffffff">(</span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'agenda'</span></font><font color="#ffffff"><span style="color: #ffffff">, </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'anotacoes.agenda_id'</span></font><font color="#ffffff"><span style="color: #ffffff">, </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'='</span></font><font color="#ffffff"><span style="color: #ffffff">, </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'agenda.id'</span></font><font color="#ffffff"><span style="color: #ffffff">)</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; .</span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">select</span></b></font><font color="#ffffff"><span style="color: #ffffff">(</span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'anotacoes.*'</span></font><font color="#ffffff"><span style="color: #ffffff">, </span></font><font color="#ffb6dd"><span style="color: #ffb6dd">'agenda.nome'</span></font><font color="#ffffff"><span style="color: #ffffff">)</span></font>
+      </div>
+      <div>
+        <font color="#ffffff"><span style="color: #ffffff">&#160; &#160; &#160; &#160; .</span></font><font color="#ffd84f"><b><span style="color: #ffd84f; font-weight: bold">debug</span></b></font><font color="#ffffff"><span style="color: #ffffff">();</span></font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1655764146098" ID="ID_1823712715" MODIFIED="1655764147298" TEXT="Deploy"/>
 </node>
 </node>
 </map>

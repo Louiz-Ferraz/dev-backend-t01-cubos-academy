@@ -3224,7 +3224,7 @@
 </node>
 </node>
 <node CREATED="1655764132126" ID="ID_499524822" MODIFIED="1655764133701" POSITION="right" TEXT="Unidade 4">
-<node CREATED="1655764134837" FOLDED="true" ID="ID_319113655" MODIFIED="1655858581661" TEXT="Query Builder">
+<node CREATED="1655764134837" FOLDED="true" ID="ID_319113655" MODIFIED="1656545410988" TEXT="Query Builder">
 <node CREATED="1655764501525" ID="ID_1984187163" MODIFIED="1655764505724" TEXT="Conceito">
 <node CREATED="1655764506068" ID="ID_1706431347" MODIFIED="1655764525107" STYLE="fork" TEXT="Funcionalidades de bibliotecas que possibilitam escrever SQL de maneira simplificada"/>
 </node>
@@ -3655,8 +3655,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1655854709299" ID="ID_990204919" MODIFIED="1655854709299">
 <richcontent TYPE="NODE"><html>
@@ -3700,8 +3699,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1655854638456" ID="ID_320288165" MODIFIED="1655854642037" TEXT="RETURNING">
 <node CREATED="1655854643858" ID="ID_1489408679" MODIFIED="1655854648143" TEXT="retorna os dados inseridos"/>
@@ -3732,8 +3730,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1655855352812" ID="ID_1510006066" MODIFIED="1655855394508" TEXT="DELETE">
@@ -3761,8 +3758,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1655857763308" ID="ID_1840745969" MODIFIED="1655857764732" TEXT="JOIN">
@@ -3788,8 +3784,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1655858547404" ID="ID_401109589" MODIFIED="1655858550021" TEXT="LEFT JOIN">
@@ -3814,8 +3809,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1655858555801" ID="ID_1271444481" MODIFIED="1655858558287" TEXT="RIGHT JOIN">
@@ -3840,14 +3834,27 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1655764146098" ID="ID_1823712715" MODIFIED="1655764147298" TEXT="Deploy"/>
+<node CREATED="1655764146098" ID="ID_1823712715" MODIFIED="1655764147298" TEXT="Deploy">
+<node CREATED="1656545859460" FOLDED="true" ID="ID_158814465" MODIFIED="1656630698435" TEXT="Conceitos">
+<node CREATED="1656545866341" ID="ID_145072448" MODIFIED="1656546007849" TEXT="Processo de implanta&#xe7;&#xe3;o de sistema em servidor"/>
+<node CREATED="1656545887667" ID="ID_1260906533" MODIFIED="1656545898145" TEXT="para que fique dispon&#xed;vel para outras pessoas"/>
+<node CREATED="1656545991974" ID="ID_328676797" MODIFIED="1656545994705" TEXT="Dom&#xed;nio">
+<node CREATED="1656545968191" ID="ID_1750006813" MODIFIED="1656545983574" TEXT="Todo sistema hospedado em um servidor pode ser acessado por um IP"/>
+<node CREATED="1656546000090" ID="ID_1005227215" MODIFIED="1656546027539" TEXT="Nome que serve pra localizar e identificar conjunto de computadores e servi&#xe7;os na internet"/>
+<node CREATED="1656546072444" ID="ID_156894606" MODIFIED="1656546078895" TEXT="IPs s&#xe3;o dif&#xed;ceis de lembrar e mudam!"/>
+<node CREATED="1656546163965" ID="ID_1208513419" MODIFIED="1656546168490" TEXT="DNS">
+<node CREATED="1656546168997" ID="ID_85543596" MODIFIED="1656546172806" TEXT="Domain Name System"/>
+<node CREATED="1656546175527" ID="ID_1477512014" MODIFIED="1656546190474" TEXT="Sistema respons&#xe1;vel por identificar o IP atrelado a um dom&#xed;nio"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>

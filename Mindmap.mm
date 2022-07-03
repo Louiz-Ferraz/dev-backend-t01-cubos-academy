@@ -3840,8 +3840,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1655764146098" ID="ID_1823712715" MODIFIED="1655764147298" TEXT="Deploy">
-<node CREATED="1656545859460" FOLDED="true" ID="ID_158814465" MODIFIED="1656630698435" TEXT="Conceitos">
+<node CREATED="1655764146098" FOLDED="true" ID="ID_1823712715" MODIFIED="1656859873935" TEXT="Deploy">
+<node CREATED="1656545859460" ID="ID_158814465" MODIFIED="1656859872257" TEXT="Conceitos">
 <node CREATED="1656545866341" ID="ID_145072448" MODIFIED="1656546007849" TEXT="Processo de implanta&#xe7;&#xe3;o de sistema em servidor"/>
 <node CREATED="1656545887667" ID="ID_1260906533" MODIFIED="1656545898145" TEXT="para que fique dispon&#xed;vel para outras pessoas"/>
 <node CREATED="1656545991974" ID="ID_328676797" MODIFIED="1656545994705" TEXT="Dom&#xed;nio">
@@ -3851,6 +3851,189 @@
 <node CREATED="1656546163965" ID="ID_1208513419" MODIFIED="1656546168490" TEXT="DNS">
 <node CREATED="1656546168997" ID="ID_85543596" MODIFIED="1656546172806" TEXT="Domain Name System"/>
 <node CREATED="1656546175527" ID="ID_1477512014" MODIFIED="1656546190474" TEXT="Sistema respons&#xe1;vel por identificar o IP atrelado a um dom&#xed;nio"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1656859887791" FOLDED="true" ID="ID_720458852" MODIFIED="1656876178388" TEXT="Envio de e-mails">
+<node CREATED="1656859910074" ID="ID_1124538699" MODIFIED="1656859912997" TEXT="Protocolo SMTP">
+<node CREATED="1656859919351" ID="ID_924328516" MODIFIED="1656859924117" TEXT="Simple Mail Transfer Protocol"/>
+<node CREATED="1656859926130" ID="ID_879109560" MODIFIED="1656859937293" TEXT="protocolo padr&#xe3;o de envio de email"/>
+<node CREATED="1656860038816" ID="ID_539562723" MODIFIED="1656860045472" TEXT="Fluxo">
+<node CREATED="1656860045472" ID="ID_695788498" MODIFIED="1656860052941" TEXT="Cliente (computador) envia email">
+<node CREATED="1656860052941" ID="ID_1735187638" MODIFIED="1656860066707" TEXT="Email vai para servidor SMTP do provedor de email do remetente">
+<node CREATED="1656860077333" ID="ID_1443352158" MODIFIED="1656860088049" TEXT="Email &#xe9; enviado para servidor SMTP do provedor do destinat&#xe1;rio">
+<node CREATED="1656860095502" ID="ID_934689064" MODIFIED="1656860102706" TEXT="Email chega no destinat&#xe1;rio"/>
+</node>
+<node CREATED="1656860088327" ID="ID_1483244657" MODIFIED="1656860094966" TEXT="Se n&#xe3;o for o mesmo do envio"/>
+</node>
+<node CREATED="1656860067155" ID="ID_1654700106" MODIFIED="1656860075180" TEXT="Exemplo: gmail, outlook"/>
+</node>
+</node>
+<node CREATED="1656860112411" ID="ID_1611869426" MODIFIED="1656860118030" TEXT="Servi&#xe7;os servidores SMTP">
+<node CREATED="1656860119129" ID="ID_1646976796" MODIFIED="1656860120820" TEXT="mailgun"/>
+<node CREATED="1656860122336" ID="ID_195708213" MODIFIED="1656860123314" TEXT="gmail"/>
+<node CREATED="1656860124199" ID="ID_1672804686" MODIFIED="1656860125604" TEXT="mailjet"/>
+<node CREATED="1656860126717" ID="ID_1912216160" MODIFIED="1656860128030" TEXT="sendgrid"/>
+<node CREATED="1656874342591" ID="ID_1045770252" MODIFIED="1656874345791" TEXT="mailtrap">
+<node CREATED="1656874346055" ID="ID_547173540" MODIFIED="1656874361043" TEXT="usada pra criar caixa de email para testes"/>
+<node CREATED="1656874449676" ID="ID_1620585227" MODIFIED="1656874456541" TEXT="e pra todo tipo de teste de email SMTP"/>
+<node CREATED="1656874458358" LINK="https://mailtrap.io/" MODIFIED="1656874458358" TEXT="https://mailtrap.io/"/>
+</node>
+</node>
+<node CREATED="1656860957903" ID="ID_1181060861" MODIFIED="1656874781109" TEXT="nodemailer">
+<node CREATED="1656860966420" ID="ID_1293318831" MODIFIED="1656860976928" TEXT="biblioteca NodeJs para envio de emails">
+<node CREATED="1656860982597" ID="ID_1816109135" MODIFIED="1656860990065" TEXT="atrav&#xe9;s de servidor SMTP"/>
+</node>
+<node CREATED="1656861053084" LINK="https://nodemailer.com/about/" MODIFIED="1656861053084" TEXT="https://nodemailer.com/about/"/>
+<node CREATED="1656861082631" ID="ID_1439508187" MODIFIED="1656861091725" TEXT="utiliza conceito de transportador para envio de emails">
+<node CREATED="1656861130653" ID="ID_554255024" MODIFIED="1656861132740" TEXT="transporter"/>
+</node>
+<node CREATED="1656872970333" MODIFIED="1656872970333">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="background-color: #151416; font-size: 12px; color: #ffffff; white-space: pre; line-height: 16px; font-family: Consolas, Courier New, monospace; font-weight: normal">
+      <div>
+        <i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">const</font></span></i><span style="color: #ffffff"><font color="#ffffff"> nodemailer </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><b><span style="color: #ffd84f; font-weight: bold"><font color="#ffd84f">require</font></span></b><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'nodemailer'</font></span><span style="color: #ffffff"><font color="#ffffff">);</font></span>
+      </div>
+      <br />
+      
+
+      <div>
+        <i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">const</font></span></i><span style="color: #ffffff"><font color="#ffffff"> transporter </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> nodemailer.</font></span><b><span style="color: #ffd84f; font-weight: bold"><font color="#ffd84f">createTransport</font></span></b><span style="color: #ffffff"><font color="#ffffff">({</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; host: </font></span><span style="color: #ffb6dd"><font color="#ffb6dd">&quot;smtp.mailgun.org&quot;</font></span><span style="color: #ffffff"><font color="#ffffff">,</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; port: </font></span><span style="color: #ffd84f"><font color="#ffd84f">587</font></span><span style="color: #ffffff"><font color="#ffffff">,</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; secure: </font></span><span style="color: #ae81ff"><font color="#ae81ff">false</font></span><span style="color: #ffffff"><font color="#ffffff">, </font></span><span style="color: #7a7fa0"><font color="#7a7fa0">// true for 465, false for other ports</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; auth: {</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; &#160; &#160; user: </font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'postmaster@sandboxd4a4c826c2df46f0a058092117636a49.mailgun.org'</font></span><span style="color: #ffffff"><font color="#ffffff">,</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; &#160; &#160; pass: </font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'e137e17c729df97e31795ff28afe54d9-77985560-5d204c61'</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; },</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">});</font></span>
+      </div>
+      <br />
+      
+
+      <div>
+        <i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">module</font></span></i><span style="color: #ffffff"><font color="#ffffff">.</font></span><i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">exports</font></span></i><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> transporter;</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1656872977792" MODIFIED="1656872977792">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="background-color: #151416; font-size: 12px; color: #ffffff; white-space: pre; line-height: 16px; font-family: Consolas, Courier New, monospace; font-weight: normal">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; &#160; &#160; nodemailer.</font></span><b><span style="color: #ffd84f; font-weight: bold"><font color="#ffd84f">sendMail</font></span></b><span style="color: #ffffff"><font color="#ffffff">({</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; &#160; &#160; &#160; &#160; from: </font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'&quot;Fred Foo &quot; &lt;foo@example.com&gt;'</font></span><span style="color: #ffffff"><font color="#ffffff">, </font></span><span style="color: #7a7fa0"><font color="#7a7fa0">// sender address</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; &#160; &#160; &#160; &#160; to: </font></span><span style="color: #ffb6dd"><font color="#ffb6dd">&quot;bar@example.com, baz@example.com&quot;</font></span><span style="color: #ffffff"><font color="#ffffff">, </font></span><span style="color: #7a7fa0"><font color="#7a7fa0">// list of receivers</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; &#160; &#160; &#160; &#160; subject: </font></span><span style="color: #ffb6dd"><font color="#ffb6dd">&quot;Hello &#10004;&quot;</font></span><span style="color: #ffffff"><font color="#ffffff">, </font></span><span style="color: #7a7fa0"><font color="#7a7fa0">// Subject line</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; &#160; &#160; &#160; &#160; text: </font></span><span style="color: #ffb6dd"><font color="#ffb6dd">&quot;Hello world?&quot;</font></span><span style="color: #ffffff"><font color="#ffffff">, </font></span><span style="color: #7a7fa0"><font color="#7a7fa0">// plain text body</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; &#160; &#160; });</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1656874209525" ID="ID_1452877817" MODIFIED="1656874224289" TEXT="Ao usar o sendMail, n&#xe3;o &#xe9; necess&#xe1;rio usar assincronismo (await)">
+<node CREATED="1656874226309" ID="ID_1024714195" MODIFIED="1656874249271" TEXT="eu n&#xe3;o preciso necessriamente esperar que o email seja enviado pra continuar a execu&#xe7;&#xe3;o"/>
+</node>
+</node>
+<node CREATED="1656874782302" ID="ID_1671623236" MODIFIED="1656874785049" TEXT="Template Engine">
+<node CREATED="1656874788688" ID="ID_1490488323" MODIFIED="1656874793035" TEXT="Tamb&#xe9;m chamado de View Engine"/>
+<node CREATED="1656874795713" ID="ID_612007305" MODIFIED="1656874802742" TEXT="permite escrever HTML de forma mais eficiente"/>
+<node CREATED="1656874896428" ID="ID_883897007" MODIFIED="1656874898700" TEXT="handlebars">
+<node CREATED="1656875742326" ID="ID_1781513532" MODIFIED="1656875742326">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="background-color: #151416; font-size: 12px; color: #ffffff; white-space: pre; line-height: 16px; font-family: Consolas, Courier New, monospace; font-weight: normal">
+      <div>
+        <span style="color: #7a7fa0"><font color="#7a7fa0">//reference the plugin</font></span>
+      </div>
+      <div>
+        <i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">var</font></span></i><span style="color: #ffffff"><font color="#ffffff"> hbs </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><b><span style="color: #ffd84f; font-weight: bold"><font color="#ffd84f">require</font></span></b><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'nodemailer-express-handlebars'</font></span><span style="color: #ffffff"><font color="#ffffff">);</font></span>
+      </div>
+      <div>
+        <span style="color: #7a7fa0"><font color="#7a7fa0">//attach the plugin to the nodemailer transporter</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">transporter.</font></span><b><span style="color: #ffd84f; font-weight: bold"><font color="#ffd84f">use</font></span></b><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'compile'</font></span><span style="color: #ffffff"><font color="#ffffff">, </font></span><b><span style="color: #ffd84f; font-weight: bold"><font color="#ffd84f">hbs</font></span></b><span style="color: #ffffff"><font color="#ffffff">(options));</font></span>
+      </div>
+      <div>
+        <span style="color: #7a7fa0"><font color="#7a7fa0">//send mail with options</font></span>
+      </div>
+      <div>
+        <i><span style="color: #ff2499; font-style: italic"><font color="#ff2499">var</font></span></i><span style="color: #ffffff"><font color="#ffffff"> mail </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> {</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160;from: </font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'from@domain.com'</font></span><span style="color: #ffffff"><font color="#ffffff">,</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160;to: </font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'to@domain.com'</font></span><span style="color: #ffffff"><font color="#ffffff">,</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160;subject: </font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'Test'</font></span><span style="color: #ffffff"><font color="#ffffff">,</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160;template: </font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'email'</font></span><span style="color: #ffffff"><font color="#ffffff">,</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160;context: {</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; &#160; &#160;name: </font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'Name'</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160;}</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">}</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">transporter.</font></span><b><span style="color: #ffd84f; font-weight: bold"><font color="#ffd84f">sendMail</font></span></b><span style="color: #ffffff"><font color="#ffffff">(mail);</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 </node>

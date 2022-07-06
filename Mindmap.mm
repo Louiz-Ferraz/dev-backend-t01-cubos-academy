@@ -3937,8 +3937,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1656872977792" MODIFIED="1656872977792">
 <richcontent TYPE="NODE"><html>
@@ -3967,8 +3966,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1656874209525" ID="ID_1452877817" MODIFIED="1656874224289" TEXT="Ao usar o sendMail, n&#xe3;o &#xe9; necess&#xe1;rio usar assincronismo (await)">
 <node CREATED="1656874226309" ID="ID_1024714195" MODIFIED="1656874249271" TEXT="eu n&#xe3;o preciso necessriamente esperar que o email seja enviado pra continuar a execu&#xe7;&#xe3;o"/>
@@ -4035,6 +4033,41 @@
 </html></richcontent>
 </node>
 </node>
+</node>
+</node>
+</node>
+<node CREATED="1656879732641" FOLDED="true" ID="ID_1635832276" MODIFIED="1656980234518" TEXT="Escopando API">
+<node CREATED="1656879777503" ID="ID_178606667" MODIFIED="1656879779344" TEXT="O que &#xe9;?">
+<node CREATED="1656879779608" ID="ID_113831777" MODIFIED="1656879787271" TEXT="A partir de um problema, decidir">
+<node CREATED="1656879792047" ID="ID_1739638303" MODIFIED="1656879797233" TEXT="quais endpoints devem existir"/>
+<node CREATED="1656879800240" ID="ID_563678934" MODIFIED="1656879804740" TEXT="o que armazenar em banco de dados"/>
+<node CREATED="1656879806506" ID="ID_1807875624" MODIFIED="1656879824954" TEXT="quais informa&#xe7;&#xf5;es API deve receber e retornar"/>
+</node>
+<node CREATED="1656880159978" ID="ID_1037636930" MODIFIED="1656880177473" TEXT="Defini&#xe7;&#xe3;o do que ser&#xe1; feito, como funciona o que ser&#xe1; feito e o que n&#xe3;o ser&#xe1; feito"/>
+</node>
+<node CREATED="1656880047096" ID="ID_209931230" MODIFIED="1656880049586" TEXT="Etapas de um projeto">
+<node CREATED="1656880051087" ID="ID_251987197" MODIFIED="1656880052362" TEXT="Problema"/>
+<node CREATED="1656880053264" ID="ID_677468093" MODIFIED="1656880055126" TEXT="Solu&#xe7;&#xe3;o"/>
+<node CREATED="1656880055380" ID="ID_1789301958" MODIFIED="1656880056496" TEXT="Layout"/>
+<node CREATED="1656880057462" ID="ID_938454277" MODIFIED="1656880058727" TEXT="Escopo"/>
+<node CREATED="1656880059523" ID="ID_482332876" MODIFIED="1656880061861" TEXT="Desenvolvimento"/>
+<node CREATED="1656880065554" ID="ID_38720614" MODIFIED="1656880066516" TEXT="Testes"/>
+</node>
+<node CREATED="1656976470163" ID="ID_203493239" MODIFIED="1656978294317" TEXT="Passos">
+<node CREATED="1656976471866" ID="ID_902766471" MODIFIED="1656976481365" TEXT="Anote o que o usu&#xe1;rio pode fazer"/>
+<node CREATED="1656976481730" ID="ID_1297627117" MODIFIED="1656976488676" TEXT="Anote o que o usu&#xe1;rio N&#xc3;O pode fazer"/>
+<node CREATED="1656976592974" ID="ID_1839261189" MODIFIED="1656976595966" TEXT="Mapear endpoints">
+<node CREATED="1656976659776" ID="ID_164968434" MODIFIED="1656976668532" TEXT="Rota">
+<node CREATED="1656976668532" ID="ID_1034641699" MODIFIED="1656976716324" TEXT="com m&#xe9;todo (get, post...)"/>
+</node>
+<node CREATED="1656976664899" ID="ID_299025174" MODIFIED="1656976674253" TEXT="Dados enviados"/>
+<node CREATED="1656976674520" ID="ID_693123673" MODIFIED="1656976676432" TEXT="Dados retornados"/>
+<node CREATED="1656979443279" ID="ID_125284413" MODIFIED="1656979449242" TEXT="Objetivos gerais do endpoint"/>
+</node>
+<node CREATED="1656978288413" ID="ID_1729479918" MODIFIED="1656978292468" TEXT="Estruturar banco de dados">
+<node CREATED="1656978296208" ID="ID_771244063" MODIFIED="1656978298687" TEXT="Tabelas"/>
+<node CREATED="1656978299196" ID="ID_1832104527" MODIFIED="1656978300070" TEXT="Campos"/>
+<node CREATED="1656978303760" ID="ID_359724321" MODIFIED="1656978304927" TEXT="Rela&#xe7;&#xf5;es"/>
 </node>
 </node>
 </node>

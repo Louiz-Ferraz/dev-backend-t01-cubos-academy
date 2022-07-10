@@ -4071,6 +4071,74 @@
 </node>
 </node>
 </node>
+<node CREATED="1657143416381" FOLDED="true" ID="ID_1953875603" MODIFIED="1657385970215" TEXT="Upload de arquivos">
+<node CREATED="1657149070702" ID="ID_816880358" MODIFIED="1657150696761" TEXT="Vari&#xe1;veis de ambiente">
+<node CREATED="1657149076903" ID="ID_1001874220" MODIFIED="1657149089013" TEXT="vari&#xe1;veis que armazenam dados sens&#xed;veis de um sistema"/>
+<node CREATED="1657149156534" ID="ID_194911965" MODIFIED="1657149159528" TEXT="biblioteca">
+<node CREATED="1657149159975" ID="ID_128924777" MODIFIED="1657149161012" TEXT="dotenv">
+<node CREATED="1657149175754" LINK="https://www.npmjs.com/package/dotenv" MODIFIED="1657149175754" TEXT="https://www.npmjs.com/package/dotenv"/>
+<node CREATED="1657149179795" ID="ID_400689562" MODIFIED="1657149182785" TEXT="criar arquivo .env">
+<node CREATED="1657149212134" ID="ID_1213635177" MODIFIED="1657149216717" TEXT="criar vari&#xe1;veis neste arquivo"/>
+</node>
+<node CREATED="1657149189965" ID="ID_1696710328" MODIFIED="1657149203676" TEXT="fazer chamada da biblioteca no arquivo principal da API"/>
+<node CREATED="1657149221370" ID="ID_1980671848" MODIFIED="1657149240208" TEXT="Nota&#xe7;&#xe3;o:">
+<node CREATED="1657149223489" ID="ID_850921193" MODIFIED="1657149229859" TEXT="CHAVE=valor"/>
+</node>
+<node CREATED="1657149240765" ID="ID_1037140992" MODIFIED="1657149242188" TEXT="Exemplo">
+<node CREATED="1657149243505" ID="ID_1681092081" MODIFIED="1657149247649" TEXT="USERNAME=luizferraz"/>
+<node CREATED="1657149251532" ID="ID_1367779716" MODIFIED="1657149255158" TEXT="SENHA=1234"/>
+<node CREATED="1657149267254" ID="ID_1974311496" MODIFIED="1657149273289" TEXT="NOME=&quot;Luiz Ferraz&quot;"/>
+</node>
+</node>
+</node>
+<node CREATED="1657149415841" ID="ID_1120894676" MODIFIED="1657149423341" TEXT="o que armazenar como vari&#xe1;veis de ambiente?">
+<node CREATED="1657149438448" ID="ID_1070301645" MODIFIED="1657149448462" TEXT="chave de cria&#xe7;&#xe3;o do token jst"/>
+<node CREATED="1657149452545" ID="ID_1776986783" MODIFIED="1657149460119" TEXT="API key"/>
+<node CREATED="1657149478378" ID="ID_1110403991" MODIFIED="1657149484098" TEXT="conex&#xe3;o do banco de dados"/>
+<node CREATED="1657149616136" ID="ID_380740550" MODIFIED="1657149619495" TEXT="credenciais SMTP"/>
+</node>
+<node CREATED="1657149631035" ID="ID_1507008802" MODIFIED="1657149633015" TEXT="recomenda&#xe7;&#xf5;es">
+<node CREATED="1657149634554" ID="ID_23164042" MODIFIED="1657149644815" TEXT="adicionar arquivo no .gitignore"/>
+<node CREATED="1657149667309" ID="ID_710444630" MODIFIED="1657149674769" TEXT="n&#xe3;o compartilhar c&#xf3;digo com arquivo .env real"/>
+<node CREATED="1657149681319" ID="ID_1069989639" MODIFIED="1657149693023" TEXT="mantenha sempre um arquivo com exemplo das chaves que sua aplica&#xe7;&#xe3;o usa">
+<node CREATED="1657149714678" ID="ID_1847733219" MODIFIED="1657149718568" TEXT=".env.exemplo"/>
+</node>
+</node>
+</node>
+<node CREATED="1657150703024" ID="ID_283355231" MODIFIED="1657150707003" TEXT="Codifica&#xe7;&#xe3;o de dados">
+<node CREATED="1657150716473" ID="ID_866170196" MODIFIED="1657150718486" TEXT="base64">
+<node CREATED="1657150718804" ID="ID_113961184" MODIFIED="1657150733779" TEXT="algoritmo de codifica&#xe7;&#xe3;o que converte">
+<node CREATED="1657150734001" ID="ID_1843670391" MODIFIED="1657150736617" TEXT="textos"/>
+<node CREATED="1657150736868" ID="ID_808073179" MODIFIED="1657150737907" TEXT="imagens"/>
+<node CREATED="1657150738217" ID="ID_1415410997" MODIFIED="1657150739897" TEXT="emojis"/>
+<node CREATED="1657150741813" ID="ID_1251434072" MODIFIED="1657150742556" TEXT="etc">
+<node CREATED="1657150745390" ID="ID_1250705076" MODIFIED="1657150762659" TEXT="em sequ&#xea;ncia de letras e s&#xed;mbolos constitu&#xed;dos por 64 caracteres">
+<node CREATED="1657150787554" ID="ID_1960061110" MODIFIED="1657150831284" TEXT="[A-Z], [a-z], [0-9], &quot;/&quot; e &quot;+&quot;"/>
+<node CREATED="1657150819808" ID="ID_650720991" MODIFIED="1657150836561" TEXT="&quot;=&quot; equivale a valor nulo"/>
+</node>
+</node>
+</node>
+<node CREATED="1657150848944" ID="ID_1325190774" MODIFIED="1657150860861" TEXT="n&#xe3;o &#xe9; algoritmo de cripotagrafia"/>
+<node CREATED="1657150881525" ID="ID_499957018" MODIFIED="1657150891661" TEXT="envio de dados codificados sem corromper"/>
+<node CREATED="1657150896524" ID="ID_707873955" MODIFIED="1657150900696" TEXT="aumenta o tamanho do dado em 33%"/>
+<node CREATED="1657150983707" ID="ID_502247687" MODIFIED="1657150997023" TEXT="&#xfa;til para armazenamento de arquivos"/>
+<node CREATED="1657154069462" LINK="https://base64.guru/converter/encode/image" MODIFIED="1657154069462" TEXT="https://base64.guru/converter/encode/image"/>
+</node>
+</node>
+<node CREATED="1657151071096" ID="ID_1828116108" MODIFIED="1657151073502" TEXT="aws-sdk">
+<node CREATED="1657151075072" ID="ID_1946782465" MODIFIED="1657151086435" TEXT="conjunto de bibliotecas criado pela Amazon Web Services">
+<node CREATED="1657151090793" ID="ID_609034808" MODIFIED="1657151098628" TEXT="que facilita a integra&#xe7;&#xe3;o com seus servi&#xe7;os"/>
+</node>
+<node CREATED="1657152770440" ID="ID_1341981584" MODIFIED="1657153016346" TEXT="documenta&#xe7;&#xe3;o API Spaces Digital Ocean">
+<node CREATED="1657153015649" LINK="https://docs.digitalocean.com/reference/api/spaces-api/" MODIFIED="1657153015649" TEXT="https://docs.digitalocean.com/reference/api/spaces-api/"/>
+</node>
+<node CREATED="1657385220210" ID="ID_1228938582" MODIFIED="1657385226852" TEXT="Supabase">
+<node CREATED="1657385229832" ID="ID_89411601" MODIFIED="1657385233765" TEXT="Vers&#xe3;o free pra testes">
+<node CREATED="1657385234218" LINK="https://supabase.com/" MODIFIED="1657385234218" TEXT="https://supabase.com/"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>

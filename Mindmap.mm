@@ -3223,7 +3223,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1655764132126" ID="ID_499524822" MODIFIED="1655764133701" POSITION="right" TEXT="Unidade 4">
+<node CREATED="1655764132126" ID="ID_499524822" MODIFIED="1657580608862" POSITION="right" TEXT="Unidade 4">
 <node CREATED="1655764134837" FOLDED="true" ID="ID_319113655" MODIFIED="1656545410988" TEXT="Query Builder">
 <node CREATED="1655764501525" ID="ID_1984187163" MODIFIED="1655764505724" TEXT="Conceito">
 <node CREATED="1655764506068" ID="ID_1706431347" MODIFIED="1655764525107" STYLE="fork" TEXT="Funcionalidades de bibliotecas que possibilitam escrever SQL de maneira simplificada"/>
@@ -4071,7 +4071,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1657143416381" FOLDED="true" ID="ID_1953875603" MODIFIED="1657385970215" TEXT="Upload de arquivos">
+<node CREATED="1657143416381" FOLDED="true" ID="ID_1953875603" MODIFIED="1657493006138" TEXT="Upload de arquivos">
 <node CREATED="1657149070702" ID="ID_816880358" MODIFIED="1657150696761" TEXT="Vari&#xe1;veis de ambiente">
 <node CREATED="1657149076903" ID="ID_1001874220" MODIFIED="1657149089013" TEXT="vari&#xe1;veis que armazenam dados sens&#xed;veis de um sistema"/>
 <node CREATED="1657149156534" ID="ID_194911965" MODIFIED="1657149159528" TEXT="biblioteca">
@@ -4135,6 +4135,168 @@
 <node CREATED="1657385220210" ID="ID_1228938582" MODIFIED="1657385226852" TEXT="Supabase">
 <node CREATED="1657385229832" ID="ID_89411601" MODIFIED="1657385233765" TEXT="Vers&#xe3;o free pra testes">
 <node CREATED="1657385234218" LINK="https://supabase.com/" MODIFIED="1657385234218" TEXT="https://supabase.com/"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1657493006792" FOLDED="true" ID="ID_1840235745" MODIFIED="1657582029345" TEXT="Valida&#xe7;&#xf5;es e Boas pr&#xe1;ticas">
+<node CREATED="1657577070995" ID="ID_13042985" MODIFIED="1657577110990" TEXT="Valida&#xe7;&#xf5;es">
+<node CREATED="1657577072567" ID="ID_454738310" MODIFIED="1657577075146" TEXT="yup">
+<node CREATED="1657577075359" ID="ID_665202642" MODIFIED="1657577092770" TEXT="biblioteca NodeJs que utiliza Schema Builder"/>
+<node CREATED="1657577096983" ID="ID_197227690" MODIFIED="1657577102740" TEXT="para analisar e validar valores"/>
+<node CREATED="1657577344707" LINK="https://www.npmjs.com/package/yup" MODIFIED="1657577344707" TEXT="https://www.npmjs.com/package/yup"/>
+<node CREATED="1657577480380" LINK="https://github.com/jquense/yup" MODIFIED="1657577480380" TEXT="https://github.com/jquense/yup"/>
+<node CREATED="1657578832714" MODIFIED="1657578832714">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="background-color: #151416; font-weight: normal; line-height: 16px; font-family: Consolas, Courier New, monospace; font-size: 12px; color: #ffffff; white-space: pre">
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">app.</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">post</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'/cadastro'</font></span><span style="color: #ffffff"><font color="#ffffff">, </font></span><span style="color: #ff2499"><font color="#ff2499">async</font></span><span style="color: #ffffff"><font color="#ffffff"> (</font></span><span style="font-style: italic; color: #ffd84f"><i><font color="#ffd84f">req</font></i></span><span style="color: #ffffff"><font color="#ffffff">, </font></span><span style="font-style: italic; color: #ffd84f"><i><font color="#ffd84f">res</font></i></span><span style="color: #ffffff"><font color="#ffffff">) </font></span><span style="font-style: italic; color: #ff2499"><i><font color="#ff2499">=&gt;</font></i></span><span style="color: #ffffff"><font color="#ffffff"> {</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="font-style: italic; color: #ff2499"><i><font color="#ff2499">const</font></i></span><span style="color: #ffffff"><font color="#ffffff"> schema </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> yup.</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">object</font></b></span><span style="color: #ffffff"><font color="#ffffff">().</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">shape</font></b></span><span style="color: #ffffff"><font color="#ffffff">({</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; &#160; &#160; nome: yup.</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">string</font></b></span><span style="color: #ffffff"><font color="#ffffff">().</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">required</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'O campo nome &#233; obrigat&#243;rio'</font></span><span style="color: #ffffff"><font color="#ffffff">),</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; &#160; &#160; idade: yup.</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">number</font></b></span><span style="color: #ffffff"><font color="#ffffff">().</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">strict</font></b></span><span style="color: #ffffff"><font color="#ffffff">().</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">required</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'O campo idade &#233; obritar&#243;rio'</font></span><span style="color: #ffffff"><font color="#ffffff">),</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; &#160; &#160; email: yup.</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">string</font></b></span><span style="color: #ffffff"><font color="#ffffff">().</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">email</font></b></span><span style="color: #ffffff"><font color="#ffffff">().</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">required</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'O campo email &#233; obrigat&#243;rio'</font></span><span style="color: #ffffff"><font color="#ffffff">),</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; &#160; &#160; senha: yup.</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">string</font></b></span><span style="color: #ffffff"><font color="#ffffff">().</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">required</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'O campo senha &#233; obrigat&#243;rio'</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">min</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffd84f"><font color="#ffd84f">5</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">max</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffd84f"><font color="#ffd84f">10</font></span><span style="color: #ffffff"><font color="#ffffff">)</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; });</font></span>
+      </div>
+      <br />
+      
+
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="color: #66d9ef"><font color="#66d9ef">try</font></span><span style="color: #ffffff"><font color="#ffffff"> {</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; &#160; &#160; </font></span><span style="color: #66d9ef"><font color="#66d9ef">await</font></span><span style="color: #ffffff"><font color="#ffffff"> schema.</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">validate</font></b></span><span style="color: #ffffff"><font color="#ffffff">(req.body);</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; } </font></span><span style="color: #66d9ef"><font color="#66d9ef">catch</font></span><span style="color: #ffffff"><font color="#ffffff"> (error) {</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; &#160; &#160; </font></span><span style="color: #66d9ef"><font color="#66d9ef">return</font></span><span style="color: #ffffff"><font color="#ffffff"> res.</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">status</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffd84f"><font color="#ffd84f">400</font></span><span style="color: #ffffff"><font color="#ffffff">).</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">json</font></b></span><span style="color: #ffffff"><font color="#ffffff">(error.message);</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; }</font></span>
+      </div>
+      <br />
+      
+
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">&#160; &#160; </font></span><span style="color: #66d9ef"><font color="#66d9ef">return</font></span><span style="color: #ffffff"><font color="#ffffff"> res.</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">json</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'Validado'</font></span><span style="color: #ffffff"><font color="#ffffff">);</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">})</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1657578903376" ID="ID_81838827" MODIFIED="1657578906184" TEXT="yup-locales">
+<node CREATED="1657578907255" ID="ID_1465210098" MODIFIED="1657578914364" TEXT="biblioteca para traduzir mensagens de erro do yup"/>
+<node CREATED="1657578914903" ID="ID_1542022277" LINK="https://www.npmjs.com/package/yup-locales" MODIFIED="1657578914903" TEXT="https://www.npmjs.com/package/yup-locales"/>
+<node CREATED="1657579098958" ID="ID_1427306603" MODIFIED="1657579098958">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="background-color: #151416; font-weight: normal; line-height: 16px; font-family: Consolas, Courier New, monospace; font-size: 12px; color: #ffffff; white-space: pre">
+      <div>
+        <span style="font-style: italic; color: #ff2499"><i><font color="#ff2499">const</font></i></span><span style="color: #ffffff"><font color="#ffffff"> yup </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">require</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'yup'</font></span><span style="color: #ffffff"><font color="#ffffff">);</font></span>
+      </div>
+      <div>
+        <span style="font-style: italic; color: #ff2499"><i><font color="#ff2499">const</font></i></span><span style="color: #ffffff"><font color="#ffffff"> { pt } </font></span><span style="color: #66d9ef"><font color="#66d9ef">=</font></span><span style="color: #ffffff"><font color="#ffffff"> </font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">require</font></b></span><span style="color: #ffffff"><font color="#ffffff">(</font></span><span style="color: #ffb6dd"><font color="#ffb6dd">'yup-locales'</font></span><span style="color: #ffffff"><font color="#ffffff">);</font></span>
+      </div>
+      <div>
+        <span style="color: #ffffff"><font color="#ffffff">yup.</font></span><span style="font-weight: bold; color: #ffd84f"><b><font color="#ffd84f">setLocale</font></b></span><span style="color: #ffffff"><font color="#ffffff">(pt);</font></span>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+<node CREATED="1657579100569" ID="ID_1615588270" MODIFIED="1657579113905" TEXT="essa importa&#xe7;&#xe3;o basta para tradu&#xe7;&#xe3;o das mensagens de erro"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1657580496066" ID="ID_72330872" MODIFIED="1657580613497" TEXT="Clean code">
+<node CREATED="1657580593281" ID="ID_779055853" MODIFIED="1657580597239" TEXT="Conceito">
+<node CREATED="1657580525681" ID="ID_134438603" MODIFIED="1657580527846" TEXT="c&#xf3;digo limpo"/>
+<node CREATED="1657580562415" ID="ID_110126252" MODIFIED="1657580566543" TEXT="filosofia de desenvolvimento">
+<node CREATED="1657580571413" ID="ID_1201715836" MODIFIED="1657580577773" TEXT="com objetivo de aplicar t&#xe9;cnicas simples"/>
+<node CREATED="1657580581776" ID="ID_981657521" MODIFIED="1657580589604" TEXT="para facilitar escrita e leitura de c&#xf3;digo"/>
+</node>
+</node>
+<node CREATED="1657580782918" ID="ID_640544373" MODIFIED="1657580783985" TEXT="Regras">
+<node CREATED="1657580784497" ID="ID_1495842457" MODIFIED="1657580797149" TEXT="Regra dos nomes">
+<node CREATED="1657580881786" ID="ID_444474203" MODIFIED="1657580892559" TEXT="Use nomes que revelem seu prop&#xf3;sito">
+<node CREATED="1657580976883" ID="ID_166706447" MODIFIED="1657580978183" TEXT="Exemplo">
+<node CREATED="1657580978505" ID="ID_1003040748" MODIFIED="1657580981978" TEXT="quantidadeEmDias"/>
+<node CREATED="1657580983770" ID="ID_57616199" MODIFIED="1657580991749" TEXT="dataVencimento(quantidadeEmDias)"/>
+</node>
+</node>
+<node CREATED="1657581001532" ID="ID_1652941152" MODIFIED="1657581005253" TEXT="Use nomes pronunci&#xe1;veis">
+<node CREATED="1657581026730" ID="ID_719698111" MODIFIED="1657581074438" TEXT="Poder pronunciar &#xe9; importante, pois programa&#xe7;&#xe3;o &#xe9; uma atividade social"/>
+</node>
+<node CREATED="1657581094174" ID="ID_1693122290" MODIFIED="1657581102940" TEXT="Selecione uma palavra por conceito">
+<node CREATED="1657581121771" ID="ID_1391786990" MODIFIED="1657581161084" TEXT="Exemplo">
+<node CREATED="1657581153544" ID="ID_15922729" MODIFIED="1657581154779" TEXT="Bad">
+<node CREATED="1657581125018" ID="ID_1620778616" MODIFIED="1657581132375" TEXT="function obterUsuario()"/>
+<node CREATED="1657581132951" ID="ID_1735164401" MODIFIED="1657581139578" TEXT="function capturarCarro()"/>
+<node CREATED="1657581140540" ID="ID_630104698" MODIFIED="1657581148479" TEXT="function exibirProduto()"/>
+</node>
+<node CREATED="1657581161654" ID="ID_813591126" MODIFIED="1657581162599" TEXT="Good">
+<node CREATED="1657581125018" ID="ID_1989236572" MODIFIED="1657581132375" TEXT="function obterUsuario()"/>
+<node CREATED="1657581125018" ID="ID_903200755" MODIFIED="1657581174719" TEXT="function obterCarro()"/>
+<node CREATED="1657581125018" ID="ID_389967158" MODIFIED="1657581184894" TEXT="function obterProduto()"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1657580789860" ID="ID_1363262317" MODIFIED="1657580792700" TEXT="Regra do escoteiro">
+<node CREATED="1657581206488" ID="ID_1473195646" MODIFIED="1657581225949" TEXT="&quot;Deixe a &#xe1;rea do acampamento mais limpa do que quando voc&#xea; a encontrou&quot;"/>
+<node CREATED="1657581232046" ID="ID_302093870" MODIFIED="1657581249029" TEXT="Deixe o c&#xf3;digo mais limpo do que estava quando vc come&#xe7;ou a mexer nele"/>
+</node>
+<node CREATED="1657580800017" ID="ID_697848742" MODIFIED="1657580803550" TEXT="Regra para coment&#xe1;rios">
+<node CREATED="1657581333505" ID="ID_589606875" MODIFIED="1657581346479" TEXT="Se vc precisa comentar o c&#xf3;digo, &#xe9; pq algo est&#xe1; errado ou n&#xe3;o est&#xe1; leg&#xed;vel"/>
+<node CREATED="1657581378073" ID="ID_234786841" MODIFIED="1657581382536" TEXT="N&#xe3;o explicar c&#xf3;digo">
+<node CREATED="1657581420312" ID="ID_1440534451" MODIFIED="1657581430504" TEXT="Uma regra que precisa ser explicada para entendimento, pode virar uma fun&#xe7;&#xe3;o"/>
+</node>
+<node CREATED="1657581482082" ID="ID_1343585630" MODIFIED="1657581486980" TEXT="Existem bons coment&#xe1;rios?">
+<node CREATED="1657581512078" ID="ID_1506348006" MODIFIED="1657581528971" TEXT="Alguns coment&#xe1;rios s&#xe3;o &#xfa;teis">
+<node CREATED="1657581495158" ID="ID_1752518974" MODIFIED="1657581511616" TEXT="Existem exig&#xea;ncias de entidades ou empresas"/>
+<node CREATED="1657581531230" ID="ID_1990647714" MODIFIED="1657581551404" TEXT="mas o &#xfa;nico coment&#xe1;rio bom &#xe9; aquele que vc encontra uma forma de n&#xe3;o escrev&#xea;-lo"/>
+</node>
+</node>
+<node CREATED="1657581572540" ID="ID_192554302" MODIFIED="1657581576167" TEXT="Coment&#xe1;rios TODO">
+<node CREATED="1657581585441" ID="ID_590227812" MODIFIED="1657581594748" TEXT="Coment&#xe1;rios para implementa&#xe7;&#xe3;o a ser realizada"/>
+<node CREATED="1657581597012" ID="ID_272973585" MODIFIED="1657581603788" TEXT="Deve deixar de existir, p&#xf3;s implementa&#xe7;&#xe3;o"/>
+</node>
+</node>
+<node CREATED="1657580805853" ID="ID_249780671" MODIFIED="1657580808469" TEXT="Tratamento de erros">
+<node CREATED="1657581804510" ID="ID_448484177" MODIFIED="1657581814069" TEXT="Exce&#xe7;&#xf5;es com try-catch">
+<node CREATED="1657581895549" ID="ID_51159876" MODIFIED="1657581913311" TEXT="Garante que, caso ocorra lan&#xe7;amento de exce&#xe7;&#xe3;o, o programa continuar&#xe1; &#xed;ntegro"/>
+</node>
+<node CREATED="1657581943919" ID="ID_1743718351" MODIFIED="1657581949968" TEXT="Mensagens esclarecedoras">
+<node CREATED="1657581958355" ID="ID_1613432485" MODIFIED="1657581968224" TEXT="Explicar o que aconteceu no erro">
+<node CREATED="1657581984034" ID="ID_1813250885" MODIFIED="1657581986841" TEXT="Exemplo ruim:">
+<node CREATED="1657581987180" ID="ID_1319604872" MODIFIED="1657581990528" TEXT="&quot;erro interno&quot;"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>

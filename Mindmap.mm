@@ -4139,7 +4139,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1657493006792" FOLDED="true" ID="ID_1840235745" MODIFIED="1657582029345" TEXT="Valida&#xe7;&#xf5;es e Boas pr&#xe1;ticas">
+<node CREATED="1657493006792" FOLDED="true" ID="ID_1840235745" MODIFIED="1657585121503" TEXT="Valida&#xe7;&#xf5;es e Boas pr&#xe1;ticas">
 <node CREATED="1657577070995" ID="ID_13042985" MODIFIED="1657577110990" TEXT="Valida&#xe7;&#xf5;es">
 <node CREATED="1657577072567" ID="ID_454738310" MODIFIED="1657577075146" TEXT="yup">
 <node CREATED="1657577075359" ID="ID_665202642" MODIFIED="1657577092770" TEXT="biblioteca NodeJs que utiliza Schema Builder"/>
@@ -4301,6 +4301,7 @@
 </node>
 </node>
 </node>
+<node CREATED="1657585122084" ID="ID_631671164" MODIFIED="1657585126990" TEXT="Organiza&#xe7;&#xe3;o e Refatora&#xe7;&#xe3;o"/>
 </node>
 </node>
 </map>
